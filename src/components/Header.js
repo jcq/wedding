@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/logo.svg';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Button } from 'react-bootstrap';
+
+const NavButton = (props) => (
+  <Button as={Link} {...props} />
+)
 
 const Header = class extends React.Component {
   constructor(props) {
@@ -34,7 +38,7 @@ const Header = class extends React.Component {
 
   render() {
     return (
-      <Navbar>
+      <Navbar expand="lg">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
@@ -51,9 +55,9 @@ const Header = class extends React.Component {
               <Nav.Link as={Link} to="/get-involved">
                 Get Involved
               </Nav.Link>
-              <Nav.Link as={Link} to="/rsvp">
+              <NavButton to="/rsvp" variant="danger">
                 RSVP
-              </Nav.Link>
+              </NavButton>
             </Nav>
           </Navbar.Collapse>
         </Container>
