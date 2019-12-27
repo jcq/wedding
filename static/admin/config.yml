@@ -50,6 +50,27 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/events/index.md"
+        label: "Events"
+        name: "events"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/get-involved/index.md"
+        label: "Get Involved"
+        name: "get-involved"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "get-involved-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/rsvp/index.md"
+        label: "RSVP"
+        name: "rsvp"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "rsvp-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
