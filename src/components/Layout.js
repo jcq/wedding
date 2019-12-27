@@ -5,6 +5,7 @@ import Header from './Header'
 import './all.scss';
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import { Container } from 'react-bootstrap';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -49,7 +50,9 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Header />
-      <div>{children}</div>
+      <Container>
+        {children}
+      </Container>
       <Footer />
     </div>
   )
