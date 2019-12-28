@@ -11,9 +11,7 @@ const handleSubmit = event => {
   event.preventDefault();
 };
 
-export const RsvpForm = ({
-  notesPlaceholder = 'Is there anything else we should know?'
-}) => {
+export const RsvpForm = ({ notesPlaceholder }) => {
   const [attendees, setAttendees] = useState(0);
   const [names, setNames] = useState([]);
   const [notes, setNotes] = useState('');

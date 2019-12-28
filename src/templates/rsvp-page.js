@@ -5,14 +5,14 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { RsvpForm } from '../pages/rsvp/rsvp-form';
 
-export const RsvpPageTemplate = ({ title, content, contentComponent }) => {
+export const RsvpPageTemplate = ({ title, content, notesPlaceholder, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section">
       <h2 className="title">{title}</h2>
       <PageContent className="content" content={content} />
-      <RsvpForm />
+      <RsvpForm notesPlaceholder={notesPlaceholder} />
     </section>
   );
 };
