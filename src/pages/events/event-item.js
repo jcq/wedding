@@ -18,3 +18,5 @@ EventItem.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   body: PropTypes.string
 };
+
+export default EventItem;
