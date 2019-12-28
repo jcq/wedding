@@ -56,9 +56,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - label: Events
-            name: events
-            widget: list
+          - label: "Events"
+            name: "events"
+            widget: "list"
             fields:
               - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
               - {label: "Title", name: "title", widget: "string"}
