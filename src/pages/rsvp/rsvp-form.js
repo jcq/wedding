@@ -1,20 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import { Form } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 
-const handleSubmit = event => {
-  console.log('handleSubmit', event);
-
-  const payload = {};
-
-  event.preventDefault();
-};
+import { saveToNetlify } from './netlify-form';
 
 export const RsvpForm = ({ notesPlaceholder }) => {
   const [attendees, setAttendees] = useState(0);
   const [names, setNames] = useState([]);
   const [notes, setNotes] = useState('');
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (attendees > names.length) {
@@ -27,14 +22,34 @@ export const RsvpForm = ({ notesPlaceholder }) => {
   }, [attendees, names]);
 
   const handleChangeName = event => {
-    console.log('handleChangeName', event.target.dataset.idx);
     const updatedNames = [...names];
     updatedNames[event.target.dataset.idx] = event.target.value;
     setNames(updatedNames);
   };
 
+  const handleSubmit = async event => {
+    event.preventDefault();
+
+    const payload = {
+      attendees,
+      names,
+      notes
+    };
+
+    setLoading(true);
+    await saveToNetlify({ payload, formName: 'rsvp' });
+    setLoading(false);
+  };
+
   return (
-    <Form name="rsvp" onSubmit={handleSubmit}>
+    <Form
+      name="rsvp"
+      onSubmit={handleSubmit}
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <Form.Control type="hidden" name="form-name" value="rsvp" />
+      <Form.Control type="text" name="bot-field" style={{ display: 'none' }} />
       <Form.Group controlId="howMany">
         <Form.Label>How many will be attending?</Form.Label>
         <Form.Control
@@ -66,6 +81,9 @@ export const RsvpForm = ({ notesPlaceholder }) => {
           onChange={event => setNotes(event.target.value)}
         ></Form.Control>
       </Form.Group>
+      <Button variant="primary" type="submit" disabled={loading}>
+        Submit
+      </Button>
     </Form>
   );
 };
