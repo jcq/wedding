@@ -4,17 +4,17 @@ import { Row, Col } from 'react-bootstrap';
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer container pt-4 pb-4">
-        <Row className="justify-content-md-center">
-          <Col xs={8} md={5}>
-            <div className="disclaimer border p-2 text-center">
+      <footer className="footer container-fluid pt-3 pb-3 pt-md-4 pb-md-4">
+        <Row className="justify-content-center">
+          <Col xs={12} sm={10} md={5}>
+            <div className="disclaimer border p-2 text-center text-white">
               Paid for by Miraglia / Quirin 2020
             </div>
           </Col>
         </Row>
       </footer>
     );
+
   }
 };
-
 export default Footer;

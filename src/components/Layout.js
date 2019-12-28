@@ -1,14 +1,14 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Header from './Header'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Footer from '../components/Footer';
+import Header from './Header';
 import './all.scss';
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
-import { Container } from 'react-bootstrap';
+import useSiteMetadata from './SiteMetadata';
+import { withPrefix } from 'gatsby';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -49,13 +49,25 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Header />
-      <Container>
-        {children}
+      <Container fluid={true} className="d-flex min-vh-100 flex-column">
+        <Row>
+          <Col>
+            <Header />
+          </Col>
+        </Row>
+        <Row className="flex-fill fill d-flex justify-content-start">
+          <Col>
+            <Container className="main">{children}</Container>
+          </Col>
+        </Row>
+        <Row className="bg-primary">
+          <Col>
+            <Footer />
+          </Col>
+        </Row>
       </Container>
-      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
