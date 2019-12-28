@@ -50,10 +50,12 @@ export const RsvpForm = ({ notesPlaceholder }) => {
     >
       <Form.Control type="hidden" name="form-name" value="rsvp" />
       <Form.Control type="text" name="bot-field" style={{ display: 'none' }} />
+      <Form.Control type="hidden" name="names" value="" />
       <Form.Group controlId="howMany">
         <Form.Label>How many will be attending?</Form.Label>
         <Form.Control
           type="number"
+          name="attendees"
           placeholder="Enter a number"
           value={attendees}
           onChange={event => setAttendees(event.target.value)}
@@ -74,6 +76,7 @@ export const RsvpForm = ({ notesPlaceholder }) => {
       <Form.Group controlId="notes">
         <Form.Label>Notes</Form.Label>
         <Form.Control
+          name="notes"
           as="textarea"
           rows="3"
           placeholder={notesPlaceholder}
