@@ -81,6 +81,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "rsvp-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Notes Placeholder", name: "notes_placeholder", widget: "string"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

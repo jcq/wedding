@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 import { Form } from 'react-bootstrap';
 
@@ -10,7 +11,9 @@ const handleSubmit = event => {
   event.preventDefault();
 };
 
-export const RsvpForm = () => {
+export const RsvpForm = ({
+  notesPlaceholder = 'Is there anything else we should know?'
+}) => {
   const [attendees, setAttendees] = useState(0);
   const [names, setNames] = useState([]);
   const [notes, setNotes] = useState('');
@@ -23,7 +26,7 @@ export const RsvpForm = () => {
       const toRemove = names - attendees;
       setNames([...names.splice(attendees - 1, toRemove)]);
     }
-  }, [attendees]);
+  }, [attendees, names]);
 
   const handleChangeName = event => {
     console.log('handleChangeName', event.target.dataset.idx);
@@ -60,11 +63,15 @@ export const RsvpForm = () => {
         <Form.Control
           as="textarea"
           rows="3"
-          placeholder="Is there anything else we should know?"
+          placeholder={notesPlaceholder}
           value={notes}
           onChange={event => setNotes(event.target.value)}
         ></Form.Control>
       </Form.Group>
     </Form>
   );
+};
+
+RsvpForm.propTypes = {
+  notesPlaceholder: PropTypes.string
 };

@@ -20,7 +20,8 @@ export const RsvpPageTemplate = ({ title, content, contentComponent }) => {
 RsvpPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
+  notesPlaceholder: PropTypes.string
 };
 
 const RsvpPage = ({ data }) => {
@@ -32,6 +33,7 @@ const RsvpPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        notesPlaceholder={post.frontmatter.notes_placeholder}
       />
     </Layout>
   );
@@ -49,6 +51,7 @@ export const rsvpPageQuery = graphql`
       html
       frontmatter {
         title
+        notes_placeholder
       }
     }
   }
