@@ -10,6 +10,10 @@ import BlogPostPreview from './preview-templates/BlogPostPreview'
 import ProductPagePreview from './preview-templates/ProductPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 
+import styles from '!css-loader!sass-loader!../components/all.scss'
+
+CMS.registerPreviewStyle(styles.toString(), { raw: true })
+
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 
