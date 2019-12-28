@@ -26,22 +26,6 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-  
-  # - name: "events"
-  #   label: "Events"
-  #   folder: "src/pages/events"
-  #   create: true
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   fields:
-  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Date", name: "date", widget: "datetime"}
-  #     - {label: "Description", name: "description", widget: "text"}
-  #     - {label: "Featured Event", name: "featuredevent", widget: "boolean", default: false}
-  #     - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  #     - {label: "Tags", name: "tags", widget: "list", required: false}
-
   - name: "pages"
     label: "Pages"
     files:
@@ -74,13 +58,13 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - label: Events
             name: events
-            widget: object
+            widget: list
             fields:
               - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Date", name: "date", widget: "datetime"}
               - {label: "Description", name: "description", widget: "text"}
-              - {label: "Featured Event", name: "featuredevent", widget: "boolean", default: false}
+              - {label: "Featured Event", name: "featuredevent", widget: "boolean", required: false}
               - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
               - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/get-involved/index.md"
