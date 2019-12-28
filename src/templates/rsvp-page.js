@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-import { RsvpForm } from '../pages/rsvp/rsvp-form';
+import { RsvpForm } from '../components/rsvp/rsvp-form';
 
 export const RsvpPageTemplate = ({ title, content, notesPlaceholder, contentComponent }) => {
   const PageContent = contentComponent || Content;

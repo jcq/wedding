@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-import { EventItem } from '../pages/events/event-item';
+import { EventItem } from '../components/events/event-item';
 import { Row, Col } from 'react-bootstrap';
 
 
