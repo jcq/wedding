@@ -8,8 +8,14 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: static/img
+# media_folder: static/img
 public_folder: /img
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dvjbm5qlr
+    api_key: 892455978166953
 
 collections:
   # - name: "blog"
