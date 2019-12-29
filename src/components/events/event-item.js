@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const EventItem = ({ title, date, body }) => {
   return (
-    <div>
+    <div className="text-center">
       <h4>{title}</h4>
       <p>{date}</p>
     </div>

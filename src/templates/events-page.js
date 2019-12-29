@@ -17,7 +17,7 @@ export const EventsPageTemplate = ({ title, content, contentComponent, event_ite
     <section className="section">
       <h2 className="title">{title}</h2>
       <PageContent className="content" content={content} />
-      <Row>
+      <Row className="justify-content-center">
         {
           event_items.map(({id, title, date, body}) => (
             <Col key={id}><EventItem title={title} date={date} body={body} /></Col>
