@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql, navigate } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-import { RsvpForm } from '../components/rsvp/rsvp-form';
 
-export const RsvpPageTemplate = ({
+export const RsvpThanksPageTemplate = ({
   title,
   content,
-  notesPlaceholder,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content;
@@ -17,49 +15,42 @@ export const RsvpPageTemplate = ({
     <section className="section">
       <h2 className="title">{title}</h2>
       <PageContent className="content" content={content} />
-      <RsvpForm
-        notesPlaceholder={notesPlaceholder}
-        onSubmit={() => navigate('/rsvp/thanks')}
-      />
     </section>
   );
 };
 
-RsvpPageTemplate.propTypes = {
+RsvpThanksPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
-  notesPlaceholder: PropTypes.string
+  contentComponent: PropTypes.func
 };
 
-const RsvpPage = ({ data }) => {
+const RsvpThanksPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <RsvpPageTemplate
+      <RsvpThanksPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
-        notesPlaceholder={post.frontmatter.notes_placeholder}
       />
     </Layout>
   );
 };
 
-RsvpPage.propTypes = {
+RsvpThanksPage.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export default RsvpPage;
+export default RsvpThanksPage;
 
-export const rsvpPageQuery = graphql`
-  query RsvpPage($id: String!) {
+export const rsvpThanksPageQuery = graphql`
+  query RsvpThanksPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         title
-        notes_placeholder
       }
     }
   }

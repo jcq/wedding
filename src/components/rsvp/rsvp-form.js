@@ -92,5 +92,6 @@ export const RsvpForm = ({ notesPlaceholder }) => {
 };
 
 RsvpForm.propTypes = {
-  notesPlaceholder: PropTypes.string
+  notesPlaceholder: PropTypes.string,
+  onSubmit: PropTypes.func
 };
