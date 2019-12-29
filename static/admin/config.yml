@@ -26,69 +26,187 @@ collections:
   #     - {label: "Featured Image", name: "featuredimage", widget: image}
   #     - {label: "Body", name: "body", widget: "markdown"}
   #     - {label: "Tags", name: "tags", widget: "list"}
-  - name: "pages"
-    label: "Pages"
+  - name: 'pages'
+    label: 'Pages'
     files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
+      - file: 'src/pages/index.md'
+        label: 'Landing Page'
+        name: 'index'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-      - file: "src/pages/about/index.md"
-        label: "About Us"
-        name: "about"
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'index-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Subheading, name: subheading, widget: string }
+          - {
+              label: Mainpitch,
+              name: mainpitch,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
+          - { label: Description, name: description, widget: string }
+          - {
+              label: Intro,
+              name: intro,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Description, name: description, widget: text },
+                  {
+                    label: Blurbs,
+                    name: blurbs,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: Main,
+              name: main,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Description, name: description, widget: text },
+                  {
+                    label: Image1,
+                    name: image1,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Alt, name: alt, widget: string },
+                      ],
+                  },
+                  {
+                    label: Image2,
+                    name: image2,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Alt, name: alt, widget: string },
+                      ],
+                  },
+                  {
+                    label: Image3,
+                    name: image3,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Alt, name: alt, widget: string },
+                      ],
+                  },
+                ],
+            }
+      - file: 'src/pages/about/index.md'
+        label: 'About Us'
+        name: 'about'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/events/index.md"
-        label: "Events"
-        name: "events"
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'about-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/events/index.md'
+        label: 'Events'
+        name: 'events'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Events"
-            name: "event_items"
-            widget: "list"
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'events-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - label: 'Events'
+            name: 'event_items'
+            widget: 'list'
             fields:
-              - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Date", name: "date", widget: "datetime"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Featured Event", name: "featuredevent", widget: "boolean", required: false}
-              - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/get-involved/index.md"
-        label: "Get Involved"
-        name: "get-involved"
+              - {
+                  label: 'Template Key',
+                  name: 'templateKey',
+                  widget: 'hidden',
+                  default: 'event',
+                }
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Date', name: 'date', widget: 'datetime' }
+              - { label: 'Location', name: 'location', widget: 'string', required: false }
+              - { label: 'Address', name: 'address', widget: 'string', required: false }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - {
+                  label: 'Featured Event',
+                  name: 'featuredevent',
+                  widget: 'boolean',
+                  required: false,
+                }
+              - {
+                  label: 'Featured Image',
+                  name: 'featuredimage',
+                  widget: image,
+                  required: false,
+                }
+              - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/get-involved/index.md'
+        label: 'Get Involved'
+        name: 'get-involved'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "get-involved-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/rsvp/index.md"
-        label: "RSVP"
-        name: "rsvp"
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'get-involved-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/rsvp/index.md'
+        label: 'RSVP'
+        name: 'rsvp'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "rsvp-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Notes Placeholder", name: "notes_placeholder", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/rsvp/thanks.md"
-        label: "Thank You"
-        name: "thanks"
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'rsvp-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Notes Placeholder',
+              name: 'notes_placeholder',
+              widget: 'string',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/rsvp/thanks.md'
+        label: 'Thank You'
+        name: 'thanks'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "rsvp-thanks-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'rsvp-thanks-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       # - file: "src/pages/products/index.md"
       #   label: "Products Page"
       #   name: "products"
