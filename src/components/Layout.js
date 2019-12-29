@@ -5,7 +5,7 @@ import Header from './Header';
 import './all.scss';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -57,7 +57,15 @@ const TemplateWrapper = ({ children }) => {
         </Row>
         <Row className="flex-fill fill d-flex justify-content-start">
           <Col>
-            <Container className="main">{children}</Container>
+            <Container className="main">
+              <Row className="justify-content-center">
+                <Col xs={12} sm={10} md={8}>
+                  <Card>
+                    <Card.Body>{children}</Card.Body>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
           </Col>
         </Row>
         <Row className="bg-primary">
