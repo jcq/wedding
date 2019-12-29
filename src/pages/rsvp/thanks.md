@@ -2,4 +2,4 @@
 templateKey: rsvp-thanks-page
 title: Thank You!
 ---
-### Are you coming?
+Thank you for submitting your response. We love all of you.
