@@ -41,7 +41,7 @@ const Header = class extends React.Component {
       <Navbar expand="lg" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            <img src={logo} alt="Kaldi" style={{ width: '120px' }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
