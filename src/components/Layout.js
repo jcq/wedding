@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
             <Header />
           </Col>
         </Row>
-        <Row className="flex-fill fill d-flex justify-content-start">
+        <Row className="flex-fill d-flex justify-content-start align-items-center">
           <Col>
             <Container className="main">
               <Row className="justify-content-center">
