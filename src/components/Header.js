@@ -38,7 +38,7 @@ const Header = class extends React.Component {
 
   render() {
     return (
-      <Navbar expand="lg">
+      <Navbar expand="lg" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
