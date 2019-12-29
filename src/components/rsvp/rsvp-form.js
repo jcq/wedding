@@ -29,7 +29,7 @@ export const RsvpForm = ({ notesPlaceholder }) => {
   const nextStep = () => {
     switch (step) {
       case 'initial':
-        if (inputs['attending']) {
+        if (inputs['attending'] === 'yes') {
           setStep('attendees');
         } else {
           setStep('extra');

@@ -28,7 +28,8 @@ export const RsvpFormAttendees = ({
 
   const isValid = () => {
     return (
-      attendees === addtlNames.length && addtlNames.every(name => Boolean(name))
+      parseInt(attendees) === addtlNames.length &&
+      addtlNames.every(name => Boolean(name))
     );
   };
 
