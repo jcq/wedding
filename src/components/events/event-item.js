@@ -1,11 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { format } from 'date-fns';
 
-export const EventItem = ({ title, date, body }) => {
+export const EventItem = ({ title, date, location, address, body }) => {
+  const formattedDate = format(new Date(date), 'MMM dd, yyyy');
+
   return (
     <div className="text-center">
       <h4>{title}</h4>
-      <p>{date}</p>
+      <p>{formattedDate}</p>
+      <p>
+        {location && <div>{location}</div>}
+        {address & <div>{address}</div>}
+      </p>
     </div>
   );
 };

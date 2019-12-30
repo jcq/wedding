@@ -6,23 +6,24 @@ import Content, { HTMLContent } from '../components/Content';
 import { EventItem } from '../components/events/event-item';
 import { Row, Col } from 'react-bootstrap';
 
-
-
-export const EventsPageTemplate = ({ title, content, contentComponent, event_items }) => {
+export const EventsPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  event_items
+}) => {
   const PageContent = contentComponent || Content;
-
-  console.log('EventsPageTemplate', event_items)
 
   return (
     <section className="section">
       <h2 className="title">{title}</h2>
       <PageContent className="content" content={content} />
       <Row className="justify-content-center">
-        {
-          event_items.map(({id, title, date, body}) => (
-            <Col key={id}><EventItem title={title} date={date} body={body} /></Col>
-          ))
-        }
+        {event_items.map(({ id, title, date, body }) => (
+          <Col key={id}>
+            <EventItem title={title} date={date} body={body} />
+          </Col>
+        ))}
       </Row>
     </section>
   );
@@ -34,7 +35,9 @@ EventsPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
   event_items: PropTypes.shape({
     title: PropTypes.string,
-    date: PropTypes.string,
+    date: PropTypes.object,
+    location: PropTypes.string,
+    address: PropTypes.string,
     description: PropTypes.string,
     featuredevent: PropTypes.string,
     featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -71,7 +74,9 @@ export const eventsPageQuery = graphql`
         title
         event_items {
           title
-          date(formatString: "MMMM DD, HH:mm")
+          date
+          location
+          address
           description
         }
       }
