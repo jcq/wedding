@@ -2,7 +2,9 @@
 templateKey: events-page
 title: Events
 event_items:
-  - address: '2170 County Rd D E, Maplewood, MN 55109'
+  - address: |-
+      2170 County Rd D E
+      Maplewood, MN 55109
     body: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
@@ -26,7 +28,9 @@ event_items:
     location: Bruentrup Heritage Farm
     templateKey: event
     title: Ceremony
-  - address: '2170 County Rd D E, Maplewood, MN 55109'
+  - address: |-
+      2170 County Rd D E
+      Maplewood, MN 55109
     body: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
