@@ -19,9 +19,15 @@ export const EventsPageTemplate = ({
       <h2 className="title">{title}</h2>
       <PageContent className="content" content={content} />
       <Row className="justify-content-center">
-        {event_items.map(({ id, title, date, body }) => (
-          <Col key={id}>
-            <EventItem title={title} date={date} body={body} />
+        {event_items.map(({ title, date, location, address, body }) => (
+          <Col key={title}>
+            <EventItem
+              title={title}
+              date={date}
+              body={body}
+              location={location}
+              address={address}
+            />
           </Col>
         ))}
       </Row>
@@ -33,16 +39,18 @@ EventsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  event_items: PropTypes.shape({
-    title: PropTypes.string,
-    date: PropTypes.object,
-    location: PropTypes.string,
-    address: PropTypes.string,
-    description: PropTypes.string,
-    featuredevent: PropTypes.string,
-    featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    body: PropTypes.string
-  })
+  event_items: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      date: PropTypes.string,
+      location: PropTypes.string,
+      address: PropTypes.string,
+      description: PropTypes.string,
+      featuredevent: PropTypes.string,
+      featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      body: PropTypes.string
+    })
+  )
 };
 
 const EventsPage = ({ data }) => {
