@@ -14,7 +14,15 @@ export const EventItem = ({ title, date, location, address, body }) => {
       <p>{formattedDate}</p>
       <div className="pt-1">
         {location && <div>{location}</div>}
-        {address && <div>{address}</div>}
+        {address.split('\n').map((item, key) => {
+          return (
+            <React.Fragment key={key}>
+              {item}
+              <br />
+            </React.Fragment>
+          );
+        })}
+
         {address && (
           <div>
             <small>
