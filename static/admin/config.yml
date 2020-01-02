@@ -8,6 +8,10 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+publish_mode: editorial_workflow
+site_url: https://MiragliaQuirin2020.com
+logo_url: https://miragliaquirin2020.com/static/logo-21b63aa49fa28e0ad6905a5fe4c21fbf.svg
+
 # media_folder: static/img
 public_folder: /img
 
