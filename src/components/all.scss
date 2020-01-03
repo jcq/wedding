@@ -1,8 +1,17 @@
 @import '../styles/bootstrap';
 
-body {
+/* body {
   background-image: url('https://res.cloudinary.com/dvjbm5qlr/image/upload/a_exif/v1577644071/IMG_20190530_181445_cydtzr.jpg');
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+} */
+
+body {
+  background-color: rgba(0, 40, 104, 1);
+  background-image: radial-gradient(
+    70% 92% at center 25%,
+    white,
+    transparent 80%
+  );
 }
