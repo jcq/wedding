@@ -55,11 +55,11 @@ const TemplateWrapper = ({ children }) => {
             <Header />
           </Col>
         </Row>
-        <Row className="flex-fill d-flex justify-content-start align-items-center">
+        <Row className="flex-fill d-flex justify-content-start align-items-top pt-4">
           <Col>
             <Container className="main">
               <Row className="justify-content-center">
-                <Col xs={12} sm={10} md={8}>
+                <Col xs={12} sm={10} md={9}>
                   <Card>
                     <Card.Body>{children}</Card.Body>
                   </Card>
@@ -68,7 +68,7 @@ const TemplateWrapper = ({ children }) => {
             </Container>
           </Col>
         </Row>
-        <Row className="bg-primary">
+        <Row className="">
           <Col>
             <Footer />
           </Col>
