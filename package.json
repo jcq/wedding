@@ -42,10 +42,11 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "yarn run develop",
-    "build": "yarn run clean && gatsby build",
+    "build": "yarn run clean && gatsby build && yarn encrypt",
     "develop": "yarn run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encrypt": "npx staticrypt public/index.html P@55W0RD -o public/index.html"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
