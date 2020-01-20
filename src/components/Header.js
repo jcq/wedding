@@ -41,7 +41,7 @@ const Header = class extends React.Component {
       <Navbar expand="lg" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} alt="Kaldi" style={{ width: '120px' }} />
+            <img src={logo} alt="Logo" style={{ width: '120px' }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -54,6 +54,9 @@ const Header = class extends React.Component {
               </Nav.Link>
               <Nav.Link as={Link} to="/get-involved">
                 Get Involved
+              </Nav.Link>
+              <Nav.Link as={Link} to="/faq">
+                FAQ
               </Nav.Link>
               <NavButton to="/rsvp" variant="danger">
                 RSVP
