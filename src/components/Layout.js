@@ -5,7 +5,7 @@ import Header from './Header';
 import './all.scss';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -60,9 +60,7 @@ const TemplateWrapper = ({ children }) => {
             <Container className="main h-100">
               <Row className="justify-content-center align-items-center" style={{minHeight: '75%'}}>
                 <Col xs={12} sm={10} md={9} className="h-100">
-                  <Card>
-                    <Card.Body>{children}</Card.Body>
-                  </Card>
+                  {children}
                 </Col>
               </Row>
             </Container>

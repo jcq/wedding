@@ -3,14 +3,19 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import { Card } from 'react-bootstrap';
 
 export const FaqPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section">
-      <h2 className="title">{title}</h2>
-      <PageContent className="content" content={content} />
+      <h2 className="title text-white">{title}</h2>
+      <Card>
+        <Card.Body>
+          <PageContent className="content" content={content} />
+        </Card.Body>
+      </Card>
     </section>
   );
 };

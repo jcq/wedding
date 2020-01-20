@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { format } from 'date-fns';
+import { Card } from 'react-bootstrap';
 
 export const EventItem = ({ title, date, location, address, body }) => {
   const formattedDate = format(new Date(date), 'MMM dd, yyyy');
@@ -9,33 +10,35 @@ export const EventItem = ({ title, date, location, address, body }) => {
   const encUrl = encodeURI(gMapUrl);
 
   return (
-    <div className="text-center">
-      <h4>{title}</h4>
-      <p>{formattedDate}</p>
-      <address className="pt-1">
-        {location && <div>{location}</div>}
-        {address.split('\n').map((item, key) => {
-          return (
-            <React.Fragment key={key}>
-              {item}
-              <br />
-            </React.Fragment>
-          );
-        })}
+    <Card>
+      <Card.Header as="h4">{title}</Card.Header>
+      <Card.Body>
+        <Card.Title>{formattedDate}</Card.Title>
+        <address className="pt-1">
+          {location && <div>{location}</div>}
+          {address.split('\n').map((item, key) => {
+            return (
+              <React.Fragment key={key}>
+                {item}
+                <br />
+              </React.Fragment>
+            );
+          })}
 
-        {address && (
-          <div>
-            <small>
-              [
-              <a href={encUrl} target="_blank" rel="noopener noreferrer">
-                Map
-              </a>
-              ]
-            </small>
-          </div>
-        )}
-      </address>
-    </div>
+          {address && (
+            <div>
+              <small>
+                [
+                <a href={encUrl} target="_blank" rel="noopener noreferrer">
+                  Map
+                </a>
+                ]
+              </small>
+            </div>
+          )}
+        </address>
+      </Card.Body>
+    </Card>
   );
 };
 

@@ -4,6 +4,7 @@ import { graphql, navigate } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { RsvpForm } from '../components/rsvp/rsvp-form';
+import { Card } from 'react-bootstrap';
 
 export const RsvpPageTemplate = ({
   title,
@@ -15,12 +16,16 @@ export const RsvpPageTemplate = ({
 
   return (
     <section className="section">
-      <h2 className="title">{title}</h2>
-      <PageContent className="content" content={content} />
-      <RsvpForm
-        notesPlaceholder={notesPlaceholder}
-        onSubmit={() => navigate('/rsvp/thanks')}
-      />
+      <h2 className="title text-white">{title}</h2>
+      <Card>
+        <Card.Body>
+          <PageContent className="content" content={content} />
+          <RsvpForm
+            notesPlaceholder={notesPlaceholder}
+            onSubmit={() => navigate('/rsvp/thanks')}
+          />
+        </Card.Body>
+      </Card>
     </section>
   );
 };

@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { EventItem } from '../components/events/event-item';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 
 export const EventsPageTemplate = ({
   title,
@@ -16,9 +16,16 @@ export const EventsPageTemplate = ({
 
   return (
     <section className="section">
-      <h2 className="title">{title}</h2>
-      <PageContent className="content" content={content} />
-      <Row className="justify-content-center">
+      <h2 className="title text-white">{title}</h2>
+      {content && (
+        <Card>
+          <Card.Body>
+            <PageContent className="content" content={content} />
+          </Card.Body>
+        </Card>
+      )}
+
+      <Row className="justify-content-center mt-4">
         {event_items.map(({ title, date, location, address, body }) => (
           <Col key={title}>
             <EventItem
