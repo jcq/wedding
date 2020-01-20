@@ -12,7 +12,7 @@ export const EventItem = ({ title, date, location, address, body }) => {
     <div className="text-center">
       <h4>{title}</h4>
       <p>{formattedDate}</p>
-      <div className="pt-1">
+      <address className="pt-1">
         {location && <div>{location}</div>}
         {address.split('\n').map((item, key) => {
           return (
@@ -34,7 +34,7 @@ export const EventItem = ({ title, date, location, address, body }) => {
             </small>
           </div>
         )}
-      </div>
+      </address>
     </div>
   );
 };
