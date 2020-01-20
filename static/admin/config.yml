@@ -247,6 +247,7 @@ collections:
                           label: 'Notes',
                           name: 'notes',
                           widget: 'text',
+                          default: '',
                           required: false,
                         },
                       ],
