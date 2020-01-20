@@ -17,10 +17,10 @@ public_folder: /img
 
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: dvjbm5qlr
     api_key: 892455978166953
-    output_filename_only: true
 
 collections:
   # - name: "blog"
