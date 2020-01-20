@@ -6,8 +6,7 @@ image: >-
 heading: ''
 subheading: Bringing People Together to View a Wedding
 ---
-
 #### Join the Movement
-June 20, 2020
-Bruentrup Historical Farm
+June 20, 2020\
+Bruentrup Historical Farm\
 Maplewood, MN
