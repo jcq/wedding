@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 import Content from '../Content';
 
 const gMapUrl = ({ location, address }) => {
@@ -11,6 +11,43 @@ const gMapUrl = ({ location, address }) => {
   return gMapUrl;
 };
 
+export const HotelCard = ({ name, address }) => (
+  <Card>
+    <Card.Body>
+      <Card.Title>{name}</Card.Title>
+      <address className="pt-1">
+        {address.split('\n').map((item, key) => {
+          return (
+            <React.Fragment key={key}>
+              {item}
+              <br />
+            </React.Fragment>
+          );
+        })}
+
+        {address && (
+          <div>
+            <small>
+              [
+              <a
+                href={gMapUrl({
+                  location: name,
+                  address: address
+                })}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Map
+              </a>
+              ]
+            </small>
+          </div>
+        )}
+      </address>
+    </Card.Body>
+  </Card>
+);
+
 export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
   return (
     <Card className={className}>
@@ -19,42 +56,13 @@ export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
         {body && <Content content={body} />}
         {hotels.length && (
           <div className="hotel-list">
-            {hotels.map((hotel, idx) => (
-              <Card key={idx}>
-                <Card.Body>
-                  <Card.Title>{hotel.name}</Card.Title>
-                  <address className="pt-1">
-                    {hotel.address.split('\n').map((item, key) => {
-                      return (
-                        <React.Fragment key={key}>
-                          {item}
-                          <br />
-                        </React.Fragment>
-                      );
-                    })}
-
-                    {hotel.address && (
-                      <div>
-                        <small>
-                          [
-                          <a
-                            href={gMapUrl({
-                              location: hotel.name,
-                              address: hotel.address
-                            })}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Map
-                          </a>
-                          ]
-                        </small>
-                      </div>
-                    )}
-                  </address>
-                </Card.Body>
-              </Card>
-            ))}
+            <Row>
+              {hotels.map((hotel, idx) => (
+                <Col key={idx}>
+                  <HotelCard {...hotel} />
+                </Col>
+              ))}
+            </Row>
           </div>
         )}
       </Card.Body>
