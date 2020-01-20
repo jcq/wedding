@@ -57,9 +57,9 @@ const TemplateWrapper = ({ children }) => {
         </Row>
         <Row className="flex-fill d-flex justify-content-start align-items-top pt-4">
           <Col>
-            <Container className="main">
-              <Row className="justify-content-center">
-                <Col xs={12} sm={10} md={9}>
+            <Container className="main h-100">
+              <Row className="justify-content-center align-items-center" style={{minHeight: '75%'}}>
+                <Col xs={12} sm={10} md={9} className="h-100">
                   <Card>
                     <Card.Body>{children}</Card.Body>
                   </Card>
