@@ -7,7 +7,7 @@ import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 import { Jumbotron, Image } from 'react-bootstrap';
 
-export const IndexPageTemplate = ({ title, image }) => {
+export const IndexPageTemplate = ({ title, subheading, image, body }) => {
   const jumbotronStyles = {
     backgroundImage: `url(${
       !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -19,10 +19,19 @@ export const IndexPageTemplate = ({ title, image }) => {
   };
 
   return (
-    <Jumbotron fluid style={jumbotronStyles}>
-      {/* <Image fluid src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} /> */}
-      <h1>{title}</h1>
-    </Jumbotron>
+    // <Jumbotron fluid style={jumbotronStyles}>
+    //   {/* <Image fluid src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} /> */}
+    //   <h1>{title}</h1>
+    // </Jumbotron>
+    <div>
+      <Image
+        fluid
+        src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
+      />
+      {title && <h1 className="text-center">{title}</h1>}
+      {subheading && <h3 className="text-center">{subheading}</h3>}
+      {body && <div className="copy">{body}</div>}
+    </div>
   );
 };
 
@@ -31,11 +40,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array
-  })
+  body: PropTypes.string
 };
 
 const IndexPage = ({ data }) => {
