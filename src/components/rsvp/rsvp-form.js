@@ -2,52 +2,41 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { Form, Button } from 'react-bootstrap';
+import { useForm } from 'react-hook-form';
+import * as yup from 'yup';
 
 import { saveToNetlify } from './netlify-form';
-import { RsvpFormInitial } from './rsvp-form-initial';
-import { RsvpFormAttendees } from './rsvp-form-attendees';
-import { RsvpFormExtra } from './rsvp-form-extra';
+import { NotAttending } from './NotAttending';
+
+const validationSchema = yup.object().shape({
+  primaryName: yup.string().required(),
+  email: yup
+    .string()
+    .email()
+    .required(),
+  attending: yup
+    .string()
+    .matches(/^yes$|^no$/, 'Must be either "Yes" or "No"')
+    .required(),
+  notes: yup.string()
+});
 
 export const RsvpForm = ({ notesPlaceholder }) => {
-  const [step, setStep] = useState('initial');
-  const [inputs, setInputs] = useState({
-    attendees: 0,
-    primaryName: '',
-    addtlNames: [],
-    notes: ''
-  });
+  const {
+    register,
+    watch,
+    handleSubmit,
+    errors,
+    formState: { touched, isValid }
+  } = useForm({ validationSchema, mode: 'onBlur' });
+
+  const watchAttending = watch('attending');
 
   const [loading, setLoading] = useState(false);
 
-  const handleInputChange = (field, value) => {
-    setInputs(inputs => ({
-      ...inputs,
-      [field]: value
-    }));
-  };
-
-  const nextStep = () => {
-    switch (step) {
-      case 'initial':
-        if (inputs['attending'] === 'yes') {
-          setStep('attendees');
-        } else {
-          setStep('extra');
-        }
-        break;
-      case 'attendees':
-        setStep('extra');
-        break;
-      default:
-        break;
-    }
-  };
-
-  const handleSubmit = async event => {
-    event.preventDefault();
-
+  const onSubmit = async data => {
     const payload = {
-      ...inputs
+      ...data
     };
 
     setLoading(true);
@@ -57,44 +46,94 @@ export const RsvpForm = ({ notesPlaceholder }) => {
 
   return (
     <Form
+      noValidate
       name="rsvp"
-      onSubmit={handleSubmit}
+      onSubmit={handleSubmit(onSubmit)}
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
-      <Form.Control type="hidden" name="form-name" value="rsvp" />
-      <Form.Control type="text" name="bot-field" style={{ display: 'none' }} />
-      <Form.Control type="hidden" name="names" value="" />
+      <Form.Control
+        ref={register}
+        type="hidden"
+        name="form-name"
+        value="rsvp"
+      />
+      <Form.Control
+        ref={register}
+        type="text"
+        name="bot-field"
+        style={{ display: 'none' }}
+      />
+      <Form.Control ref={register} type="hidden" name="names" value="" />
 
-      {step === 'initial' && (
-        <RsvpFormInitial
-          formVals={inputs}
-          onChange={handleInputChange}
-          onNext={nextStep}
-        />
-      )}
+      <Form.Group>
+        <Form.Label>Your Name</Form.Label>
+        <Form.Control
+          ref={register}
+          type="text"
+          name="primaryName"
+          placeholder="Enter your full name"
+          isValid={touched.primaryName && !errors.primaryName}
+          isInvalid={!!errors.primaryName}
+        ></Form.Control>
+      </Form.Group>
 
-      {step === 'attendees' && (
-        <RsvpFormAttendees
-          formVals={inputs}
-          onChange={handleInputChange}
-          onNext={nextStep}
-        />
-      )}
+      <Form.Group>
+        <Form.Label>Email Address</Form.Label>
+        <Form.Control
+          ref={register}
+          type="text"
+          name="email"
+          placeholder="Enter your email address"
+          isValid={touched.email && !errors.email}
+          isInvalid={!!errors.email}
+        ></Form.Control>
+      </Form.Group>
 
-      {step === 'extra' && (
-        <>
-          <RsvpFormExtra
-            formVals={inputs}
-            onChange={handleInputChange}
-            onNext={nextStep}
-            notesPlaceholder={notesPlaceholder}
+      <Form.Group>
+        <Form.Label className={{ 'text-danger': !!errors.attending }}>
+          Attending?
+        </Form.Label>
+        <Form.Check type="radio" id="attending-yes">
+          <Form.Check.Input
+            ref={register}
+            type="radio"
+            name="attending"
+            value="yes"
+            isInvalid={!!errors.attending}
           />
-          <Button variant="primary" type="submit" disabled={loading}>
-            Submit
-          </Button>
-        </>
+          <Form.Check.Label>Yes</Form.Check.Label>
+        </Form.Check>
+        <Form.Check type="radio" id="attending-no">
+          <Form.Check.Input
+            ref={register}
+            type="radio"
+            name="attending"
+            value="no"
+            isInvalid={!!errors.attending}
+          />
+          <Form.Check.Label>No</Form.Check.Label>
+        </Form.Check>
+      </Form.Group>
+
+      {watchAttending === 'no' && <NotAttending />}
+
+      {watchAttending && (
+        <Form.Group controlId="notes">
+          <Form.Label>Notes</Form.Label>
+          <Form.Control
+            ref={register}
+            name="notes"
+            as="textarea"
+            rows="3"
+            placeholder={notesPlaceholder}
+          ></Form.Control>
+        </Form.Group>
       )}
+
+      <Button variant="primary" type="submit" disabled={!isValid || loading}>
+        Submit
+      </Button>
     </Form>
   );
 };

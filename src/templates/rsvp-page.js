@@ -19,7 +19,9 @@ export const RsvpPageTemplate = ({
       <h2 className="title text-white">{title}</h2>
       <Card>
         <Card.Body>
-          <PageContent className="content" content={content} />
+          <Card.Title>
+            <PageContent className="content" content={content} />
+          </Card.Title>
           <RsvpForm
             notesPlaceholder={notesPlaceholder}
             onSubmit={() => navigate('/rsvp/thanks')}
