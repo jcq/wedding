@@ -3,14 +3,19 @@ import PropTypes from 'prop-types';
 import { GetInvolvedPageTemplate } from '../../templates/get-involved-page';
 import { CmsLayout } from '../CmsLayout';
 
-const GetInvolvedPagePreview = ({ entry, widgetFor }) => (
+const GetInvolvedPagePreview = ({ entry, widgetFor }) => {
+  const entryWhereToStay = entry.getIn(['data', 'where_to_stay']);
+  const where_to_stay = entryWhereToStay ? entryWhereToStay.toJS() : [];
+
+  return (
   <CmsLayout>
     <GetInvolvedPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
+      where_to_stay={where_to_stay}
     />
   </CmsLayout>
-);
+)};
 
 GetInvolvedPagePreview.propTypes = {
   entry: PropTypes.shape({
