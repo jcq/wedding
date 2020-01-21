@@ -1,18 +1,33 @@
 import React from 'react';
-import { Row, Col, Container, Card } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export const CmsLayout = ({ children }) => (
-  <Row className="flex-fill d-flex justify-content-start align-items-center">
-    <Col>
-      <Container className="main">
-        <Row className="justify-content-center">
-          <Col xs={12} sm={10} md={8}>
-            <Card>
-              <Card.Body>{children}</Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-    </Col>
-  </Row>
+  <Container fluid={true} className="d-flex min-vh-100 flex-column">
+    <Row>
+      <Col>
+        <Header />
+      </Col>
+    </Row>
+    <Row className="flex-fill d-flex justify-content-start align-items-top pt-4">
+      <Col>
+        <Container className="main h-100">
+          <Row
+            className="justify-content-center align-items-center"
+            style={{ minHeight: '75%' }}
+          >
+            <Col xs={12} sm={10} md={9} className="h-100">
+              {children}
+            </Col>
+          </Row>
+        </Container>
+      </Col>
+    </Row>
+    <Row className="">
+      <Col>
+        <Footer />
+      </Col>
+    </Row>
+  </Container>
 );
