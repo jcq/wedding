@@ -15,12 +15,12 @@ const Footer = class extends React.Component {
               <small>
                 Contact us:{' '}
                 <a
-                  href="mailto:info@miragliaquirin2020.com"
+                  href="mailto:miragliaquirin2020@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  info@miragliaquirin2020.com
+                  miragliaquirin2020@gmail.com
                 </a>
               </small>
             </div>
