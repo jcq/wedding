@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content';
 
 import Layout from '../components/Layout';
-import { Image, Button } from 'react-bootstrap';
+import { Image, Button, Card } from 'react-bootstrap';
 
 export const IndexPageTemplate = ({
   title,
@@ -34,18 +34,26 @@ export const IndexPageTemplate = ({
     <div>
       <Image
         fluid
+        rounded
         src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
       />
-      {title && <h1 className="text-center">{title}</h1>}
-      {subheading && <h3 className="text-center">{subheading}</h3>}
-      {content && (
-        <PageContent className="content text-center mt-3" content={content} />
-      )}
-      <p className="text-center">
-        <Button as={Link} to="/rsvp" variant="danger">
-          RSVP by April 27, 2020
-        </Button>
-      </p>
+      <Card className="mt-4">
+        <Card.Body>
+          {title && <h1 className="text-center">{title}</h1>}
+          {subheading && <h3 className="text-center">{subheading}</h3>}
+          {content && (
+            <PageContent
+              className="content text-center mt-3"
+              content={content}
+            />
+          )}
+          <p className="text-center">
+            <Button as={Link} to="/rsvp" variant="danger">
+              RSVP by April 27, 2020
+            </Button>
+          </p>
+        </Card.Body>
+      </Card>
     </div>
   );
 };
