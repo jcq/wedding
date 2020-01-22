@@ -23,7 +23,8 @@ const validationSchema = yup.object().shape({
 
 const defaultValues = {
   'form-name': 'rsvp',
-  guests: []
+  guests: [],
+  notes: ''
 };
 
 export const RsvpForm = () => {
@@ -77,6 +78,7 @@ export const RsvpForm = () => {
           style={{ display: 'none' }}
         />
         <Form.Control ref={register} type="hidden" name="guests" value="[]" />
+        <Form.Control type="hidden" name="notes" />
 
         <Form.Group>
           <Form.Label>Your Name</Form.Label>
