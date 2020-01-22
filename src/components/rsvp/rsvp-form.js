@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 
 import { saveToNetlify } from './netlify-form';
-import { NotAttending } from './NotAttending';
+import { AttendenceResponse } from './AttendenceResponse';
 
 const validationSchema = yup.object().shape({
   primaryName: yup.string().required(),
@@ -116,7 +116,9 @@ export const RsvpForm = ({ notesPlaceholder }) => {
         </Form.Check>
       </Form.Group>
 
-      {watchAttending === 'no' && <NotAttending />}
+      {watchAttending === 'no' && (
+        <AttendenceResponse attending={watchAttending} />
+      )}
 
       {watchAttending && (
         <Form.Group controlId="notes">

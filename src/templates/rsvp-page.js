@@ -67,6 +67,8 @@ export const rsvpPageQuery = graphql`
       frontmatter {
         title
         notes_placeholder
+        attending_msg
+        not_attending_msg
       }
     }
   }
