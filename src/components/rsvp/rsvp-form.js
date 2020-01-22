@@ -11,10 +11,7 @@ import { RsvpContext } from './RsvpContext';
 
 const validationSchema = yup.object().shape({
   primaryName: yup.string().required(),
-  email: yup
-    .string()
-    .email()
-    .required(),
+  email: yup.string().email(),
   attending: yup
     .string()
     .matches(/^yes$|^no$/, 'Must be either "Yes" or "No"')
@@ -34,6 +31,7 @@ export const RsvpForm = () => {
   const [{ notesPlaceholder }] = useContext(RsvpContext);
 
   const watchAttending = watch('attending');
+  const watchEmail = watch('email');
 
   const [loading, setLoading] = useState(false);
 
@@ -79,6 +77,9 @@ export const RsvpForm = () => {
           isValid={touched.primaryName && !errors.primaryName}
           isInvalid={!!errors.primaryName}
         ></Form.Control>
+        <Form.Control.Feedback type="invalid">
+          Name is required
+        </Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group>
@@ -88,9 +89,12 @@ export const RsvpForm = () => {
           type="text"
           name="email"
           placeholder="Enter your email address"
-          isValid={touched.email && !errors.email}
+          isValid={touched.email && !!watchEmail && !errors.email}
           isInvalid={!!errors.email}
         ></Form.Control>
+        <Form.Control.Feedback type="invalid">
+          Please enter a valid email address
+        </Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group>

@@ -38,10 +38,11 @@ const RsvpPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   const initialState = {
-    notesPlaceholder: post?.frontmatter?.notesPlaceholder,
-    attending_msg: post?.frontmatter?.attending_msg,
-    not_attending_msg: post?.frontmatter?.not_attending_msg
+    notesPlaceholder: post?.frontmatter?.notes_placeholder,
+    attendingMsg: post?.frontmatter?.attending_msg,
+    notAttendingMsg: post?.frontmatter?.not_attending_msg
   };
+  console.log('initialState', initialState)
 
   return (
     <Layout>
