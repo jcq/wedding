@@ -17,17 +17,28 @@ const validationSchema = yup.object().shape({
     .string()
     .matches(/^yes$|^no$/, 'Must be either "Yes" or "No"')
     .required(),
+  guests: yup.array().notRequired(),
   notes: yup.string()
 });
 
+const defaultValues = {
+  'form-name': 'rsvp',
+  guests: []
+};
+
 export const RsvpForm = () => {
-  const formMethods = useForm({ validationSchema, mode: 'onBlur' });
+  const formMethods = useForm({
+    validationSchema,
+    defaultValues,
+    mode: 'onBlur'
+  });
   const {
     register,
     watch,
     handleSubmit,
     errors,
-    formState: { touched, isValid }
+    formState: { touched, isValid },
+    formState
   } = formMethods;
 
   const [{ notesPlaceholder }] = useContext(RsvpContext);
@@ -41,6 +52,8 @@ export const RsvpForm = () => {
     const payload = {
       ...data
     };
+
+    console.log('onSubmit', payload);
 
     setLoading(true);
     await saveToNetlify({ payload, formName: 'rsvp' });
@@ -56,19 +69,14 @@ export const RsvpForm = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <Form.Control
-          ref={register}
-          type="hidden"
-          name="form-name"
-          value="rsvp"
-        />
+        <Form.Control ref={register} type="hidden" name="form-name" />
         <Form.Control
           ref={register}
           type="text"
           name="bot-field"
           style={{ display: 'none' }}
         />
-        <Form.Control ref={register} type="hidden" name="names" value="" />
+        <Form.Control ref={register} type="hidden" name="guests" value="[]" />
 
         <Form.Group>
           <Form.Label>Your Name</Form.Label>
@@ -128,7 +136,9 @@ export const RsvpForm = () => {
 
         {watchAttending && <AttendenceResponse attending={watchAttending} />}
 
-        {watchAttending && watchAttending === 'yes' && <RsvpFormAttendees className="" />}
+        {watchAttending && watchAttending === 'yes' && (
+          <RsvpFormAttendees className="" />
+        )}
 
         {watchAttending && (
           <Form.Group controlId="notes">
@@ -143,7 +153,7 @@ export const RsvpForm = () => {
           </Form.Group>
         )}
 
-        <Button variant="primary" type="submit" disabled={!isValid || loading}>
+        <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>

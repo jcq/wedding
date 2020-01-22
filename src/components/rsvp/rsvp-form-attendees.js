@@ -1,34 +1,42 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, InputGroup } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+import { faPlusCircle, faMinusCircle } from '@fortawesome/free-solid-svg-icons';
 
-import { useFormContext } from 'react-hook-form';
+import { useFormContext, useFieldArray } from 'react-hook-form';
 
 export const RsvpFormAttendees = ({ className }) => {
-  const { register } = useFormContext();
-  const [guests, setGuests] = useState([]);
-
-  const addGuest = () => {
-    setGuests(prevGuests => [...prevGuests, '']);
-  };
+  const { register, control } = useFormContext();
+  const { fields, append, remove } = useFieldArray({ control, name: 'guests' });
 
   return (
     <div className={className}>
-      <Button variant="primary" size="sm" onClick={addGuest} className="mb-3">
+      <Button
+        variant="primary"
+        size="sm"
+        onClick={() => append({ name: '' })}
+        className="mb-3"
+      >
         <FontAwesomeIcon icon={faPlusCircle} /> Add Guest
       </Button>
 
-      {guests.map((name, idx) => (
-        <Form.Group controlId={'name-' + idx} key={'name-' + idx}>
+      {fields.map((item, idx) => (
+        <Form.Group controlId={'name-' + item.id} key={item.id}>
           <Form.Label>Name {idx + 1}</Form.Label>
-          <Form.Control
-            ref={register}
-            type="text"
-            placeholder="Enter name"
-            data-idx={idx}
-          ></Form.Control>
+          <InputGroup>
+            <Form.Control
+              ref={register}
+              name={`guests[${idx}]`}
+              type="text"
+              placeholder="Enter name"
+            ></Form.Control>
+            <InputGroup.Append>
+              <Button variant="danger" size="sm" onClick={() => remove(idx)}>
+                <FontAwesomeIcon icon={faMinusCircle} />
+              </Button>
+            </InputGroup.Append>
+          </InputGroup>
         </Form.Group>
       ))}
     </div>

@@ -18,9 +18,7 @@ export const RsvpPageTemplate = ({ title, content, contentComponent }) => {
           <Card.Title>
             <PageContent className="content" content={content} />
           </Card.Title>
-          <RsvpForm
-            onSubmit={() => navigate('/rsvp/thanks')}
-          />
+          <RsvpForm onSubmit={() => navigate('/rsvp/thanks')} />
         </Card.Body>
       </Card>
     </section>
@@ -42,7 +40,6 @@ const RsvpPage = ({ data }) => {
     attendingMsg: post?.frontmatter?.attending_msg,
     notAttendingMsg: post?.frontmatter?.not_attending_msg
   };
-  console.log('initialState', initialState)
 
   return (
     <Layout>
