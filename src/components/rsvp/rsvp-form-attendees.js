@@ -1,80 +1,38 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Form, Button } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 
-export const RsvpFormAttendees = ({
-  formVals: { addtlNames, attendees },
-  onChange,
-  onNext
-}) => {
-  useEffect(() => {
-    if (attendees > addtlNames.length) {
-      const toAdd = attendees - addtlNames.length;
-      onChange('addtlNames', [
-        ...addtlNames,
-        ...Array.from({ length: toAdd }, (v, i) => '')
-      ]);
-    } else if (attendees < addtlNames.length) {
-      const toRemove = addtlNames - attendees;
-      onChange('addtlNames', [...addtlNames.splice(attendees - 1, toRemove)]);
-    }
-  }, [attendees, addtlNames, onChange]);
+import { useFormContext } from 'react-hook-form';
 
-  const handleChangeName = event => {
-    const updatedNames = [...addtlNames];
-    updatedNames[event.target.dataset.idx] = event.target.value;
-    onChange('addtlNames', updatedNames);
-  };
+export const RsvpFormAttendees = ({ className }) => {
+  const { register } = useFormContext();
+  const [guests, setGuests] = useState([]);
 
-  const isValid = () => {
-    return (
-      parseInt(attendees) === addtlNames.length &&
-      addtlNames.every(name => Boolean(name))
-    );
+  const addGuest = () => {
+    setGuests(prevGuests => [...prevGuests, '']);
   };
 
   return (
-    <>
-      <Form.Group controlId="howMany">
-        <Form.Label>How many others will be attending?</Form.Label>
-        <Form.Control
-          type="number"
-          name="attendees"
-          placeholder="Enter a number"
-          value={attendees}
-          onChange={evt => onChange(evt.target.name, evt.target.value)}
-          min={1}
-        ></Form.Control>
-      </Form.Group>
-      {addtlNames.map((name, idx) => (
+    <div className={className}>
+      <Button variant="primary" size="sm" onClick={addGuest} className="mb-3">
+        <FontAwesomeIcon icon={faPlusCircle} /> Add Guest
+      </Button>
+
+      {guests.map((name, idx) => (
         <Form.Group controlId={'name-' + idx} key={'name-' + idx}>
           <Form.Label>Name {idx + 1}</Form.Label>
           <Form.Control
+            ref={register}
             type="text"
             placeholder="Enter name"
             data-idx={idx}
-            value={name}
-            onChange={handleChangeName}
           ></Form.Control>
         </Form.Group>
       ))}
-      <Button
-        variant="primary"
-        type="button"
-        disabled={!isValid()}
-        onClick={() => onNext()}
-      >
-        Next
-      </Button>
-    </>
+    </div>
   );
 };
 
-RsvpFormAttendees.propTypes = {
-  formVals: PropTypes.shape({
-    addtlNames: PropTypes.array,
-    attendees: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-  }),
-  onChange: PropTypes.func,
-  onNext: PropTypes.func
-};
+RsvpFormAttendees.propTypes = {};
