@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import PropTypes from 'prop-types';
 
 import { Form, Button } from 'react-bootstrap';
@@ -7,6 +7,7 @@ import * as yup from 'yup';
 
 import { saveToNetlify } from './netlify-form';
 import { AttendenceResponse } from './AttendenceResponse';
+import { RsvpContext } from './RsvpContext';
 
 const validationSchema = yup.object().shape({
   primaryName: yup.string().required(),
@@ -21,7 +22,7 @@ const validationSchema = yup.object().shape({
   notes: yup.string()
 });
 
-export const RsvpForm = ({ notesPlaceholder }) => {
+export const RsvpForm = () => {
   const {
     register,
     watch,
@@ -29,6 +30,8 @@ export const RsvpForm = ({ notesPlaceholder }) => {
     errors,
     formState: { touched, isValid }
   } = useForm({ validationSchema, mode: 'onBlur' });
+
+  const [{ notesPlaceholder }] = useContext(RsvpContext);
 
   const watchAttending = watch('attending');
 
@@ -116,9 +119,7 @@ export const RsvpForm = ({ notesPlaceholder }) => {
         </Form.Check>
       </Form.Group>
 
-      {watchAttending === 'no' && (
-        <AttendenceResponse attending={watchAttending} />
-      )}
+      {watchAttending && <AttendenceResponse attending={watchAttending} />}
 
       {watchAttending && (
         <Form.Group controlId="notes">

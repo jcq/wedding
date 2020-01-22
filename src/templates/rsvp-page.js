@@ -5,13 +5,9 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { RsvpForm } from '../components/rsvp/rsvp-form';
 import { Card } from 'react-bootstrap';
+import { RsvpContextProvider } from '../components/rsvp/RsvpContext';
 
-export const RsvpPageTemplate = ({
-  title,
-  content,
-  notesPlaceholder,
-  contentComponent
-}) => {
+export const RsvpPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -23,7 +19,6 @@ export const RsvpPageTemplate = ({
             <PageContent className="content" content={content} />
           </Card.Title>
           <RsvpForm
-            notesPlaceholder={notesPlaceholder}
             onSubmit={() => navigate('/rsvp/thanks')}
           />
         </Card.Body>
@@ -42,14 +37,24 @@ RsvpPageTemplate.propTypes = {
 const RsvpPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
+  const initialState = {
+    notesPlaceholder: post?.frontmatter?.notesPlaceholder,
+    attending_msg: post?.frontmatter?.attending_msg,
+    not_attending_msg: post?.frontmatter?.not_attending_msg
+  };
+
   return (
     <Layout>
-      <RsvpPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-        notesPlaceholder={post.frontmatter.notes_placeholder}
-      />
+      <RsvpContextProvider initialState={initialState}>
+        <RsvpPageTemplate
+          contentComponent={HTMLContent}
+          title={post.frontmatter.title}
+          content={post.html}
+          // notesPlaceholder={post.frontmatter.notes_placeholder}
+          // attending_msg={attending_msg}
+          // not_attending_msg={not_attending_msg}
+        />
+      </RsvpContextProvider>
     </Layout>
   );
 };
