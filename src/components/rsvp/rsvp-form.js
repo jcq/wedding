@@ -9,6 +9,9 @@ import { saveToNetlify } from './netlify-form';
 import { AttendenceResponse } from './AttendenceResponse';
 import { RsvpContext } from './RsvpContext';
 import { RsvpFormAttendees } from './rsvp-form-attendees';
+import { navigate } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 const validationSchema = yup.object().shape({
   primaryName: yup.string().required(),
@@ -38,8 +41,7 @@ export const RsvpForm = () => {
     watch,
     handleSubmit,
     errors,
-    formState: { touched, isValid },
-    formState
+    formState: { touched }
   } = formMethods;
 
   const [{ notesPlaceholder }] = useContext(RsvpContext);
@@ -54,11 +56,11 @@ export const RsvpForm = () => {
       ...data
     };
 
-    console.log('onSubmit', payload);
-
     setLoading(true);
     await saveToNetlify({ payload, formName: 'rsvp' });
     setLoading(false);
+
+    navigate('/rsvp/thanks');
   };
 
   return (
@@ -154,7 +156,12 @@ export const RsvpForm = () => {
           </Form.Group>
         )}
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" disabled={loading}>
+          {loading && (
+            <>
+              <FontAwesomeIcon icon={faSpinner} spin={true} />{' '}
+            </>
+          )}
           Submit
         </Button>
       </Form>
