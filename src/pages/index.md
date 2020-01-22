@@ -6,7 +6,8 @@ image: >-
 heading: ''
 subheading: STRONGER TOGETHER
 ---
-We are so excited to finally (contractually) launch the Miraglia-Quirin ticket.\
+We are so excited to finally launch the Miraglia-Quirin ticket in the most anticipated event of 2020.
+
 As our dearest family, friends, and those that tolerate our goofy jokes like this website, we hope you will join us in celebration, love, and laughter this summer in Minnesota.
 
 Saturday, June 20, 2020\
