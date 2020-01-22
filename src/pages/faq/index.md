@@ -41,6 +41,6 @@ To make sure our vendors can have everything ready on time, please RSVP by April
 
 ##### Where can I play pickleball?
 
-If Kathleen tricks you into leaving the celebration for a pickleball match, the nearest court is XXXX, only XXX mi away.
+If Kathleen tricks you into leaving the celebration for a pickleball match, it is a trap. However, the nearest court is XXXX, only XXX mi away.
 
-*If you have any other questions, please reach out to either JC or Megan, or email MiragliaQuirin2020@gmail.com*
+*If you have any other questions, please reach out to either JC or Megan, or email MiragliaQuirin2020@Igmail.com*
