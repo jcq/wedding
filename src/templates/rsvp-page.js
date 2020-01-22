@@ -50,9 +50,6 @@ const RsvpPage = ({ data }) => {
           contentComponent={HTMLContent}
           title={post.frontmatter.title}
           content={post.html}
-          // notesPlaceholder={post.frontmatter.notes_placeholder}
-          // attending_msg={attending_msg}
-          // not_attending_msg={not_attending_msg}
         />
       </RsvpContextProvider>
     </Layout>
