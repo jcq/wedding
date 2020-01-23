@@ -12,7 +12,8 @@ const ses = new AWS.SES({
 });
 
 const fromAddr =
-  process.env['EMAIL_AUTO_FROM'] || 'Miraglia / Quirin 2020 <info@miragliaquirin2020.com>';
+  process.env['EMAIL_AUTO_FROM'] ||
+  'Miraglia / Quirin 2020 <info@miragliaquirin2020.com>';
 
 const notAttendingBody = params => {
   const { email, primaryName, attending, guests, notes } = params;
@@ -77,6 +78,8 @@ module.exports.handler = async function(event, context) {
   }
 
   const params = JSON.parse(event.body);
+  console.log('params', params);
+  console.log('email', params.email);
 
   try {
     const res = await sendEmail(params);
@@ -85,6 +88,7 @@ module.exports.handler = async function(event, context) {
       body: 'success'
     };
   } catch (error) {
+      console.error('Error in sendEmail', error)
     return {
       statusCode: 400,
       body: 'Error: ' + error
