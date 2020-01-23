@@ -1,8 +1,7 @@
 const { encodeWords } = require('libmime');
 
 const AWS = require('aws-sdk');
-AWS.config.update({region: 'us-east-1'});
-
+AWS.config.update({ region: 'us-east-1' });
 
 const ses = new AWS.SES({
   region: process.env['MY_AWS_REGION'] || 'us-east-1',
@@ -13,29 +12,7 @@ const ses = new AWS.SES({
 });
 
 const fromAddr =
-  process.env['EMAIL_AUTO_FROM'] || 'info@miragliaquirin2020.com';
-
-/** @typedef {function(Error=,Object=)} */
-var NetlifyCallback;
-
-/**
- * Calls the callback so that it redirects to question form URL.
- *
- * Optional code can be specified. This code is set as a fragment part
- * of the redirect location.
- *
- * @param {!NetlifyCallback} callback
- * @param {string=} code
- */
-function redir(callback, code) {
-  //   callback(null, {
-  //     statusCode: 303,
-  //     headers: {
-  //       Location: process.env['QUESTION_FORM_URL'] + (code ? `#${code}` : '')
-  //     }
-  //   });
-  callback(null, { statusCode: 200, body: 'moooo' });
-}
+  process.env['EMAIL_AUTO_FROM'] || 'Miraglia / Quirin 2020 <info@miragliaquirin2020.com>';
 
 const notAttendingBody = params => {
   const { email, primaryName, attending, guests, notes } = params;
@@ -64,9 +41,9 @@ const generateEmailBody = params => {
   return attending === 'no' ? notAttendingBody(params) : attendingBody(params);
 };
 
-const sendEmail = (params, callback) => {
-  ses.sendEmail(
-    {
+const sendEmail = params => {
+  return ses
+    .sendEmail({
       Source: fromAddr,
       Destination: {
         ToAddresses: [params.email]
@@ -87,32 +64,30 @@ const sendEmail = (params, callback) => {
           }
         }
       }
-    },
-    (err, data) => {
-      if (err) {
-        console.error('Error while sending email via AWS SES:', err);
-        return redir(callback, 'fail');
-      }
-
-      console.log('success');
-      redir(callback, 'sent');
-    }
-  );
+    })
+    .promise();
 };
 
 // For more info, check https://www.netlify.com/docs/functions/#javascript-lambda-functions
-module.exports.handler = function(event, context, callback) {
+module.exports.handler = async function(event, context) {
   console.log('body', event.body);
 
   if (event['httpMethod'] !== 'POST') {
-    return callback(
-      new Error(`Unexpected HTTP method "${event['httpMethod']}"`)
-    );
+    return new Error(`Unexpected HTTP method "${event['httpMethod']}"`);
   }
 
   const params = JSON.parse(event.body);
 
-  console.log('body', generateEmailBody(params));
-
-  sendEmail(params, callback);
+  try {
+    const res = await sendEmail(params);
+    return {
+      statusCode: 200,
+      body: 'success'
+    };
+  } catch (error) {
+    return {
+      statusCode: 400,
+      body: 'Error: ' + error
+    };
+  }
 };
