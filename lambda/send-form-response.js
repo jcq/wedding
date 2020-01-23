@@ -77,12 +77,12 @@ module.exports.handler = async function(event, context) {
     return new Error(`Unexpected HTTP method "${event['httpMethod']}"`);
   }
 
-  const params = JSON.parse(event.body);
-  console.log('params', params);
-  console.log('email', params.email);
+  const {data} = JSON.parse(event.body);
+  console.log('data', data);
+  console.log('email', data.email);
 
   try {
-    const res = await sendEmail(params);
+    const res = await sendEmail(data);
     return {
       statusCode: 200,
       body: 'success'
