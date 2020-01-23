@@ -4,7 +4,7 @@ title: JC & Megan
 image: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1577644071/IMG_20190530_181445_cydtzr.jpg
 heading: ''
-subheading: STRONGER TOGETHER
+subheading: STRONGER TOGETHER (FOREVER)
 ---
 We are so excited to finally launch the Miraglia-Quirin ticket in the most anticipated event of 2020.
 
