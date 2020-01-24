@@ -43,4 +43,6 @@ export const RsvpFormAttendees = ({ className }) => {
   );
 };
 
-RsvpFormAttendees.propTypes = {};
+RsvpFormAttendees.propTypes = {
+  className: PropTypes.string
+};
