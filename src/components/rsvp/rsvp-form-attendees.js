@@ -23,11 +23,12 @@ export const RsvpFormAttendees = ({ className }) => {
 
       {fields.map((item, idx) => (
         <Form.Group controlId={'name-' + item.id} key={item.id}>
-          <Form.Label>Name {idx + 1}</Form.Label>
+          <Form.Label>Guest {idx + 1}</Form.Label>
           <InputGroup>
             <Form.Control
               ref={register}
-              name={`guests[${idx}]`}
+              defaultValue={`${item.name}`}
+              name={`guests[${idx}].name`}
               type="text"
               placeholder="Enter name"
             ></Form.Control>

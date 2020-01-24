@@ -53,7 +53,8 @@ export const RsvpForm = () => {
 
   const onSubmit = async data => {
     const payload = {
-      ...data
+      ...data,
+      guests: data.guests.map(g => g.name)
     };
 
     setLoading(true);
