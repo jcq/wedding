@@ -79,8 +79,14 @@ module.exports.handler = async function(event, context) {
 
   const body = JSON.parse(event.body);
   const data = body.data || body;
-  console.log('data', data);
-  console.log('email', data.email);
+
+  if (!data.email) {
+    console.log('No email address found', data);
+    return {
+      statusCode: 200,
+      body: 'skipped'
+    };
+  }
 
   try {
     const res = await sendEmail(data);
@@ -89,7 +95,7 @@ module.exports.handler = async function(event, context) {
       body: 'success'
     };
   } catch (error) {
-      console.error('Error in sendEmail', error)
+    console.error('Error in sendEmail', error);
     return {
       statusCode: 400,
       body: 'Error: ' + error
