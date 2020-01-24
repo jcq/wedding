@@ -20,7 +20,12 @@ const validationSchema = yup.object().shape({
     .string()
     .matches(/^yes$|^no$/, 'Must be either "Yes" or "No"')
     .required(),
-  guests: yup.array().notRequired(),
+  guests: yup.array(
+    yup
+      .object()
+      .shape({ name: yup.string().required() })
+      .required()
+  ),
   notes: yup.string()
 });
 
@@ -79,7 +84,7 @@ export const RsvpForm = () => {
           name="bot-field"
           style={{ display: 'none' }}
         />
-        <Form.Control ref={register} type="hidden" name="guests" />
+        <Form.Control ref={register} type="hidden" name="guests" value="[]" />
         <Form.Control type="hidden" name="notes" />
 
         <Form.Group>

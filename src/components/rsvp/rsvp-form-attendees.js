@@ -7,7 +7,7 @@ import { faPlusCircle, faMinusCircle } from '@fortawesome/free-solid-svg-icons';
 import { useFormContext, useFieldArray } from 'react-hook-form';
 
 export const RsvpFormAttendees = ({ className }) => {
-  const { register, control } = useFormContext();
+  const { register, control, errors } = useFormContext();
   const { fields, append, remove } = useFieldArray({ control, name: 'guests' });
 
   return (
@@ -31,6 +31,7 @@ export const RsvpFormAttendees = ({ className }) => {
               name={`guests[${idx}].name`}
               type="text"
               placeholder="Enter name"
+              isInvalid={errors?.guests?.[idx]}
             ></Form.Control>
             <InputGroup.Append>
               <Button variant="danger" size="sm" onClick={() => remove(idx)}>
