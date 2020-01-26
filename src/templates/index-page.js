@@ -10,33 +10,19 @@ import { Image, Button, Card } from 'react-bootstrap';
 export const IndexPageTemplate = ({
   title,
   subheading,
-  image,
+  // image,
   contentComponent,
   content
 }) => {
   const PageContent = contentComponent || Content;
 
-  // const jumbotronStyles = {
-  //   backgroundImage: `url(${
-  //     !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-  //   })`,
-  //   backgroundRepeat: 'no-repeat',
-  //   backgroundSize: '100%',
-  //   minHeight: '350px',
-  //   color: '#fff'
-  // };
-
   return (
-    // <Jumbotron fluid style={jumbotronStyles}>
-    //   {/* <Image fluid src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} /> */}
-    //   <h1>{title}</h1>
-    // </Jumbotron>
     <div>
-      <Image
+      {/* <Image
         fluid
         rounded
         src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
-      />
+      /> */}
       <Card className="mt-4">
         <Card.Body>
           {title && <h1 className="text-center">{title}</h1>}
@@ -70,9 +56,9 @@ const IndexPage = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout theme="index" bgImage={frontmatter.image}>
       <IndexPageTemplate
-        image={frontmatter.image}
+        // image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}

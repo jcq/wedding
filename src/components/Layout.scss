@@ -1,0 +1,45 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.index {
+  background-color: rgba(0, 40, 104, 1);
+  background-image: radial-gradient(
+    70% 92% at center 25%,
+    white,
+    transparent 80%
+  );
+  background-repeat: no-repeat;
+
+  .outside {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+    @include media-breakpoint-down(md) {
+      background-size: contain;
+
+      .main {
+        padding-top: 10vh;
+      }
+    }
+  }
+}
+
+.interior {
+  background: linear-gradient(
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(0, 40, 104, 1) 30%
+  );
+}
+
+.blue-gradient {
+  background-color: rgba(0, 40, 104, 1);
+  background-image: radial-gradient(
+    70% 92% at center 25%,
+    white,
+    transparent 80%
+  );
+  background-repeat: no-repeat;
+}
