@@ -1,0 +1,31 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  color: #fff;
+  min-height: 180px;
+  padding: 0 5%;
+
+  h1,
+  h2,
+  h3 {
+    // text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  h1 {
+    font-weight: 700;
+  }
+
+  @include media-breakpoint-up(md) {
+    min-height: 380px;
+
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
