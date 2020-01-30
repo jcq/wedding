@@ -12,7 +12,7 @@ export const RsvpPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section">
-      <h2 className="title text-white">{title}</h2>
+      <h2 className="title text-primary">{title}</h2>
       <Card>
         <Card.Body>
           <Card.Title>
