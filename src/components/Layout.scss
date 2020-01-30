@@ -32,6 +32,24 @@
     rgba(255, 255, 255, 1) 30%,
     rgba(0, 40, 104, 1) 30%
   );
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: '\2605 \2605 \2605 \2605 \2605 \2605 \2605 \2605 \2605 \2605 \2605 \2605';
+    color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    z-index: -1;
+    width: 120vw;
+    height: 80vw;
+    top: 20%;
+    left: 0%;    
+    font-size: 20vw;
+    font-family: 'Times New Roman', Times, serif;
+    transform: rotateZ(-15deg);
+    overflow-wrap: break-word;
+    letter-spacing: 2vw;
+  }
 }
 
 .blue-gradient {
