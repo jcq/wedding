@@ -1,6 +1,4 @@
-@import 'node_modules/bootstrap/scss/functions';
-@import 'node_modules/bootstrap/scss/variables';
-@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+@import '../styles/bootstrap';
 
 .jumbotron {
   background-repeat: no-repeat;
@@ -13,12 +11,15 @@
   h1,
   h2,
   h3 {
-    // text-transform: uppercase;
     text-shadow: 1px 1px 1px #000;
   }
 
   h1 {
     font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    border-left: 0.5rem solid $us-red;
+    padding-left: 1rem;
   }
 
   @include media-breakpoint-up(md) {
