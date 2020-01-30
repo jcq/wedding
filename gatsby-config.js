@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'JC + Megan 2020',
+    title: 'Miraglia / Quirin 2020',
     description:
       'This repo contains the wedding website of JC & Megan, running Gatsby backed by Netlify CMS',
   },
