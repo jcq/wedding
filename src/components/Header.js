@@ -32,6 +32,9 @@ const Header = ({ variant = 'light' }) => {
             <Nav.Link as={Link} to="/get-involved">
               Get Involved
             </Nav.Link>
+            <Nav.Link as={Link} to="/shop">
+              Shop
+            </Nav.Link>
             <Nav.Link as={Link} to="/faq">
               FAQ
             </Nav.Link>
