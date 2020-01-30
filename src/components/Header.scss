@@ -1,7 +1,41 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+@import '../styles/variables';
+
+:root {
+  .nav-link {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .btn {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
 .navbar-light {
   background: linear-gradient(#fff, transparent);
+
+  .navbar-nav a.nav-link {
+    color: $primary;
+  }
 }
 
 .navbar-dark {
   background: linear-gradient(#333333, transparent);
+}
+
+.navbar-brand img {
+  width: 150px;
+
+  @include media-breakpoint-up(md) {
+    width: 190px;
+  }
 }

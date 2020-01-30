@@ -12,6 +12,11 @@ export const SiteHelmet = () => {
       <meta name="description" content={description} />
 
       <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap"
+        rel="stylesheet"
+      />
+
+      <link
         rel="apple-touch-icon"
         sizes="180x180"
         href={`${withPrefix('/')}img/apple-touch-icon.png`}

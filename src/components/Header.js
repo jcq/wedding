@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import logo from '../img/logo.svg';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
-import headerStyles from './Header.scss';
+import styles from './Header.scss';
 
 const NavButton = props => <Button as={Link} {...props} />;
 
@@ -14,13 +14,11 @@ const Header = ({ variant = 'light' }) => {
       expand="lg"
       collapseOnSelect
       variant={variant}
-      className={
-        variant === 'light' ? headerStyles.navbarLight : headerStyles.navbarDark
-      }
+      className={variant === 'light' ? styles.navbarLight : styles.navbarDark}
     >
       <Container>
-        <Navbar.Brand as={Link} to="/">
-          <img src={logo} alt="Logo" style={{ width: '200px' }} />
+        <Navbar.Brand as={Link} to="/" className={styles.navbarBrand}>
+          <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
