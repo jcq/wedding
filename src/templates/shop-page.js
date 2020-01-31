@@ -33,13 +33,14 @@ export const ShopPageTemplate = ({
       <Card>
         <Card.Body>
           <PageContent className="content" content={content} />
-          <a
+          {/* <a
             className="zola-registry-embed"
             href="www.zola.com/registry/megan-jc"
             data-registry-key="megan-jc"
           >
             Our Zola Wedding Registry
-          </a>
+          </a> */}
+          <iframe title="Zola Registry" id="zola-registry-iframe-6580837651844" src="https://widget.zola.com/v1/widget/registry/megan-jc/html?" className="zola-registry-iframe" data-registry-key="megan-jc" width="100%" frameborder="0" scrolling="no"></iframe>
         </Card.Body>
       </Card>
     </section>
