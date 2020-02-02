@@ -12,6 +12,7 @@ const EventsPagePreview = ({ entry, widgetFor }) => {
       <EventsPageTemplate
         title={entry.getIn(['data', 'title'])}
         content={widgetFor('body')}
+        featuredImage={entry.getIn(['data', 'featuredImage'])}
         event_items={eventItems}
       />
     </CmsLayout>

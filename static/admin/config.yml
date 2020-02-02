@@ -90,6 +90,12 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Featured Image',
+              name: 'featuredImage',
+              widget: image,
+              required: false,
+            }
           - label: 'Events'
             name: 'event_items'
             widget: 'list'
@@ -140,6 +146,12 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Featured Image',
+              name: 'featuredImage',
+              widget: image,
+              required: false,
+            }
           - {
               label: 'Where to Stay',
               name: where_to_stay,
@@ -234,6 +246,12 @@ collections:
               widget: 'string',
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Featured Image',
+              name: 'featuredImage',
+              widget: image,
+              required: false,
+            }
       - file: 'src/pages/rsvp/thanks.md'
         label: 'Thank You'
         name: 'thanks'
@@ -258,3 +276,9 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Featured Image',
+              name: 'featuredImage',
+              widget: image,
+              required: false,
+            }

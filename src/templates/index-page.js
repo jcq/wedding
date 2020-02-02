@@ -5,12 +5,11 @@ import { Link, graphql } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content';
 
 import Layout from '../components/Layout';
-import { Image, Button, Card } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 
 export const IndexPageTemplate = ({
   title,
   subheading,
-  // image,
   contentComponent,
   content
 }) => {
@@ -18,11 +17,6 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      {/* <Image
-        fluid
-        rounded
-        src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
-      /> */}
       <Card className="mt-4">
         <Card.Body>
           {title && <h1 className="text-center">{title}</h1>}

@@ -17,6 +17,7 @@ const RsvpPagePreview = ({ entry, widgetFor }) => {
         <RsvpPageTemplate
           title={entry.getIn(['data', 'title'])}
           content={widgetFor('body')}
+          featuredImage={entry.getIn(['data', 'featuredImage'])}
         />
       </RsvpContextProvider>
     </CmsLayout>

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ShopPageTemplate } from '../../templates/about-page';
+import { ShopPageTemplate } from '../../templates/shop-page';
 import { CmsLayout } from '../CmsLayout';
 
 const ShopPagePreview = ({ entry, widgetFor }) => (
@@ -8,6 +8,7 @@ const ShopPagePreview = ({ entry, widgetFor }) => (
     <ShopPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
+      featuredImage={entry.getIn(['data', 'featuredImage'])}
     />
   </CmsLayout>
 );

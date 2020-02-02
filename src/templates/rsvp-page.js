@@ -6,13 +6,22 @@ import Content, { HTMLContent } from '../components/Content';
 import { RsvpForm } from '../components/rsvp/rsvp-form';
 import { Card } from 'react-bootstrap';
 import { RsvpContextProvider } from '../components/rsvp/RsvpContext';
+import { ImageHeader } from '../components/ImageHeader';
 
-export const RsvpPageTemplate = ({ title, content, contentComponent }) => {
+export const RsvpPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  featuredImage
+}) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section">
-      <h2 className="title text-primary">{title}</h2>
+      <ImageHeader image={featuredImage}>
+        <h1>{title}</h1>
+      </ImageHeader>
+      {/* <h2 className="title text-primary">{title}</h2> */}
       <Card>
         <Card.Body>
           <Card.Title>
@@ -48,6 +57,7 @@ const RsvpPage = ({ data }) => {
           contentComponent={HTMLContent}
           title={post.frontmatter.title}
           content={post.html}
+          featuredImage={post.frontmatter.featuredImage}
         />
       </RsvpContextProvider>
     </Layout>
@@ -66,6 +76,7 @@ export const rsvpPageQuery = graphql`
       html
       frontmatter {
         title
+        featuredImage
         notes_placeholder
         attending_msg
         not_attending_msg

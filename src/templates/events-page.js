@@ -5,18 +5,23 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { EventItem } from '../components/events/event-item';
 import { Row, Col, Card } from 'react-bootstrap';
+import { ImageHeader } from '../components/ImageHeader';
 
 export const EventsPageTemplate = ({
   title,
   content,
   contentComponent,
+  featuredImage,
   event_items
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section">
-      <h2 className="title text-primary">{title}</h2>
+      <ImageHeader image={featuredImage}>
+        <h1>{title}</h1>
+      </ImageHeader>
+      {/* <h2 className="title text-primary">{title}</h2> */}
       {content && (
         <Card>
           <Card.Body>
@@ -70,6 +75,7 @@ const EventsPage = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         event_items={post.frontmatter.event_items}
+        featuredImage={post.frontmatter.featuredImage}
       />
     </Layout>
   );
@@ -87,6 +93,7 @@ export const eventsPageQuery = graphql`
       html
       frontmatter {
         title
+        featuredImage
         event_items {
           title
           date

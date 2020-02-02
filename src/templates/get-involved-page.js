@@ -5,18 +5,23 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { Card } from 'react-bootstrap';
 import { WhereToStay } from '../components/get-involved/WhereToStay';
+import { ImageHeader } from '../components/ImageHeader';
 
 export const GetInvolvedPageTemplate = ({
   title,
   content,
   contentComponent,
+  featuredImage,
   where_to_stay
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section">
-      <h2 className="title text-primary">{title}</h2>
+      <ImageHeader image={featuredImage}>
+        <h1>{title}</h1>
+      </ImageHeader>
+      {/* <h2 className="title text-primary">{title}</h2> */}
       <Card>
         <Card.Body>
           <PageContent className="content" content={content} />
@@ -42,6 +47,7 @@ const GetInvolvedPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={page.frontmatter.title}
         content={page.html}
+        featuredImage={page.frontmatter.featuredImage}
         where_to_stay={page.frontmatter.where_to_stay}
       />
     </Layout>
@@ -60,6 +66,7 @@ export const getInvolvedPageQuery = graphql`
       html
       frontmatter {
         title
+        featuredImage
         where_to_stay {
           heading
           hotels {

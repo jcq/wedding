@@ -8,6 +8,7 @@ const FaqPagePreview = ({ entry, widgetFor }) => (
     <FaqPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
+      featuredImage={entry.getIn(['data', 'featuredImage'])}
     />
   </CmsLayout>
 );

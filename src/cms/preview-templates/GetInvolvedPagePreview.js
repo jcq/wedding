@@ -12,6 +12,7 @@ const GetInvolvedPagePreview = ({ entry, widgetFor }) => {
     <GetInvolvedPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
+      featuredImage={entry.getIn(['data', 'featuredImage'])}
       where_to_stay={where_to_stay}
     />
   </CmsLayout>
