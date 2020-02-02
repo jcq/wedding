@@ -16,7 +16,7 @@ Yes! Preferably yours.
 
 After extensive research into local meteorological data, we can report the following:
 
-* June 20 typically sees temperatures ranging from 62F to 77F, with a 41% chance of some type of precipitation.
+* June 20 typically sees temperatures ranging from 62ºF to 77ºF, with a 41% chance of some type of precipitation.
 * Volgograd, Russia (5,485 mi away) and Benxi, China (6,058 mi away) are the farthest locations with temperatures most similar to the Twin Cities.
 
 The reception will take place in an historic barn without sophisticated climate control, so please plan accordingly.
@@ -31,7 +31,7 @@ We will officially kick things off at 5:30pm. Please feel free to come hang out 
 
 ##### What else is happening this weekend?
 
-We suppose you could check out the Vikings Begin exhibition at the American Swedish Institute. Or, you could hang out with us Friday and/or Sunday! Check out the details here.
+We suppose you could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, you could hang out with us Friday and/or Sunday! Check out the details here.
 
 ##### How do I get to Minnesota? Is it the same as Wisconsin? Where should I stay?
 
@@ -45,4 +45,4 @@ To make sure our vendors can have everything ready on time, please RSVP by April
 
 If Kathleen tricks you into leaving the celebration for a pickleball match, it is a trap. However, the nearest court is XXXX, only XXX mi away.
 
-*If you have any other questions, please reach out to either JC or Megan, or email MiragliaQuirin2020@Igmail.com*
+*If you have any other questions, please reach out to either JC or Megan, or email [MiragliaQuirin2020@gmail.com](mailto:MiragliaQuirin2020@gmail.com)*
