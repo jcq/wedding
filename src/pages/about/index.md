@@ -6,11 +6,13 @@ featuredImage: >-
 ---
 ### Megan
 
-Originally from Ohio, the offspring of career public servants, Megan has devoted their career to fighting for environmental justice, political change, and puppies. As a burgeoning urban farmer, Megan raises two dogs, six chickens, and, incidentally, one turkey.
+Originally from Ohio, the offspring of lifelong public servants, Megan has devoted their career to fighting for environmental justice, political change, and puppies. With a degree in zoology, Megan is a burgeoning urban farmer, working a 3,500 sq. foot plot of vegetables and native flora and caring for two dogs, six chickens, and, quite by accident, one turkey. Megan currently works as a fundraising consultant and chess instructor, a background known to put voters' hearts at ease.
 
-They have yet have a campaign end in victory, but there's always a first time.
+A veteran of political campaigns from California to upstate New York and Washington, D.C., Megan has yet to enjoy the taste of victory, but there's always a first time.
 
 ### JC
+
+
 
 To-date, JC's only successful campaign involved an eight-month recount.
 
