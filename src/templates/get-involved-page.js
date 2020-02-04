@@ -6,13 +6,15 @@ import Content, { HTMLContent } from '../components/Content';
 import { Card } from 'react-bootstrap';
 import { WhereToStay } from '../components/get-involved/WhereToStay';
 import { ImageHeader } from '../components/ImageHeader';
+import { ThingsToDo } from '../components/get-involved/ThingsToDo';
 
 export const GetInvolvedPageTemplate = ({
   title,
   content,
   contentComponent,
   featuredImage,
-  where_to_stay
+  where_to_stay,
+  things_to_do
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -28,6 +30,9 @@ export const GetInvolvedPageTemplate = ({
         </Card.Body>
       </Card>
       <WhereToStay {...where_to_stay} className="mt-4" />
+      {things_to_do?.heading && (
+        <ThingsToDo {...things_to_do} className="mt-4" />
+      )}
     </section>
   );
 };
@@ -49,6 +54,7 @@ const GetInvolvedPage = ({ data }) => {
         content={page.html}
         featuredImage={page.frontmatter.featuredImage}
         where_to_stay={page.frontmatter.where_to_stay}
+        things_to_do={page.frontmatter.things_to_do}
       />
     </Layout>
   );
@@ -75,6 +81,10 @@ export const getInvolvedPageQuery = graphql`
             address
             notes
           }
+        }
+        things_to_do {
+          heading
+          body
         }
       }
     }
