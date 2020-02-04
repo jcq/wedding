@@ -1,6 +1,6 @@
 ---
 templateKey: get-involved-page
-title: Get Involved
+title: How to Get Involved
 where_to_stay:
   heading: Where to Stay
   hotels:
