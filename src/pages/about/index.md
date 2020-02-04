@@ -18,9 +18,7 @@ JC went to college for computer science, and realized he preferred politics. He 
 
 His father was a state representative from Rochester until Gov. Wendy Anderson asked him to work in his administration (and the voters decided they preferred a Republican), and his mother worked for Sen. Mondale before he was a VP or asked, "Where's the beef?" 
 
-
-
-To-date, JC's only successful campaign involved an eight-month recount.
+To date, JC's only successful campaign involved an eight-month recount.
 
 ### Stronger Together
 
