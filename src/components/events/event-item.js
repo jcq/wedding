@@ -19,7 +19,7 @@ export const EventItem = ({ title, start, end, location, address, body }) => {
           {formattedDate}
           <br />
           <small>
-            {startTime}–{endTime}
+            {startTime} – {endTime}
           </small>
         </Card.Title>
         <address className="pt-1">
