@@ -73,6 +73,7 @@ export const getInvolvedPageQuery = graphql`
             name
             distance
             address
+            notes
           }
         }
       }

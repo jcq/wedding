@@ -11,7 +11,7 @@ const gMapUrl = ({ location, address }) => {
   return gMapUrl;
 };
 
-export const HotelCard = ({ name, address }) => (
+export const HotelCard = ({ name, address, notes }) => (
   <Card>
     <Card.Body>
       <Card.Title>{name}</Card.Title>
@@ -44,6 +44,7 @@ export const HotelCard = ({ name, address }) => (
           </div>
         )}
       </address>
+      {notes && <div class="notes">{notes}</div>}
     </Card.Body>
   </Card>
 );
