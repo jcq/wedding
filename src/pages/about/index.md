@@ -12,7 +12,7 @@ A veteran of political campaigns from California to upstate New York and Washing
 
 ### JC
 
-A native of Little Canada, Minnesota, JC didn't actually visit the big Canada until Megan took him there in 2013. The youngest of his father's 11 children and the oldest of his mother's 1 child, JC grew up in a political family. His father was a state representative and his mother worked for Sen. Mondale and the Minnesota DFL; they introduced JC to politics at a young age, taking him to a Mondale/Ferraro rally in '84 and committing many instances of voter fraud because he liked to flip the switches and pull the levers in the voting booths.
+A native of Little Canada, Minnesota, JC didn't actually visit the big Canada until Megan took him there in 2013. The youngest of his father's 11 children and the oldest of his mother's 1 child, JC grew up in a political family. His father was a state representative and his mother worked for the Minnesota DFL; they introduced JC to politics at a young age, taking him to a Mondale/Ferraro rally in '84 and committing many, many instances of voter fraud because he liked to flip the switches and pull the levers in the voting booths.
 
 JC went to college for computer science, and realized he preferred politics. He started working in politics and immediately realized they didn't know how to use computers. He's worked at the nexus of politics, government, and technology ever since, since he can tell a good thing when he sees it (this is also why he signed on to the ticket with Megan).
 
