@@ -6,7 +6,7 @@ featuredImage: >-
 ---
 ### Megan
 
-Originally from Ohio, The offspring of career public servants, Megan has devoted their career to fighting for environmental justice, political change, and puppies. As a burgeoning urban farmer, Megan raises two dogs, six chickens, and, incidentally, one turkey.
+Originally from Ohio, the offspring of career public servants, Megan has devoted their career to fighting for environmental justice, political change, and puppies. As a burgeoning urban farmer, Megan raises two dogs, six chickens, and, incidentally, one turkey.
 
 They have yet have a campaign end in victory, but there's always a first time.
 
