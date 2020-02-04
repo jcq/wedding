@@ -22,4 +22,8 @@ To date, JC's only successful campaign involved an eight-month recount.
 
 ### Stronger Together
 
-Despite their poor track record working on the campaigns of others, JC and Megan are confident that, together, victory is guaranteed.
+Despite their poor track record working on the campaigns of others, JC and Megan are confident that, together, victory is guaranteed. 
+
+They've been on the campaign trail for seven years, traveling the country coast-to-coast from Washington DC to California, hiring a great team that includes special advisers Radar & Annie along the way. 
+
+Megan's favorite thing about JC is his vacuuming; JC's favorite thing about Megan is her willingness do what it takes to make the world a better place, even if it means getting her hands dirty (often "what it takes" involves cleaning chicken coops). 
