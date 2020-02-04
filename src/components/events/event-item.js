@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 import { format } from 'date-fns';
 import { Card } from 'react-bootstrap';
 
-export const EventItem = ({ title, date, location, address, body }) => {
-  const formattedDate = format(new Date(date), 'MMM dd, yyyy');
+export const EventItem = ({ title, start, end, location, address, body }) => {
+  const formattedDate = format(new Date(start), 'MMM dd, yyyy');
+  const startTime = format(new Date(start), 'HH:MM');
+  const endTime = format(new Date(end), 'HH:MM');
 
   const gMapUrl = `https://www.google.com/maps/search/?api=1&query=${location},${address}`;
   const encUrl = encodeURI(gMapUrl);
@@ -13,7 +15,13 @@ export const EventItem = ({ title, date, location, address, body }) => {
     <Card>
       <Card.Header as="h4">{title}</Card.Header>
       <Card.Body>
-        <Card.Title>{formattedDate}</Card.Title>
+        <Card.Title>
+          {formattedDate}
+          <br />
+          <small>
+            {startTime}–{endTime}
+          </small>
+        </Card.Title>
         <address className="pt-1">
           {location && <div>{location}</div>}
           {address.split('\n').map((item, key) => {
@@ -37,6 +45,7 @@ export const EventItem = ({ title, date, location, address, body }) => {
             </div>
           )}
         </address>
+        {body && <div class="body">{body}</div>}
       </Card.Body>
     </Card>
   );

@@ -31,11 +31,12 @@ export const EventsPageTemplate = ({
       )}
 
       <Row className="justify-content-center mt-4">
-        {event_items.map(({ title, date, location, address, body }) => (
+        {event_items.map(({ title, start, end, location, address, body }) => (
           <Col key={title}>
             <EventItem
               title={title}
-              date={date}
+              start={start}
+              end={end}
               body={body}
               location={location}
               address={address}
@@ -54,7 +55,8 @@ EventsPageTemplate.propTypes = {
   event_items: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
-      date: PropTypes.string,
+      start: PropTypes.string,
+      end: PropTypes.string,
       location: PropTypes.string,
       address: PropTypes.string,
       description: PropTypes.string,
@@ -96,7 +98,8 @@ export const eventsPageQuery = graphql`
         featuredImage
         event_items {
           title
-          date
+          start
+          end
           location
           address
           description
