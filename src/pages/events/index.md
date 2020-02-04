@@ -23,7 +23,8 @@ event_items:
       eu consequat ac. Consequat mauris nunc congue nisi vitae. Mi quis
 
       hendrerit dolor magna. Amet risus nullam eget felis eget nunc.
-    date: 2020-06-20T00:30:00.000Z
+    start: 2020-06-20T00:30:00.000Z
+    end: 2020-06-20T02:30:00.000Z
     description: 'Feel free to join us Friday evening for an open house '
     featuredevent: false
     location: Sweeney's Saloon
@@ -48,7 +49,8 @@ event_items:
       eu consequat ac. Consequat mauris nunc congue nisi vitae. Mi quis
 
       hendrerit dolor magna. Amet risus nullam eget felis eget nunc.
-    date: 2020-06-21T18:00:00.000Z
+    start: 2020-06-21T18:00:00.000Z
+    end: 2020-06-21T18:00:00.000Z
     description: 'Internal description, not on public page'
     location: TBD
     templateKey: event
