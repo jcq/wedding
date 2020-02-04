@@ -29,9 +29,7 @@ event_items:
     location: Sweeney's Saloon
     templateKey: event
     title: Friday Evening
-  - address: |-
-      2170 County Rd D E
-      Maplewood, MN 55109
+  - address: ''
     body: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
@@ -50,11 +48,11 @@ event_items:
       eu consequat ac. Consequat mauris nunc congue nisi vitae. Mi quis
 
       hendrerit dolor magna. Amet risus nullam eget felis eget nunc.
-    date: 2020-06-20T21:30:27.645Z
+    date: 2020-06-21T18:00:00.000Z
     description: 'Internal description, not on public page'
-    location: Bruentrup Heritage Farm
+    location: TBD
     templateKey: event
-    title: Reception
+    title: Sunday
 ---
 ### Schedule of Events
 - Pre-party!
