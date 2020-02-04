@@ -107,7 +107,8 @@ collections:
                   default: 'event',
                 }
               - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: 'Date', name: 'date', widget: 'datetime' }
+              - { label: 'Date (Start)', name: 'start', widget: 'datetime' }
+              - { label: 'Date (End)', name: 'end', widget: 'datetime' }
               - {
                   label: 'Location',
                   name: 'location',
@@ -151,6 +152,26 @@ collections:
               name: 'featuredImage',
               widget: image,
               required: false,
+            }
+          - {
+              label: 'Things to Do',
+              name: things_to_do,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Heading,
+                    name: heading,
+                    widget: string,
+                    required: false,
+                  },
+                  {
+                    label: 'Body',
+                    name: 'body',
+                    widget: 'markdown',
+                    required: false,
+                  },
+                ],
             }
           - {
               label: 'Where to Stay',
