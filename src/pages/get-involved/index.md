@@ -9,7 +9,7 @@ where_to_stay:
         Vadnais Heights, MN 55110
       distance: 3.3 miles / 8 min
       name: Fairfield Inn & Suites
-      notes: ''
+      notes: Lorem ipsum
       templateKey: hotel
 ---
 Lorem ipsum and all the things
