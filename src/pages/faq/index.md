@@ -14,7 +14,7 @@ Because we love farms! Sadly (or fortunately for some of you), there are no anim
 
 ##### What else is happening this weekend?
 
-We suppose you could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, you could hang out with us Friday and/or Sunday! Check out the details here.
+We suppose you could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, you could hang out with us (even more) Friday evening and/or Sunday! Check out the Events page [here](https://miragliaquirin2020.com/events).
 
 ##### Can I bring kids?
 
@@ -39,11 +39,11 @@ We have tried to be accommodating in our food options, but please let us know yo
 
 ##### How do I get to Minnesota? Is it the same as Wisconsin? Where should I stay?
 
-Minnesota is technically a different state than Wisconsin, but just barely. Please find this information (and more!) here.
+Minnesota is technically a different state than Wisconsin, but just barely. Please find this information (and more!) [here](https://miragliaquirin2020.com/get-involved).
 
 ##### Do I need to RSVP?
 
-That would be nice. Please RSVP by April 27 here.
+That would be nice. Please RSVP by April 27 [here](https://miragliaquirin2020.com/rsvp).
 
 ##### Where can I play pickleball?
 
