@@ -16,19 +16,19 @@ Because we love farms! Sadly (or fortunately for some of you), there are no anim
 
 We suppose you could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, you could hang out with us Friday and/or Sunday! Check out the details here.
 
-##### What should I wear?
-
-Please dress however you will be most comfortable! “Casual Dress Code”, if you need something official. We will spend time outside on grass, so consider this when making shoe decisions.
-
 ##### Can I bring kids?
 
 Yes! Preferably yours.
+
+##### What should I wear?
+
+Please dress however you will be most comfortable! “Casual Dress Code”, if you need something official. It will be pleasant during daylight hours, but may be a little chilly in the evening. We will spend time outside on grass, so consider this when making shoe decisions.
 
 ##### What will the weather be like?
 
 After extensive research into local meteorological data, we can report the following:
 
-* June 20 typically sees temperatures ranging from 62ºF to 77ºF, with a 41% chance of some type of precipitation. (uh-oh!)
+* June 20 typically sees temperatures ranging from 62º F to 77º F, with a 41% chance of some type of precipitation. (uh-oh!)
 * Volgograd, Russia (5,485 mi away) and Benxi, China (6,058 mi away) are the farthest locations with temperatures most similar to the Twin Cities.
 
 The reception will take place in an historic barn without sophisticated climate control, so please plan accordingly.
