@@ -4,6 +4,18 @@ title: Frequently Asked Questions
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 ---
+##### When should I arrive?
+
+We will officially kick things off at 5:30pm. Please feel free to come hang out up to an hour beforehand. Nothing exciting will be happening, but there is some cool to stuff to look at on the farm.
+
+##### But why are you getting married on a farm? Are there going to be animals?
+
+Because we love farms! Sadly (or fortunately for some of you), there are no animals on this farm out of respect to guests with allergies or who do not want to smell muddy pigs while they eat. Yes, that was Megan's preferred venue.
+
+##### What else is happening this weekend?
+
+We suppose you could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, you could hang out with us Friday and/or Sunday! Check out the details here.
+
 ##### What should I wear?
 
 Please dress however you will be most comfortable! “Casual Dress Code”, if you need something official. We will spend time outside on grass, so consider this when making shoe decisions.
@@ -25,21 +37,13 @@ The reception will take place in an historic barn without sophisticated climate 
 
 We have tried to be accommodating in our food options, but please let us know your restrictions so we can make sure you are safe and sated!
 
-##### When should I arrive?
-
-We will officially kick things off at 5:30pm. Please feel free to come hang out with us up to an hour beforehand, though nothing exciting will be happening.
-
-##### What else is happening this weekend?
-
-We suppose you could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, you could hang out with us Friday and/or Sunday! Check out the details here.
-
 ##### How do I get to Minnesota? Is it the same as Wisconsin? Where should I stay?
 
 Minnesota is technically a different state than Wisconsin, but just barely. Please find this information (and more!) here.
 
 ##### Do I need to RSVP?
 
-To make sure our vendors can have everything ready on time, please RSVP by April 27 here.
+That would be nice. Please RSVP by April 27 here.
 
 ##### Where can I play pickleball?
 
