@@ -50,6 +50,13 @@ event_items:
 ---
 ### Saturday Celebration
 
+**June 20, 2020**\
+5:30-11:00
+
+Bruentrup Heritage Farm\
+2170 County Rd D E\
+Maplewood, MN 55109
+
 * 5:00 pm: Greetings
 * 5:30 pm: Ceremony
 * 5:45 pm: Socializing
