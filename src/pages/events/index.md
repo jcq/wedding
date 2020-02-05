@@ -48,9 +48,10 @@ event_items:
     templateKey: event
     title: Sunday
 ---
-### Schedule of Events
-- Pre-party!
-- Ceremony
-- Reception
-- Brunch?
+### Saturday Celebration
 
+* 5:00 pm: Greetings
+* 5:30 pm: Ceremony
+* 5:45 pm: Socializing
+* 7:00 pm: Dinner
+* 8:00 pm: Dancing, Merriment
