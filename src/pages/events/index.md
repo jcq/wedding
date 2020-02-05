@@ -8,7 +8,7 @@ event_items:
       96 Dale St N
       St Paul, MN 55102
     description: Friday Evening Event Description
-    end: 2020-06-20T02:30:00.000Z
+    end: 2020-06-20T03:00:00.000Z
     featuredevent: false
     location: Sweeney's Saloon
     templateKey: event
@@ -17,9 +17,9 @@ event_items:
       [Sweeney's Saloon](http://sweeneyssaloon.com/).
 
 
-      No, we aren't buying;\
+      Yes, they have cheese curds.\
 
-      yes, they have cheese curds.
+      No, we aren't buying.
     start: 2020-06-20T00:30:00.000Z
     title: Friday Evening
   - address: ''
