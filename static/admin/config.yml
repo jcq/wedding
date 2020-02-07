@@ -121,7 +121,12 @@ collections:
                   widget: 'text',
                   required: false,
                 }
-              - { label: 'Description', name: 'description', widget: 'text' }
+              - {
+                  label: 'Description',
+                  name: 'description',
+                  widget: 'text',
+                  required: false,
+                }
               - {
                   label: 'Featured Event',
                   name: 'featuredevent',
@@ -134,7 +139,7 @@ collections:
                   widget: image,
                   required: false,
                 }
-              - { label: 'Body', name: 'body', widget: 'markdown' }
+              - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - file: 'src/pages/get-involved/index.md'
         label: 'Get Involved'
         name: 'get-involved'
