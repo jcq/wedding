@@ -37,6 +37,59 @@ collections:
   #     - {label: "Featured Image", name: "featuredimage", widget: image}
   #     - {label: "Body", name: "body", widget: "markdown"}
   #     - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "events"
+    label: "Events"
+    folder: "src/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'event',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date (Start)', name: 'start', widget: 'datetime' }
+      - { label: 'Date (End)', name: 'end', widget: 'datetime' }
+      - {
+          label: 'Location',
+          name: 'location',
+          widget: 'string',
+          required: false,
+        }
+      - {
+          label: 'Address',
+          name: 'address',
+          widget: 'text',
+          required: false,
+        }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'text',
+          required: false,
+        }
+      - {
+          label: 'Featured Event',
+          name: 'featuredevent',
+          widget: 'boolean',
+          required: false,
+        }
+      - {
+          label: 'Featured Image',
+          name: 'featuredimage',
+          widget: image,
+          required: false,
+        }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          required: false,
+        }
+  
   - name: 'pages'
     label: 'Pages'
     files:
@@ -79,7 +132,7 @@ collections:
               required: false,
             }
       - file: 'src/pages/events/index.md'
-        label: 'Events'
+        label: 'Events Page'
         name: 'events'
         fields:
           - {
