@@ -89,6 +89,12 @@ collections:
               default: 'events-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Primary Heading',
+              name: 'heading',
+              widget: 'string',
+              required: false,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           - {
               label: 'Featured Image',
@@ -139,7 +145,12 @@ collections:
                   widget: image,
                   required: false,
                 }
-              - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+              - {
+                  label: 'Body',
+                  name: 'body',
+                  widget: 'markdown',
+                  required: false,
+                }
       - file: 'src/pages/get-involved/index.md'
         label: 'Get Involved'
         name: 'get-involved'

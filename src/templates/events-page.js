@@ -9,6 +9,7 @@ import { ImageHeader } from '../components/ImageHeader';
 
 export const EventsPageTemplate = ({
   title,
+  heading,
   content,
   contentComponent,
   featuredImage,
@@ -23,6 +24,7 @@ export const EventsPageTemplate = ({
       </ImageHeader>
       {content && (
         <Card>
+          {heading && <Card.Title>{heading}</Card.Title>}
           <Card.Body>
             <PageContent className="content" content={content} />
           </Card.Body>
@@ -49,6 +51,7 @@ export const EventsPageTemplate = ({
 
 EventsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  heading: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   event_items: PropTypes.arrayOf(
@@ -74,6 +77,7 @@ const EventsPage = ({ data }) => {
       <EventsPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        heading={post.frontmatter.heading}
         content={post.html}
         event_items={post.frontmatter.event_items}
         featuredImage={post.frontmatter.featuredImage}
@@ -94,6 +98,7 @@ export const eventsPageQuery = graphql`
       html
       frontmatter {
         title
+        heading
         featuredImage
         event_items {
           title
