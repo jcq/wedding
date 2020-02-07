@@ -5,8 +5,8 @@ import { Card } from 'react-bootstrap';
 
 export const EventItem = ({ title, start, end, location, address, body }) => {
   const formattedDate = format(new Date(start), 'MMM dd, yyyy');
-  const startTime = format(new Date(start), 'HH:MM');
-  const endTime = format(new Date(end), 'HH:MM');
+  const startTime = format(new Date(start), 'hh:mm aaaa');
+  const endTime = format(new Date(end), 'hh:mm aaaa');
 
   const gMapUrl = `https://www.google.com/maps/search/?api=1&query=${location},${address}`;
   const encUrl = encodeURI(gMapUrl);
