@@ -1,6 +1,7 @@
 ---
 templateKey: events-page
 title: Events
+heading: Saturday Celebration
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 event_items:
@@ -48,8 +49,6 @@ event_items:
     templateKey: event
     title: Sunday
 ---
-### Saturday Celebration
-
 **June 20, 2020**\
 5:30-11:00
 
