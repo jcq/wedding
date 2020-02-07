@@ -1,10 +1,26 @@
 ---
 templateKey: events-page
 title: Events
-heading: Saturday Celebration
+heading: ''
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 event_items:
+  - address: |-
+      2170 County Rd D E
+      Maplewood, MN 55109
+    description: ''
+    end: 2020-06-21T06:00:00.000Z
+    featuredevent: true
+    location: Bruentrup Heritage Farm
+    templateKey: event
+    body: |-
+      * 5:00 pm: Greetings
+      * 5:30 pm: Ceremony
+      * 5:45 pm: Socializing
+      * 7:00 pm: Dinner
+      * 8:00 pm: Dancing, Merriment
+    start: 2020-06-21T00:30:00.000Z
+    title: Saturday Celebration
   - address: |-
       96 Dale St N
       St Paul, MN 55102
@@ -24,6 +40,11 @@ event_items:
     start: 2020-06-20T00:30:00.000Z
     title: Friday Evening
   - address: ''
+    description: 'Internal description, not on public page'
+    end: 2020-06-21T18:00:00.000Z
+    featuredevent: false
+    location: TBD
+    templateKey: event
     body: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
@@ -42,22 +63,7 @@ event_items:
       eu consequat ac. Consequat mauris nunc congue nisi vitae. Mi quis
 
       hendrerit dolor magna. Amet risus nullam eget felis eget nunc.
-    description: 'Internal description, not on public page'
-    end: 2020-06-21T18:00:00.000Z
-    location: TBD
     start: 2020-06-21T18:00:00.000Z
-    templateKey: event
     title: Sunday
 ---
-**June 20, 2020**\
-5:30-11:00
-
-Bruentrup Heritage Farm\
-2170 County Rd D E\
-Maplewood, MN 55109
-
-* 5:00 pm: Greetings
-* 5:30 pm: Ceremony
-* 5:45 pm: Socializing
-* 7:00 pm: Dinner
-* 8:00 pm: Dancing, Merriment
+ 
