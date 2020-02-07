@@ -40,7 +40,7 @@ collections:
 
   - name: "events"
     label: "Events"
-    folder: "src/events"
+    folder: "src/pages/events"
     create: true
     slug: "{{slug}}"
     fields:
@@ -48,7 +48,7 @@ collections:
           label: 'Template Key',
           name: 'templateKey',
           widget: 'hidden',
-          default: 'event',
+          default: 'event-item',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date (Start)', name: 'start', widget: 'datetime' }

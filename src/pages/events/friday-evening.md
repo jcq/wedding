@@ -1,5 +1,5 @@
 ---
-templateKey: event
+templateKey: events
 title: Friday Evening
 start: 2020-06-20T00:30:00.000Z
 end: 2020-06-20T03:00:00.000Z

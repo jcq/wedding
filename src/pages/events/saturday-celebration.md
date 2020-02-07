@@ -1,5 +1,5 @@
 ---
-templateKey: event
+templateKey: events
 title: Saturday Celebration
 start: 2020-06-21T00:30:00.000Z
 end: 2020-06-21T06:00:00.000Z

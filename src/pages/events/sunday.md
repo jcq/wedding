@@ -1,5 +1,5 @@
 ---
-templateKey: event
+templateKey: events
 title: Sunday
 start: 2020-06-21T18:00:00.000Z
 end: 2020-06-21T18:00:00.000Z

@@ -13,35 +13,34 @@ export const EventsPageTemplate = ({
   content,
   contentComponent,
   featuredImage,
-  event_items
+  events
 }) => {
   const PageContent = contentComponent || Content;
+
+  const featured = events.find(i => i.featuredevent);
+  const others = events.filter(i => !i.featuredevent);
 
   return (
     <section className="section">
       <ImageHeader image={featuredImage}>
         <h1>{title}</h1>
       </ImageHeader>
-      {content && (
+
+      {/* {content && (
         <Card>
-          {heading && <Card.Title>{heading}</Card.Title>}
+          {heading && <Card.Header as="h3">{heading}</Card.Header>}
           <Card.Body>
             <PageContent className="content" content={content} />
           </Card.Body>
         </Card>
-      )}
+      )} */}
 
-      <Row className="justify-content-center mt-4">
-        {event_items.map(({ title, start, end, location, address, body }) => (
-          <Col key={title}>
-            <EventItem
-              title={title}
-              start={start}
-              end={end}
-              body={body}
-              location={location}
-              address={address}
-            />
+      <EventItem event={featured} />
+
+      <Row className="justify-content-center">
+        {others.map(event => (
+          <Col key={event.id} className="mt-4">
+            <EventItem event={event} />
           </Col>
         ))}
       </Row>
@@ -54,7 +53,7 @@ EventsPageTemplate.propTypes = {
   heading: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  event_items: PropTypes.arrayOf(
+  events: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
       start: PropTypes.string,
@@ -62,7 +61,7 @@ EventsPageTemplate.propTypes = {
       location: PropTypes.string,
       address: PropTypes.string,
       description: PropTypes.string,
-      featuredevent: PropTypes.string,
+      featuredevent: PropTypes.bool,
       featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       body: PropTypes.string
     })
@@ -70,17 +69,25 @@ EventsPageTemplate.propTypes = {
 };
 
 const EventsPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const {
+    page,
+    eventsRemark: { edges }
+  } = data;
+  const events = edges.map(({ node }) => ({
+    id: node.id,
+    ...node.frontmatter,
+    body: node.html
+  }));
 
   return (
     <Layout>
       <EventsPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        heading={post.frontmatter.heading}
-        content={post.html}
-        event_items={post.frontmatter.event_items}
-        featuredImage={post.frontmatter.featuredImage}
+        title={page.frontmatter.title}
+        heading={page.frontmatter.heading}
+        content={page.html}
+        events={events}
+        featuredImage={page.frontmatter.featuredImage}
       />
     </Layout>
   );
@@ -94,7 +101,7 @@ export default EventsPage;
 
 export const eventsPageQuery = graphql`
   query EventsPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    page: markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         title
@@ -107,6 +114,30 @@ export const eventsPageQuery = graphql`
           location
           address
           description
+          featuredevent
+          body
+        }
+      }
+    }
+    eventsRemark: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "events" } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          html
+          frontmatter {
+            title
+            start
+            end
+            location
+            address
+            description
+            featuredevent
+          }
         }
       }
     }
