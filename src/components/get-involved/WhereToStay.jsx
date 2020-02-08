@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Card, Row, Col } from 'react-bootstrap';
-import Content from '../Content';
+import ReactMarkdown from 'react-markdown/with-html';
 
 const gMapUrl = ({ location, address }) => {
   const loc = encodeURIComponent(location);
@@ -54,7 +54,7 @@ export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
     <Card className={className}>
       {heading && <Card.Header as="h4">{heading}</Card.Header>}
       <Card.Body>
-        {body && <Content content={body} />}
+        {body && <ReactMarkdown source={body} />}
         {hotels.length && (
           <div className="hotel-list">
             <Row>

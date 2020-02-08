@@ -75,6 +75,7 @@ export const getInvolvedPageQuery = graphql`
         featuredImage
         where_to_stay {
           heading
+          body
           hotels {
             name
             distance
