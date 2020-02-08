@@ -14,19 +14,21 @@ things_to_do:
     **Minneapolis**
 
 
-    * American Swedish Institute
+    * **[American Swedish Institute](https://www.asimn.org/)**
 
+      [](https://www.asimn.org/)Swedish history museum, culture center, and mansion
     * **[Mall of America](https://www.mallofamerica.com/)**
 
       Over 96 acres of mall. It is bigly.
     * **[Mill City Museum](https://www.mnhs.org/millcity)**
 
-      [](https://www.mnhs.org/millcity)A museum on the history of flour and milling built into the stunning ruins of what was once the world's largest flour mill.
+      [](https://www.mnhs.org/millcity)A museum on the history of flour and milling built into the stunning ruins of what was once the world's largest flour mill
     * **[Minneapolis Institute of Art](https://new.artsmia.org/)**
 
       [](https://new.artsmia.org/)Diverse fine arts museum: all free!
-    * Minneapolis Sculpture Garden
+    * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**
 
+      [](https://walkerart.org/visit/garden)An 11-acre downtown park with 40+ iconic sculptures
     * **[Minnehaha
     Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**
 
@@ -61,7 +63,9 @@ things_to_do:
     [](https://www.smm.org/)**Surrounding Area**
 
 
-    * Stillwater
+    * **[Stillwater](https://www.discoverstillwater.com/)**
+
+      Stillwater is a charming town on the bank of the St. Croix River and popular daytrip or weekend destination. Located 30 minutes from Minneapolis and only 15 minutes from our venue.
   heading: Things to Do
 where_to_stay:
   body: >-
