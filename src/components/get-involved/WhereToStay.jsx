@@ -16,14 +16,15 @@ export const HotelCard = ({ name, address, notes }) => (
     <Card.Body>
       <Card.Title>{name}</Card.Title>
       <address className="pt-1">
-        {address.split('\n').map((item, key) => {
-          return (
-            <React.Fragment key={key}>
-              {item}
-              <br />
-            </React.Fragment>
-          );
-        })}
+        {address &&
+          address.split('\n').map((item, key) => {
+            return (
+              <React.Fragment key={key}>
+                {item}
+                <br />
+              </React.Fragment>
+            );
+          })}
 
         {address && (
           <div>
