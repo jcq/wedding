@@ -19,10 +19,12 @@ things_to_do:
     * **[Mall of America](https://www.mallofamerica.com/)**
 
       Over 96 acres of mall. It is bigly.
-    * Mill City Museum
+    * **[Mill City Museum](https://www.mnhs.org/millcity)**
 
-    * Minneapolis Institute of Art
+      [](https://www.mnhs.org/millcity)A museum on the history of flour and milling built into the stunning ruins of what was once the world's largest flour mill.
+    * **[Minneapolis Institute of Art](https://new.artsmia.org/)**
 
+      [](https://new.artsmia.org/)Diverse fine arts museum: all free!
     * Minneapolis Sculpture Garden
 
     * **[Minnehaha
