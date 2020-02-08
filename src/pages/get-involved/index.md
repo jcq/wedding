@@ -5,27 +5,39 @@ featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 things_to_do:
   body: >-
-    Intro language
+    Welcome to Minnesota!
 
 
-    Distance listed is from hotel blocks in respective city.
+    Unfortunately, you won't be here for State Fair season and probably won't
+    have time for a canoe trip on the Boundary Waters, but we hope you'll come
+    back.
+
+
+    Here are some other things you might enjoy:
 
 
     **Minneapolis**
 
 
-    * American Swedish Institute
+    * **[American Swedish Institute](https://www.asimn.org/)**
 
-    * Mall of America
+      [](https://www.asimn.org/)Swedish history museum, culture center, and mansion
+    * **[Mall of America](https://www.mallofamerica.com/)**
 
-    * Mill City Museum
+      Over 96 acres of mall. It is bigly.
+    * **[Mill City Museum](https://www.mnhs.org/millcity)**
 
-    * Minneapolis Institute of Art
+      [](https://www.mnhs.org/millcity)A museum on the history of flour and milling built into the stunning ruins of what was once the world's largest flour mill
+    * **[Minneapolis Institute of Art](https://new.artsmia.org/)**
 
-    * Minneapolis Sculpture Garden
+      [](https://new.artsmia.org/)Diverse fine arts museum: all free!
+    * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**
 
-    * Minnehaha Falls
+      [](https://walkerart.org/visit/garden)An 11-acre downtown park with 40+ iconic sculptures
+    * **[Minnehaha
+    Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**
 
+      A surprising waterfall and short trail in the midst of the city.
 
     **St. Paul**
 
@@ -56,12 +68,40 @@ things_to_do:
     [](https://www.smm.org/)**Surrounding Area**
 
 
-    * Stillwater
+    * **[Stillwater](https://www.discoverstillwater.com/)**
+
+      Located 30 minutes from Minneapolis and only 15 minutes from our venue, Stillwater is a charming small town on the bank of the St. Croix River and popular tourist destination.  There are walking paths, antique stores, boat rentals, and tours and sightseeing.
   heading: Things to Do
 where_to_stay:
   body: >-
-    \- We have reserved two hotel blocks; pros/cons or MPLS vs. STPL; mention
-    Stillwater
+    We have two hotel room blocks: one in downtown Minneapolis and one in
+    downtown Saint Paul.
+
+
+    Feel free to stay at either - or neither!
+
+
+    *A little bit about Minneapolis:*
+
+
+    Minneapolis your more typical big city vibe, with a denser downtown, lots of
+    restaurants and popular neighborhoods. Traffic and parking will be as
+    expected.
+
+
+    Minnesota is 16 mi (around 16 minutes sans traffic) from our venue.
+
+
+    *The down-low on St. Paul:*
+
+
+    St. Paul is the more laid-back twin, with a less bustling downtown, plenty
+    of good restaurants, but not the same foodie scene. While both cities have
+    Mississippi River access, St. Paul has a better view, as well as the
+    beautiful capitol building.
+
+
+    St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
   heading: Where to Stay
   hotels:
     - address: |-
@@ -74,4 +114,4 @@ where_to_stay:
 ---
 \- Airport Info
 
-\- Transportation (light rail, ride share, rental car)
+We found the closest farm we could to the Twin Cities in the hopes that you don’t feel pressured to rent a car if you don’t want to!  you have the option to take a Lyft or Uber.
