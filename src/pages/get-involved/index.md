@@ -16,16 +16,19 @@ things_to_do:
 
     * American Swedish Institute
 
-    * Mall of America
+    * **[Mall of America](https://www.mallofamerica.com/)**
 
+      Over 96 acres of mall. It is bigly.
     * Mill City Museum
 
     * Minneapolis Institute of Art
 
     * Minneapolis Sculpture Garden
 
-    * Minnehaha Falls
+    * **[Minnehaha
+    Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**
 
+      A surprising waterfall and short trail in the midst of the city.
 
     **St. Paul**
 
