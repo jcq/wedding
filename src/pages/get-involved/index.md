@@ -16,30 +16,30 @@ things_to_do:
     Here are some other things you might enjoy:
 
 
-    #### **Minneapolis**
+    ##### **Minneapolis:**
 
 
     * **[American Swedish Institute](https://www.asimn.org/)**
 
-      [](https://www.asimn.org/)Swedish history museum, culture center, and mansion
+      [](https://www.asimn.org/)Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
     * **[Mall of America](https://www.mallofamerica.com/)**
 
       Over 96 acres of mall. It is bigly.
     * **[Mill City Museum](https://www.mnhs.org/millcity)**
 
-      [](https://www.mnhs.org/millcity)A museum on the history of flour and milling built into the stunning ruins of what was once the world's largest flour mill
+      [](https://www.mnhs.org/millcity)Who knew a museum on the history of flour and milling could be this stunning?
     * **[Minneapolis Institute of Art](https://new.artsmia.org/)**
 
       [](https://new.artsmia.org/)Diverse fine arts museum: all free!
     * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**
 
-      [](https://walkerart.org/visit/garden)An 11-acre downtown park with 40+ iconic sculptures
+      [](https://walkerart.org/visit/garden)An 11-acre park with 40+ iconic sculptures
     * **[Minnehaha
     Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**
 
       A surprising waterfall and short trail in the midst of the city.
 
-    #### **St. Paul**
+    ##### **St. Paul:**
 
 
     * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*
@@ -65,7 +65,7 @@ things_to_do:
 
       Museum with exhibits on technology, natural history, physical science, and mathematics
 
-    #### [](https://www.smm.org/)**Surrounding Area**
+    ##### [](https://www.smm.org/)**Surrounding Area:**
 
 
     * **[Stillwater](https://www.discoverstillwater.com/)**
@@ -75,7 +75,10 @@ things_to_do:
 where_to_stay:
   body: >-
     We have two hotel room blocks: one in downtown Minneapolis and one in
-    downtown Saint Paul. Feel free to stay at either - or neither!
+    downtown Saint Paul.
+
+
+    Feel free to stay at either - or neither!
   heading: Where to Stay
   hotels:
     - address: TBD
@@ -96,6 +99,8 @@ where_to_stay:
         building.
       templateKey: hotel
 ---
-\- Airport Info
+We can't wait for you to join us!
 
-We found the closest farm we could to the Twin Cities in the hopes that you don’t feel pressured to rent a car if you don’t want to!  you have the option to take a Lyft or Uber.
+If you are flying in, **MSP Airport: Minneapolis−Saint Paul International Airport** is the airport servicing the Twin Cities.
+
+\[JC INSERT TRANSPORTATION OPTIONS AND CONSIDERATIONS]
