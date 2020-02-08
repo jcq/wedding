@@ -70,7 +70,7 @@ things_to_do:
 
     * **[Stillwater](https://www.discoverstillwater.com/)**
 
-      Located 30 minutes from Minneapolis and only 15 minutes from our venue, Stillwater is a charming small town on the bank of the St. Croix River and popular tourist destination.  There are walking paths, antique stores, boat rentals, and tours and sightseeing.
+      Located 30 minutes from Minneapolis and 15 minutes from our venue, Stillwater is a charming town and popular tourist destination on the bank of the St. Croix River.  There are walking paths, antique stores, boat rentals, tours, and sightseeing.
   heading: Things to Do
 where_to_stay:
   body: >-
