@@ -26,4 +26,6 @@ where_to_stay:
       notes: Lorem ipsum
       templateKey: hotel
 ---
-Lorem ipsum and all the things
+\- Airport Info
+
+\- Transportation (light rail, ride share, rental car)
