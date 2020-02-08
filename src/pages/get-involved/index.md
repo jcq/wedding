@@ -16,7 +16,7 @@ things_to_do:
     Here are some other things you might enjoy:
 
 
-    **Minneapolis**
+    #### **Minneapolis**
 
 
     * **[American Swedish Institute](https://www.asimn.org/)**
@@ -39,7 +39,7 @@ things_to_do:
 
       A surprising waterfall and short trail in the midst of the city.
 
-    **St. Paul**
+    #### **St. Paul**
 
 
     * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*
@@ -65,7 +65,7 @@ things_to_do:
 
       Museum with exhibits on technology, natural history, physical science, and mathematics
 
-    [](https://www.smm.org/)**Surrounding Area**
+    #### [](https://www.smm.org/)**Surrounding Area**
 
 
     * **[Stillwater](https://www.discoverstillwater.com/)**
@@ -81,7 +81,7 @@ where_to_stay:
     Feel free to stay at either - or neither!
 
 
-    *A little bit about Minneapolis:*
+    ***A little bit about Minneapolis:***
 
 
     Minneapolis your more typical big city vibe, with a denser downtown, lots of
@@ -92,7 +92,7 @@ where_to_stay:
     Minnesota is 16 mi (around 16 minutes sans traffic) from our venue.
 
 
-    *The down-low on St. Paul:*
+    ***The down-low on St. Paul:***
 
 
     St. Paul is the more laid-back twin, with a less bustling downtown, plenty
@@ -104,12 +104,13 @@ where_to_stay:
     St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
   heading: Where to Stay
   hotels:
-    - address: |-
-        1125 East Co Rd E
-        Vadnais Heights, MN 55110
-      distance: 3.3 miles / 8 min
-      name: Fairfield Inn & Suites
-      notes: Lorem ipsum
+    - address: ''
+      distance: ''
+      name: Minneapolis Hotel - TBD
+      notes: ''
+      templateKey: hotel
+    - name: The Saint Paul Hotel
+      notes: ''
       templateKey: hotel
 ---
 \- Airport Info
