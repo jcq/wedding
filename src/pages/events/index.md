@@ -5,24 +5,23 @@ heading: Saturday Celebration
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 event_items:
-  - address: |-
-      96 Dale St N
-      St Paul, MN 55102
+  - address: tbd
     description: Friday Evening Event Description
     end: 2020-06-20T03:00:00.000Z
     featuredevent: false
-    location: Sweeney's Saloon
+    location: tbd
     templateKey: event
     body: >-
       Feel free to join us Friday evening for a casual get-together at
       [Sweeney's Saloon](http://sweeneyssaloon.com/).
 
 
-      Yes, they have cheese curds.\
-
       No, we aren't buying.
+
+
+      Yes, they have cheese curds.
     start: 2020-06-20T00:30:00.000Z
-    title: Friday Evening
+    title: Friday Evening - TBD
   - address: ''
     body: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
