@@ -78,7 +78,7 @@ where_to_stay:
     downtown Saint Paul. Feel free to stay at either - or neither!
   heading: Where to Stay
   hotels:
-    - address: ''
+    - address: TBD
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Minneapolis Hotel - TBD
       notes: >-
@@ -86,7 +86,8 @@ where_to_stay:
         lots of restaurants and popular neighborhoods. Traffic and parking will
         be as expected.
       templateKey: hotel
-    - distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
+    - address: TBD
+      distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
       name: The Saint Paul Hotel
       notes: >-
         St. Paul is the more laid-back twin, with a less bustling downtown,
