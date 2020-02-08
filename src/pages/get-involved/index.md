@@ -5,17 +5,63 @@ featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 things_to_do:
   body: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Tincidunt dui ut ornare
-    lectus. Adipiscing bibendum est ultricies integer quis auctor elit. Pulvinar
-    neque laoreet suspendisse interdum consectetur libero.
+    Intro language
+
+
+    Distance listed is from hotel blocks in respective city.
+
+
+    **Minneapolis**
+
+
+    * American Swedish Institute
+
+    * Mall of America
+
+    * Mill City Museum
+
+    * Minneapolis Institute of Art
+
+    * Minneapolis Sculpture Garden
+
+    * Minnehaha Falls
+
+
+    **St. Paul**
+
+
+    * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*
+
+      Small indoor/outdoor zoo and conservatory: all free!
+    * **[Harriet Island Regional
+    Park](https://www.stpaul.gov/departments/parks-recreation/harriet-island-regional-park)**
+    *(1 mi)*
+
+      Popular park and community space with paddle boats the along the Mississippi River
+    * **[James J. Hill House](https://www.mnhs.org/hillhouse)** *(1.1 mi)*
+
+      Historic home completed in 1891 by railroad magnate James J. Hill offering daily tours
+    * **[Minnesota History Center](https://www.mnhs.org/historycenter)** *(0.9
+    mi)*
+
+      Museum all about Minnesota, including a special exhibit on the women before and after the passage of the 19th Amendment.
+    * **[Mississippi Riverwalk and Park](<120 W Kellogg Blvd, St Paul, MN
+    55102>)** *(0.3 mi)*
+
+      5.8 mi trail flat trail along the shoreline with view of trees and wildlife.
+    * **[Science Museum of Minnesota](https://www.smm.org/)** *(0.3 mi)*
+
+      Museum with exhibits on technology, natural history, physical science, and mathematics
+
+    [](https://www.smm.org/)**Surrounding Area**
+
+
+    * Stillwater
   heading: Things to Do
 where_to_stay:
   body: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Tincidunt dui ut ornare
-    lectus. Adipiscing bibendum est ultricies integer quis auctor elit. Pulvinar
-    neque laoreet suspendisse interdum consectetur libero. 
+    \- We have reserved two hotel blocks; pros/cons or MPLS vs. STPL; mention
+    Stillwater
   heading: Where to Stay
   hotels:
     - address: |-
@@ -26,4 +72,6 @@ where_to_stay:
       notes: Lorem ipsum
       templateKey: hotel
 ---
-Lorem ipsum and all the things
+\- Airport Info
+
+\- Transportation (light rail, ride share, rental car)
