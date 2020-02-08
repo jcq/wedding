@@ -3,7 +3,7 @@ import uploadcare from 'netlify-cms-media-library-uploadcare';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
 
 import AboutPagePreview from './preview-templates/AboutPagePreview';
-import EventsPagePreview from './preview-templates/EventsPagePreview';
+import EventItemPreview from './preview-templates/EventItemPreview';
 import FaqPagePreview from './preview-templates/FaqPagePreview';
 import GetInvolvedPagePreview from './preview-templates/GetInvolvedPagePreview';
 import RsvpPagePreview from './preview-templates/RsvpPagePreview';
@@ -22,7 +22,7 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('index', IndexPagePreview);
 CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('faq', FaqPagePreview);
-CMS.registerPreviewTemplate('events', EventsPagePreview);
+CMS.registerPreviewTemplate('events', EventItemPreview);
 CMS.registerPreviewTemplate('get-involved', GetInvolvedPagePreview);
 CMS.registerPreviewTemplate('rsvp', RsvpPagePreview);
 CMS.registerPreviewTemplate('thanks', ThankYouPagePreview);

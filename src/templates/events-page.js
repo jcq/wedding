@@ -15,7 +15,7 @@ export const EventsPageTemplate = ({
   featuredImage,
   events
 }) => {
-  const PageContent = contentComponent || Content;
+  // const PageContent = contentComponent || Content;
 
   const featured = events.find(i => i.featuredevent);
   const others = events.filter(i => !i.featuredevent);
