@@ -38,7 +38,7 @@ const Header = ({ variant = 'light' }) => {
             <Nav.Link as={Link} to="/faq">
               FAQ
             </Nav.Link>
-            <NavButton to="/rsvp" variant="danger">
+            <NavButton to="/rsvp" variant="danger" className="ml-2">
               RSVP
             </NavButton>
           </Nav>
