@@ -16,7 +16,7 @@ things_to_do:
     Here are some other things you might enjoy:
 
 
-    **Minneapolis**
+    #### **Minneapolis**
 
 
     * **[American Swedish Institute](https://www.asimn.org/)**
@@ -39,7 +39,7 @@ things_to_do:
 
       A surprising waterfall and short trail in the midst of the city.
 
-    **St. Paul**
+    #### **St. Paul**
 
 
     * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*
@@ -65,51 +65,35 @@ things_to_do:
 
       Museum with exhibits on technology, natural history, physical science, and mathematics
 
-    [](https://www.smm.org/)**Surrounding Area**
+    #### [](https://www.smm.org/)**Surrounding Area**
 
 
     * **[Stillwater](https://www.discoverstillwater.com/)**
 
-      Located 30 minutes from Minneapolis and only 15 minutes from our venue, Stillwater is a charming small town on the bank of the St. Croix River and popular tourist destination.  There are walking paths, antique stores, boat rentals, and tours and sightseeing.
+      Located 30 minutes from Minneapolis and 15 minutes from our venue, Stillwater is a charming town and popular tourist destination on the bank of the St. Croix River.  There are walking paths, antique stores, boat rentals, tours, and sightseeing.
   heading: Things to Do
 where_to_stay:
   body: >-
     We have two hotel room blocks: one in downtown Minneapolis and one in
-    downtown Saint Paul.
-
-
-    Feel free to stay at either - or neither!
-
-
-    *A little bit about Minneapolis:*
-
-
-    Minneapolis your more typical big city vibe, with a denser downtown, lots of
-    restaurants and popular neighborhoods. Traffic and parking will be as
-    expected.
-
-
-    Minnesota is 16 mi (around 16 minutes sans traffic) from our venue.
-
-
-    *The down-low on St. Paul:*
-
-
-    St. Paul is the more laid-back twin, with a less bustling downtown, plenty
-    of good restaurants, but not the same foodie scene. While both cities have
-    Mississippi River access, St. Paul has a better view, as well as the
-    beautiful capitol building.
-
-
-    St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
+    downtown Saint Paul. Feel free to stay at either - or neither!
   heading: Where to Stay
   hotels:
-    - address: |-
-        1125 East Co Rd E
-        Vadnais Heights, MN 55110
-      distance: 3.3 miles / 8 min
-      name: Fairfield Inn & Suites
-      notes: Lorem ipsum
+    - address: TBD
+      distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
+      name: Minneapolis Hotel - TBD
+      notes: >-
+        Minneapolis has a more typical big city vibe, with a dense downtown,
+        lots of restaurants, and popular neighborhoods. Expect city traffic and
+        parking.
+      templateKey: hotel
+    - address: TBD
+      distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
+      name: The Saint Paul Hotel
+      notes: >-
+        St. Paul is more laid-back, with a less bustling downtown, plenty of
+        good restaurants, but not the same foodie scene. While both cities have
+        river access, St. Paul has a better view, and the beautiful capitol
+        building.
       templateKey: hotel
 ---
 \- Airport Info
