@@ -16,7 +16,7 @@ things_to_do:
     Here are some other things you might enjoy:
 
 
-    #### **Minneapolis**
+    #### **Minneapolis:**
 
 
     * **[American Swedish Institute](https://www.asimn.org/)**
@@ -39,7 +39,7 @@ things_to_do:
 
       A surprising waterfall and short trail in the midst of the city.
 
-    #### **St. Paul**
+    #### **St. Paul:**
 
 
     * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*
@@ -65,7 +65,7 @@ things_to_do:
 
       Museum with exhibits on technology, natural history, physical science, and mathematics
 
-    #### [](https://www.smm.org/)**Surrounding Area**
+    #### [](https://www.smm.org/)**Surrounding Area:**
 
 
     * **[Stillwater](https://www.discoverstillwater.com/)**
