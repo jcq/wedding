@@ -79,4 +79,4 @@ where_to_stay:
 ---
 \- Airport Info
 
-\- Transportation (light rail, ride share, rental car)
+We found the closest farm we could to the Twin Cities in the hopes that you don’t feel pressured to rent a car if you don’t want to! The venue is 16 mi (\~20 min) from Minneapolis and 10 mi (\~10 min) from St. Paul, so depending on where you stay, you have the option to take a Lyft or Uber.
