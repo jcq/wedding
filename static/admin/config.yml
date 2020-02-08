@@ -354,6 +354,12 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Featured Image',
+              name: 'featuredImage',
+              widget: image,
+              required: false,
+            }
       - file: 'src/pages/faq/index.md'
         label: 'FAQ'
         name: 'faq'

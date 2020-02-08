@@ -23,7 +23,7 @@ export const GetInvolvedPageTemplate = ({
       <ImageHeader image={featuredImage}>
         <h1>{title}</h1>
       </ImageHeader>
-      {/* <h2 className="title text-primary">{title}</h2> */}
+
       <Card>
         <Card.Body>
           <PageContent className="content" content={content} />

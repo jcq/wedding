@@ -21,7 +21,7 @@ export const RsvpPageTemplate = ({
       <ImageHeader image={featuredImage}>
         <h1>{title}</h1>
       </ImageHeader>
-      {/* <h2 className="title text-primary">{title}</h2> */}
+
       <Card>
         <Card.Body>
           <Card.Title>
@@ -38,7 +38,8 @@ RsvpPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  notesPlaceholder: PropTypes.string
+  notesPlaceholder: PropTypes.string,
+  featuredImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const RsvpPage = ({ data }) => {

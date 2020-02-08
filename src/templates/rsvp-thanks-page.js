@@ -4,17 +4,22 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { Card } from 'react-bootstrap';
+import { ImageHeader } from '../components/ImageHeader';
 
 export const RsvpThanksPageTemplate = ({
   title,
   content,
-  contentComponent
+  contentComponent,
+  featuredImage
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section">
-      <h2 className="title text-primary">{title}</h2>
+      <ImageHeader image={featuredImage}>
+        <h1>{title}</h1>
+      </ImageHeader>
+
       <Card>
         <Card.Body>
           <PageContent className="content" content={content} />
@@ -27,7 +32,8 @@ export const RsvpThanksPageTemplate = ({
 RsvpThanksPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
+  featuredImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const RsvpThanksPage = ({ data }) => {
@@ -39,6 +45,7 @@ const RsvpThanksPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        featuredImage={post.frontmatter.featuredImage}
       />
     </Layout>
   );
@@ -56,6 +63,7 @@ export const rsvpThanksPageQuery = graphql`
       html
       frontmatter {
         title
+        featuredImage
       }
     }
   }
