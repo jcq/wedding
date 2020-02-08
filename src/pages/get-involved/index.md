@@ -75,14 +75,11 @@ things_to_do:
 where_to_stay:
   body: >-
     We have two hotel room blocks: one in downtown Minneapolis and one in
-    downtown Saint Paul.
-
-
-    Feel free to stay at either - or neither!
+    downtown Saint Paul. Feel free to stay at either - or neither!
   heading: Where to Stay
   hotels:
     - address: ''
-      distance: Minnesota is 16 mi (around 16 minutes sans traffic) from our venue.
+      distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Minneapolis Hotel - TBD
       notes: >-
         Minneapolis your more typical big city vibe, with a denser downtown,
