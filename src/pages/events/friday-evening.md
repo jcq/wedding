@@ -7,6 +7,7 @@ location: Sweeney's Saloon
 address: |-
   96 Dale St N
   St Paul, MN 55102
+description: x
 ---
 Feel free to join us Friday evening for a casual get-together at [Sweeney's Saloon](http://sweeneyssaloon.com/).
 
