@@ -22,7 +22,7 @@ event_items:
       Yes, they have cheese curds.
     start: 2020-06-20T00:30:00.000Z
     title: Friday Evening - TBD
-  - address: ''
+  - address: tbd
     body: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
