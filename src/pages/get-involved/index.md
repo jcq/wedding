@@ -82,18 +82,18 @@ where_to_stay:
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Minneapolis Hotel - TBD
       notes: >-
-        Minneapolis your more typical big city vibe, with a denser downtown,
-        lots of restaurants and popular neighborhoods. Traffic and parking will
-        be as expected.
+        Minneapolis has a more typical big city vibe, with a dense downtown,
+        lots of restaurants, and popular neighborhoods. Expect city traffic and
+        parking.
       templateKey: hotel
     - address: TBD
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
       name: The Saint Paul Hotel
       notes: >-
-        St. Paul is the more laid-back twin, with a less bustling downtown,
-        plenty of good restaurants, but not the same foodie scene. While both
-        cities have Mississippi River access, St. Paul has a better view, as
-        well as the beautiful capitol building.
+        St. Paul is more laid-back, with a less bustling downtown, plenty of
+        good restaurants, but not the same foodie scene. While both cities have
+        river access, St. Paul has a better view, and the beautiful capitol
+        building.
       templateKey: hotel
 ---
 \- Airport Info
