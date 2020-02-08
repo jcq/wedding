@@ -4,14 +4,30 @@ title: How to Get Involved
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
 things_to_do:
-  body: "Intro\n\n* American Swedish Institute\r\n* Mall of America\r\n* Mill City Museum\r\n* Minneapolis Institute of Art\r\n* Minneapolis Sculpture Garden\r\n* Minnehaha Falls\r\n"
+  body: |-
+    Intro language
+
+    **Minneapolis**
+
+    * American Swedish Institute
+    * Mall of America
+    * Mill City Museum
+    * Minneapolis Institute of Art
+    * Minneapolis Sculpture Garden
+    * Minnehaha Falls
+
+    **St. Paul**
+
+    *
+
+    **Surrounding Area**
+
+    * Stillwater
   heading: Things to Do
 where_to_stay:
   body: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Tincidunt dui ut ornare
-    lectus. Adipiscing bibendum est ultricies integer quis auctor elit. Pulvinar
-    neque laoreet suspendisse interdum consectetur libero. 
+    \- We have reserved two hotel blocks; pros/cons or MPLS vs. STPL; mention
+    Stillwater
   heading: Where to Stay
   hotels:
     - address: |-
