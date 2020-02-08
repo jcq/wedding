@@ -21,19 +21,19 @@ things_to_do:
 
     * **[American Swedish Institute](https://www.asimn.org/)**
 
-      [](https://www.asimn.org/)Swedish history museum, culture center, and mansion
+      [](https://www.asimn.org/)Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
     * **[Mall of America](https://www.mallofamerica.com/)**
 
       Over 96 acres of mall. It is bigly.
     * **[Mill City Museum](https://www.mnhs.org/millcity)**
 
-      [](https://www.mnhs.org/millcity)A museum on the history of flour and milling built into the stunning ruins of what was once the world's largest flour mill
+      [](https://www.mnhs.org/millcity)Who knew a museum on the history of flour and milling could be this stunning?
     * **[Minneapolis Institute of Art](https://new.artsmia.org/)**
 
       [](https://new.artsmia.org/)Diverse fine arts museum: all free!
     * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**
 
-      [](https://walkerart.org/visit/garden)An 11-acre downtown park with 40+ iconic sculptures
+      [](https://walkerart.org/visit/garden)An 11-acre park with 40+ iconic sculptures
     * **[Minnehaha
     Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**
 
@@ -96,6 +96,8 @@ where_to_stay:
         building.
       templateKey: hotel
 ---
-\- Airport Info
+We can't wait for you to join us!
 
-We found the closest farm we could to the Twin Cities in the hopes that you don’t feel pressured to rent a car if you don’t want to!  you have the option to take a Lyft or Uber.
+If you are flying in, **MSP Airport: Minneapolis−Saint Paul International Airport** is the airport servicing the Twin Cities.
+
+\[JC INSERT TRANSPORTATION OPTIONS AND CONSIDERATIONS]
