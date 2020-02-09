@@ -19,58 +19,49 @@ things_to_do:
     ##### **Minneapolis:**
 
 
-    * **[American Swedish Institute](https://www.asimn.org/)**
-
-      [](https://www.asimn.org/)Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
-    * **[Mall of America](https://www.mallofamerica.com/)**
-
-      Over 96 acres of mall. It is bigly.
-    * **[Mill City Museum](https://www.mnhs.org/millcity)**
-
-      [](https://www.mnhs.org/millcity)Who knew a museum on the history of flour and milling could be this stunning?
-    * **[Minneapolis Institute of Art](https://new.artsmia.org/)**
-
-      [](https://new.artsmia.org/)Diverse fine arts museum: all free!
-    * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**
-
-      [](https://walkerart.org/visit/garden)An 11-acre park with 40+ iconic sculptures
+    * **[American Swedish Institute](https://www.asimn.org/)**  
+      Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
+    
+    * **[Mall of America](https://www.mallofamerica.com/)**  
+      Over 96 acres of mall. It is bigly. Fun fact: it was a filming location for both *D2: The Mighty Ducks* and the holiday classic, *Jingle All the Way*.
+    
+    * **[Mill City Museum](https://www.mnhs.org/millcity)**  
+      Who knew a museum on the history of flour and milling could be this stunning?
+    
+    * **[Minneapolis Institute of Art](https://new.artsmia.org/)**  
+      Diverse fine arts museum: all free!
+    
+    * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**  
+      An 11-acre park with 40+ iconic sculptures
+    
     * **[Minnehaha
-    Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**
-
+    Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**  
       A surprising waterfall and short trail in the midst of the city.
 
-    ##### **St. Paul:**
+    ##### St. Paul:
 
-
-    * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*
-
+    * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*  
       Small indoor/outdoor zoo and conservatory: all free!
-    * **[Harriet Island Regional
-    Park](https://www.stpaul.gov/departments/parks-recreation/harriet-island-regional-park)**
-    *(1 mi)*
-
+    
+    * **[Harriet Island Regional Park](https://www.stpaul.gov/departments/parks-recreation/harriet-island-regional-park)** *(1 mi)*  
       Popular park and community space with paddle boats the along the Mississippi River
-    * **[James J. Hill House](https://www.mnhs.org/hillhouse)** *(1.1 mi)*
-
+    
+    * **[James J. Hill House](https://www.mnhs.org/hillhouse)** *(1.1 mi)*  
       Historic home completed in 1891 by railroad magnate James J. Hill offering daily tours
-    * **[Minnesota History Center](https://www.mnhs.org/historycenter)** *(0.9
-    mi)*
-
+    
+    * **[Minnesota History Center](https://www.mnhs.org/historycenter)** *(0.9 mi)*  
       Museum all about Minnesota, including a special exhibit on the women before and after the passage of the 19th Amendment.
-    * **[Mississippi Riverwalk and Park](<120 W Kellogg Blvd, St Paul, MN
-    55102>)** *(0.3 mi)*
-
+    
+    * **Mississippi Riverwalk and Park** *(0.3 mi)*  
       5.8 mi trail flat trail along the shoreline with view of trees and wildlife.
-    * **[Science Museum of Minnesota](https://www.smm.org/)** *(0.3 mi)*
 
+    * **[Science Museum of Minnesota](https://www.smm.org/)** *(0.3 mi)*
       Museum with exhibits on technology, natural history, physical science, and mathematics
 
-    ##### [](https://www.smm.org/)**Surrounding Area:**
+    ##### Surrounding Area:
 
-
-    * **[Stillwater](https://www.discoverstillwater.com/)**
-
-      Located 30 minutes from Minneapolis and 15 minutes from our venue, Stillwater is a charming town and popular tourist destination on the bank of the St. Croix River.  There are walking paths, antique stores, boat rentals, tours, and sightseeing.
+    * **[Stillwater](https://www.discoverstillwater.com/)**  
+      Located 30 minutes from Minneapolis and 15 minutes from our venue, Stillwater is a charming town and popular tourist destination on the bank of the St. Croix River.  There are walking paths, antique stores, boat rentals, tours, and sightseeing. The setting for *Grumpy Old Men* and *Beautiful Girls*, Stillwater is also known for its lift bridge and the enormous ice cream scoops at [Nelson's](https://www.nelsonsicecream.biz/).
   heading: Things to Do
 where_to_stay:
   body: >-
@@ -101,6 +92,9 @@ where_to_stay:
 ---
 We can't wait for you to join us!
 
-If you are flying in, **MSP Airport: Minneapolis−Saint Paul International Airport** is the airport servicing the Twin Cities.
+If you are flying in, **Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** is the airport servicing the Twin Cities.
 
-\[JC INSERT TRANSPORTATION OPTIONS AND CONSIDERATIONS]
+##### How to Get Around
+While the Twin Cities have always been fairly car-dependent, things have improved in recent years with public transportation. While neither city has a subway, one can take light rail from the airport (and Mall of America) to Downtown Minneapolis; from there one can take a separate line east, with a final stop in the historic Union Depot in Lowertown Saint Paul. There is also extensive bus service around the metro area if you are looking to avoid cars. Check out the [Metro Transit](https://www.metrotransit.org/trip-planner) website for more info.
+
+The wedding venue is around a 30 min drive from the airport (and less than 20 min from Downtown Saint Paul), but we would strongly advise using a car since busses would take over double that. Cars can be [rented at the airport](https://www.mspairport.com/directions/ground-transportation/car-rentals), or Lyft is a good option. Also apparently taxis are still a thing..?
