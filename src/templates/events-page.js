@@ -62,7 +62,7 @@ EventsPageTemplate.propTypes = {
       address: PropTypes.string,
       description: PropTypes.string,
       featuredevent: PropTypes.bool,
-      featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      featuredImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       body: PropTypes.string
     })
   )
@@ -137,6 +137,7 @@ export const eventsPageQuery = graphql`
             address
             description
             featuredevent
+            featuredImage
           }
         }
       }
