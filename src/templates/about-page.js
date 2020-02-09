@@ -6,6 +6,8 @@ import Content, { HTMLContent } from '../components/Content';
 import { Card } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 
+import styles from './about-page.scss';
+
 export const AboutPageTemplate = ({
   title,
   content,
@@ -22,7 +24,7 @@ export const AboutPageTemplate = ({
 
       <Card>
         <Card.Body>
-          <PageContent className="content" content={content} />
+          <PageContent className={`content ${styles.content}`} content={content} />
         </Card.Body>
       </Card>
     </section>

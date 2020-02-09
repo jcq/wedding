@@ -1,0 +1,19 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.content {
+  @include media-breakpoint-up(md) {
+    .gria-image-wrapper:nth-child(even) {
+      width: 25%;
+      float: right;
+      margin: 0 0 1rem 1rem;
+    }
+
+    .gria-image-wrapper:nth-child(odd) {
+        width: 35%;
+        float: left;
+        margin: 0 1rem 1rem 0;
+      }
+  }
+}
