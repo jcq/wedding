@@ -8,6 +8,7 @@ const ThankYouPagePreview = ({ entry, widgetFor }) => (
     <RsvpThanksPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
+      featuredImage={entry.getIn(['data', 'featuredImage'])}
     />
   </CmsLayout>
 );
