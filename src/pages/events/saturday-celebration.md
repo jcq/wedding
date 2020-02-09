@@ -8,6 +8,8 @@ address: |-
   2170 County Rd D E
   Maplewood, MN 55109
 featuredevent: true
+featuredimage: >-
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581202887/events/IMG_20190906_094722_zr8l7s.jpg
 ---
 * 5:00 pm: Greetings
 * 5:30 pm: Ceremony
