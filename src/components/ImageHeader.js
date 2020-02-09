@@ -7,7 +7,7 @@ import styles from './ImageHeader.scss';
 export const ImageHeader = ({ image, children, alignItems = 'center' }) => {
   const jumbotronStyles = {
     backgroundImage: `url(${
-      !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+      !!image?.childImageSharp ? image?.childImageSharp?.fluid.src : image
     })`
   };
 
