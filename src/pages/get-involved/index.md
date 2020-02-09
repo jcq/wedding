@@ -1,8 +1,8 @@
 ---
 templateKey: get-involved-page
-title: How to Get Involved
+title: Get Involved
 featuredImage: >-
-  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_faces,h_1200,w_3264/c_scale,w_1000/v1581202921/get_involved/header-getinvolved_db2vkw.jpg
 things_to_do:
   body: >-
     Welcome to Minnesota!

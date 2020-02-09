@@ -3,7 +3,7 @@ templateKey: events-page
 title: Events
 heading: Saturday Celebration
 featuredImage: >-
-  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_fill,g_auto:faces,h_700,w_1440,x_0/v1581202886/events/header-events_hxdnrk.jpg
 event_items:
   - address: tbd
     description: Friday Evening Event Description
