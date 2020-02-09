@@ -47,6 +47,6 @@ That would be nice. Please [RSVP by April 27](https://miragliaquirin2020.com/rsv
 
 ##### Where can I play pickleball?
 
-If Kathleen tricks you into leaving the celebration for a pickleball match, it is a trap. However, the nearest court is Tanners Lake Park in Oakdale, a mere 16 minutes away!
+If Kathleen tricks you into leaving the celebration for a pickleball match, it is a trap. However, there are nice courts at Tanners Lake Park in Oakdale, a mere 16 minutes away!
 
 *If you have any other questions, please reach out to either JC or Megan, or email [MiragliaQuirin2020@gmail.com](mailto:MiragliaQuirin2020@gmail.com)*
