@@ -121,6 +121,7 @@ export const eventsPageQuery = graphql`
     }
     eventsRemark: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "events" } } }
+      sort: { order: ASC, fields: [frontmatter___start] }
     ) {
       edges {
         node {
