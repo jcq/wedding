@@ -20,7 +20,7 @@ export const GetInvolvedPageTemplate = ({
 
   return (
     <section className="section">
-      <ImageHeader image={featuredImage}>
+      <ImageHeader image={featuredImage} alignItems="end">
         <h1>{title}</h1>
       </ImageHeader>
 
