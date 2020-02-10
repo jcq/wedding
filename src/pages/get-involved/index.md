@@ -3,105 +3,66 @@ templateKey: get-involved-page
 title: Get Involved
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_faces,h_1200,w_3264/c_scale,w_1000/v1581202921/get_involved/header-getinvolved_db2vkw.jpg
-things_to_do:
-  body: >-
-    Welcome to Minnesota!
-
-
-    Unfortunately, you won't be here for State Fair season and probably won't
-    have time for a canoe trip on the Boundary Waters, but we hope you'll come
-    back.
-
-    Here are some other things you might enjoy:
-
-    ##### Minneapolis:
-
-
-    * **[American Swedish Institute](https://www.asimn.org/)**  
-      Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
-    
-    * **[Mill City Museum](https://www.mnhs.org/millcity)**  
-      Who knew a museum on the history of flour and milling could be this stunning? Located next to the historic [Stone Arch Bridge](https://www.minneapolisparks.org/parks__destinations/historical_sites/stone_arch_bridge/), these provide the quintessential view of the Minneapolis riverfront.
-    
-    * **[Minneapolis Institute of Art](https://new.artsmia.org/)**  
-      Diverse fine arts museum: all free!
-    
-    ![JC, Megan, Cherry & Spoon](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1400/v1581202921/get_involved/IMG_20190905_184311_v06v9u.jpg)
-    
-    * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**  
-      An 11-acre park with 40+ iconic sculptures
-    
-    * **[Minnehaha
-    Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minnehaha_regional_park/)**  
-      A surprising waterfall and short trail in the midst of the city.
-
-    ##### St. Paul:
-
-    * **[Como Park Zoo & Conservatory](https://comofriends.org/)** *(4.8 mi)*  
-      Small indoor/outdoor zoo and conservatory: all free!
-    
-    * **[Harriet Island Regional Park](https://www.stpaul.gov/departments/parks-recreation/harriet-island-regional-park)** *(1 mi)*  
-      Popular park and community space with paddle boats the along the Mississippi River
-    
-    * **[James J. Hill House](https://www.mnhs.org/hillhouse)** *(1.1 mi)*  
-      Historic home completed in 1891 by railroad magnate James J. Hill offering daily tours
-    
-    * **[Minnesota History Center](https://www.mnhs.org/historycenter)** *(0.9 mi)*  
-      Museum all about Minnesota, including a special exhibit on the women before and after the passage of the 19th Amendment.
-
-    * **[Minnesota State Capitol](https://www.mnhs.org/capitol/activities) ** *(1.0 mi)*  
-      Designed by Cass Gilbert (who went on to design the U.S. Supreme Court building), the Minnesota Capitol is definitively — in JC's wholly unbiased opinion — in the top tier of capitol buildings in the country.
-    
-    * **Mississippi Riverwalk and Park** *(0.3 mi)*  
-      5.8 mi trail flat trail along the shoreline with view of trees and wildlife.
-
-    * **[Science Museum of Minnesota](https://www.smm.org/)** *(0.3 mi)*
-      Museum with exhibits on technology, natural history, physical science, and mathematics
-
-    ##### Surrounding Area:
-
-    * **[Mall of America](https://www.mallofamerica.com/)**  
-      Conveniently located next to MSP airport, this is over 96 acres of mall. It is bigly. Fun fact: it was a filming location for both *D2: The Mighty Ducks* and the holiday classic, *Jingle All the Way*.
-    
-    * **[Stillwater](https://www.discoverstillwater.com/)**  
-      Located 30 minutes from Minneapolis and 15 minutes from our venue, Stillwater is a charming town and popular tourist destination on the bank of the St. Croix River.  There are walking paths, antique stores, boat rentals, tours, and sightseeing. The setting for *Grumpy Old Men* and *Beautiful Girls*, Stillwater is also known for its lift bridge and the enormous scoops of ice cream at [Nelson's](https://www.nelsonsicecream.biz/).
-    
-    * **[Fort Snelling](http://www.mnhs.org/fortsnelling)**  
-      Historic Fort Snelling dates to the early 1800s is located at the confluence of the Minnesota and Mississippi rivers. Now run by the Minnesota Historical Society, it has restored fortifications and other buildings, and is set amongst the beauty of Fort Snelling State Park.
-  heading: Things to Do
 where_to_stay:
   body: >-
-    We have two hotel room blocks: one in downtown Minneapolis and one in
-    downtown Saint Paul.
+    **Minneapolis** has a more typical big city vibe, with a dense downtown,
+    lots of restaurants, and popular neighborhoods. Expect city traffic and
+    parking.
 
 
-    Feel free to stay at either - or neither!
+    **St. Paul** is more laid-back, with a less bustling downtown, plenty of
+    good restaurants, but not the same foodie scene. While both cities have
+    river access, St. Paul has a better view, and the beautiful capitol
+    building.
+
+
+    ---
+
+
+    We have two hotel room blocks available:\
+
+    one in downtown Minneapolis and one in downtown Saint Paul.
+
+
+    Feel free to stay at either – or neither!
+
+
+    *We only have a limited number of rooms reserved at rate, so please book
+    early.*
   heading: Where to Stay
   hotels:
     - address: TBD
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Minneapolis Hotel - TBD
-      notes: >-
-        Minneapolis has a more typical big city vibe, with a dense downtown,
-        lots of restaurants, and popular neighborhoods. Expect city traffic and
-        parking.
+      notes: ''
       templateKey: hotel
-    - address: TBD
+    - address: |-
+        350 N Market St
+        St Paul, MN 55102
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
-      name: The Saint Paul Hotel
+      name: Saint Paul Hotel
       notes: >-
-        St. Paul is more laid-back, with a less bustling downtown, plenty of
-        good restaurants, but not the same foodie scene. While both cities have
-        river access, St. Paul has a better view, and the beautiful capitol
-        building.
+        Built in 1910, this historic hotel is widely viewed as "the fancy one"
+        in St. Paul and has a much-lauded restaurant.
+         
+        Rates start at $149.
+
+
+        24-hour valet parking; complimentary local transportation.
       templateKey: hotel
 ---
-![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg)
-We can't wait for you to join us!
+![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
 
-If you are flying in, **Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** is the airport servicing the Twin Cities.
+**Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** is the airport servicing the Twin Cities.
 
 ##### How to Get Around
-While the Twin Cities have always been fairly car-dependent, things have improved in recent years with public transportation. While neither city has a subway, one can take light rail from the airport (and Mall of America) to Downtown Minneapolis; from there one can take a separate line east, with a final stop in the historic Union Depot in Lowertown Saint Paul. There is also extensive bus service around the metro area if you are looking to avoid cars. Check out the [Metro Transit](https://www.metrotransit.org/trip-planner) website for more info.
 
-The wedding venue is around a 30 min drive from the airport (and less than 20 min from Downtown Saint Paul), but we would strongly advise using a car since busses would take over double that. Cars can be [rented at the airport](https://www.mspairport.com/directions/ground-transportation/car-rentals), or Lyft is a good option. Also apparently taxis are still a thing..?
+You can take the [light rail](https://www.metrotransit.org/metro) Blue Line from the airport to Downtown Minneapolis, or transfer to the Green Line to the historic Union Deport to Lowertown Saint Paul.
+
+There is also extensive bus service around the metro area if you are looking to avoid cars. Check out the [Metro Transit](https://www.metrotransit.org/trip-planner) website for more info.
+
+The [venue](https://www.google.com/maps/place/Bruentrup+Heritage+Farm+and+the+Maplewood+Historical+Society/@45.035173,-93.0090352,15z/data=!4m5!3m4!1s0x0:0xf2366bbf258a29da!8m2!3d45.035173!4d-93.0090352) is around 20 minutes (sans traffic) from Minneapolis and 10 minutes Saint Paul by car.
+
+We strongly recommend taking a car to the venue. You can carpool, take a Lyft, and JC is learning that taxis are still a thing.
+
+If you would like to rent a car, they can be [rented at the airport](https://www.mspairport.com/directions/ground-transportation/car-rentals).
