@@ -26,6 +26,8 @@ things_to_do:
     * **[Minneapolis Institute of Art](https://new.artsmia.org/)**  
       Diverse fine arts museum: all free!
     
+    ![JC, Megan, Cherry & Spoon](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1400/v1581202921/get_involved/IMG_20190905_184311_v06v9u.jpg)
+    
     * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)**  
       An 11-acre park with 40+ iconic sculptures
     
@@ -94,6 +96,7 @@ where_to_stay:
         building.
       templateKey: hotel
 ---
+![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg)
 We can't wait for you to join us!
 
 If you are flying in, **Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** is the airport servicing the Twin Cities.

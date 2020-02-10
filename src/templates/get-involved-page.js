@@ -7,6 +7,7 @@ import { Card } from 'react-bootstrap';
 import { WhereToStay } from '../components/get-involved/WhereToStay';
 import { ImageHeader } from '../components/ImageHeader';
 import { ThingsToDo } from '../components/get-involved/ThingsToDo';
+import styles from './get-involved-page.module.scss'
 
 export const GetInvolvedPageTemplate = ({
   title,
@@ -14,7 +15,7 @@ export const GetInvolvedPageTemplate = ({
   contentComponent,
   featuredImage,
   where_to_stay,
-  things_to_do
+  thingsToDo
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -26,13 +27,11 @@ export const GetInvolvedPageTemplate = ({
 
       <Card>
         <Card.Body>
-          <PageContent className="content" content={content} />
+          <PageContent className={styles.content} content={content} />
         </Card.Body>
       </Card>
       <WhereToStay {...where_to_stay} className="mt-4" />
-      {things_to_do?.heading && (
-        <ThingsToDo {...things_to_do} className="mt-4" />
-      )}
+      {thingsToDo?.heading && <ThingsToDo {...thingsToDo} className="mt-4" />}
     </section>
   );
 };
@@ -44,7 +43,11 @@ GetInvolvedPageTemplate.propTypes = {
 };
 
 const GetInvolvedPage = ({ data }) => {
-  const { markdownRemark: page } = data;
+  const { markdownRemark: page, thingsToDoRemark } = data;
+  const thingsToDo = {
+    heading: thingsToDoRemark.frontmatter.heading,
+    body: thingsToDoRemark.html
+  };
 
   return (
     <Layout>
@@ -54,7 +57,7 @@ const GetInvolvedPage = ({ data }) => {
         content={page.html}
         featuredImage={page.frontmatter.featuredImage}
         where_to_stay={page.frontmatter.where_to_stay}
-        things_to_do={page.frontmatter.things_to_do}
+        thingsToDo={thingsToDo}
       />
     </Layout>
   );
@@ -87,6 +90,15 @@ export const getInvolvedPageQuery = graphql`
           heading
           body
         }
+      }
+    }
+    thingsToDoRemark: markdownRemark(
+      frontmatter: { templateKey: { eq: "things-to-do" } }
+    ) {
+      id
+      html
+      frontmatter {
+        heading
       }
     }
   }

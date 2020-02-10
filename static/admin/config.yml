@@ -222,26 +222,26 @@ collections:
               widget: image,
               required: false,
             }
-          - {
-              label: 'Things to Do',
-              name: things_to_do,
-              widget: object,
-              fields:
-                [
-                  {
-                    label: Heading,
-                    name: heading,
-                    widget: string,
-                    required: false,
-                  },
-                  {
-                    label: 'Body',
-                    name: 'body',
-                    widget: 'markdown',
-                    required: false,
-                  },
-                ],
-            }
+          # - {
+          #     label: 'Things to Do',
+          #     name: things_to_do,
+          #     widget: object,
+          #     fields:
+          #       [
+          #         {
+          #           label: Heading,
+          #           name: heading,
+          #           widget: string,
+          #           required: false,
+          #         },
+          #         {
+          #           label: 'Body',
+          #           name: 'body',
+          #           widget: 'markdown',
+          #           required: false,
+          #         },
+          #       ],
+          #   }
           - {
               label: 'Where to Stay',
               name: where_to_stay,
@@ -290,6 +290,28 @@ collections:
                       ],
                   },
                 ],
+            }
+      - file: 'src/pages/get-involved/things-to-do.md'
+        label: 'Things to Do'
+        name: 'things-to-do'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'things-to-do',
+            }
+          - {
+              label: Heading,
+              name: heading,
+              widget: string,
+              required: false,
+            }
+            - {
+              label: 'Body',
+              name: 'body',
+              widget: 'markdown',
+              required: false,
             }
       - file: 'src/pages/shop/index.md'
         label: 'Shop'
