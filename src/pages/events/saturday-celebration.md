@@ -1,6 +1,6 @@
 ---
 templateKey: events
-title: Saturday Celebration
+title: Saturday Ceremony & Celebration
 start: 2020-06-21T00:30:00.000Z
 end: 2020-06-21T06:00:00.000Z
 location: Bruentrup Heritage Farm
@@ -11,7 +11,7 @@ featuredevent: true
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581202887/events/IMG_20190906_094722_zr8l7s.jpg
 ---
-* 5:00 pm: Greetings
+* 5:00 pm: Welcome!
 * 5:30 pm: Ceremony
 * 5:45 pm: Socializing
 * 7:00 pm: Dinner
