@@ -4,12 +4,13 @@ title: Get Involved
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_faces,h_1200,w_3264/c_scale,w_1000/v1581202921/get_involved/header-getinvolved_db2vkw.jpg
 where_to_stay:
-  body: >-
-    We have two hotel room blocks: one in downtown Minneapolis and one in
-    downtown Saint Paul.
+  body: |-
+    We have two hotel room blocks available:\
+    one in downtown Minneapolis and one in downtown Saint Paul.
 
+    Feel free to stay at either – or neither!
 
-    Feel free to stay at either - or neither!
+    We only have a limited number of rooms, so please book early.
   heading: Where to Stay
   hotels:
     - address: TBD
