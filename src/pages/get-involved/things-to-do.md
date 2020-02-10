@@ -17,6 +17,9 @@ Here are some other things you might enjoy:
 * **[American Swedish Institute](https://www.asimn.org/)**  
     Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
 
+* **[Chain of Lakes](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minneapolis_chain_of_lakes_regional_park/)**  
+    Do you like bodies of water but have a tough time choosing just one? Want to know why they were called the Minneapolis Lakers before moving to LA? Minneapolis is called the City of Lakes for good reason, and you can check out a bunch of them in a small area, all connected by walking/biking paths.
+
 * **[Mill City Museum](https://www.mnhs.org/millcity)**  
     Who knew a museum on the history of flour and milling could be this stunning? Located next to the historic [Stone Arch Bridge](https://www.minneapolisparks.org/parks__destinations/historical_sites/stone_arch_bridge/), these provide the quintessential view of the Minneapolis riverfront.
 
@@ -44,7 +47,7 @@ Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minneha
 * **[Minnesota History Center](https://www.mnhs.org/historycenter)** *(0.9 mi)*  
     Museum all about Minnesota, including a special exhibit on the women before and after the passage of the 19th Amendment.
 
-* **[Minnesota State Capitol](https://www.mnhs.org/capitol/activities) ** *(1.0 mi)*  
+* **[Minnesota State Capitol](https://www.mnhs.org/capitol/activities)** *(1.0 mi)*  
     Designed by Cass Gilbert (who went on to design the U.S. Supreme Court building), the Minnesota Capitol is definitively — in JC's wholly unbiased opinion — in the top tier of capitol buildings in the country.
 
 * **Mississippi Riverwalk and Park** *(0.3 mi)*  
@@ -62,4 +65,4 @@ Falls](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minneha
     Located 30 minutes from Minneapolis and 15 minutes from our venue, Stillwater is a charming town and popular tourist destination on the bank of the St. Croix River.  There are walking paths, antique stores, boat rentals, tours, and sightseeing. The setting for *Grumpy Old Men* and *Beautiful Girls*, Stillwater is also known for its lift bridge and the enormous scoops of ice cream at [Nelson's](https://www.nelsonsicecream.biz/).
 
 * **[Fort Snelling](http://www.mnhs.org/fortsnelling)**  
-    Historic Fort Snelling dates to the early 1800s is located at the confluence of the Minnesota and Mississippi rivers. Now run by the Minnesota Historical Society, it has restored fortifications and other buildings, and is set amongst the beauty of Fort Snelling State Park.
+    Historic Fort Snelling dates to the early 1800s is located at the confluence of the Minnesota and Mississippi rivers. Now run by the Minnesota Historical Society, it has restored fortifications and other buildings, and is set amongst the beauty of Fort Snelling State Park and the Minnesota Valley National Wildlife Refuge.
