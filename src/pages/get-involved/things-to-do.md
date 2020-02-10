@@ -50,4 +50,4 @@ Here are some other things you might enjoy:
 * **[Stillwater](https://www.discoverstillwater.com/)**\
     30 minutes from Minneapolis and just 15 minutes from our venue, this charming tourist town sits on the bank of the St. Croix River with walking paths, sightseeing tours, antique stores, and boating. The setting for *Grumpy Old Men* and *Beautiful Girls*, Stillwater is also known for its lift bridge and the enormous scoops of ice cream at [Nelson's](https://www.nelsonsicecream.biz/).
 * **[Fort Snelling](http://www.mnhs.org/fortsnelling)**\
-    Fort Snelling, dating to the early 1800s, is located at the confluence of the Minnesota and Mississippi rivers. Now run by the Minnesota Historical Society, it has restored fortifications and other buildings, and is set amongst the beauty of Fort Snelling State Park and the Minnesota Valley National Wildlife Refuge.
+    Fort Snelling, dating to the early 1800s, is located at the confluence of the Minnesota and Mississippi rivers. It now features restored fortifications, and is set amongst the beauty of Fort Snelling State Park and the Minnesota Valley National Wildlife Refuge.
