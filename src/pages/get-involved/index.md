@@ -40,12 +40,15 @@ where_to_stay:
         350 N Market St
         St Paul, MN 55102
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
-      name: The Saint Paul Hotel
+      name: Saint Paul Hotel
       notes: >-
         Built in 1910, this historic hotel is widely viewed as "the fancy one"
         in St. Paul and has a much-lauded restaurant.
          
         Rates start at $149.
+
+
+        24-hour valet parking; complimentary local transportation.
       templateKey: hotel
 ---
 ![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
