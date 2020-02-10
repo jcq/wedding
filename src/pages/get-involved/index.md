@@ -31,10 +31,20 @@ where_to_stay:
     early.*
   heading: Where to Stay
   hotels:
-    - address: TBD
+    - address: |-
+        1313 Nicollet Mall
+        Minneapolis, MN 55403
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
-      name: Minneapolis Hotel - TBD
-      notes: ''
+      name: Millennium Hotel
+      notes: >-
+        A polished business hotel near the convention center with an indoor pool
+        and sauna.
+
+
+        Rates start at $109.
+
+
+        Self-parking is $21/night.
       templateKey: hotel
     - address: |-
         350 N Market St
@@ -48,7 +58,7 @@ where_to_stay:
         Rates start at $149.
 
 
-        24-hour valet parking; complimentary local transportation.
+        24-hour valet parking. They provide complimentary local transportation.
       templateKey: hotel
 ---
 ![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
