@@ -45,7 +45,7 @@ export const HotelCard = ({ name, address, notes }) => (
           </div>
         )}
       </address>
-      {notes && <div class="notes">{notes}</div>}
+      {notes && <div className="notes">{notes}</div>}
     </Card.Body>
   </Card>
 );
