@@ -4,31 +4,48 @@ title: Get Involved
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_faces,h_1200,w_3264/c_scale,w_1000/v1581202921/get_involved/header-getinvolved_db2vkw.jpg
 where_to_stay:
-  body: |-
+  body: >-
+    **Minneapolis** has a more typical big city vibe, with a dense downtown,
+    lots of restaurants, and popular neighborhoods. Expect city traffic and
+    parking.
+
+
+    **St. Paul** is more laid-back, with a less bustling downtown, plenty of
+    good restaurants, but not the same foodie scene. While both cities have
+    river access, St. Paul has a better view, and the beautiful capitol
+    building.
+
+
+    ---
+
+
     We have two hotel room blocks available:\
+
     one in downtown Minneapolis and one in downtown Saint Paul.
+
 
     Feel free to stay at either – or neither!
 
-    We only have a limited number of rooms, so please book early.
+
+    *We only have a limited number of rooms reserved at rate, so please book
+    early.*
   heading: Where to Stay
   hotels:
     - address: TBD
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Minneapolis Hotel - TBD
-      notes: >-
-        Minneapolis has a more typical big city vibe, with a dense downtown,
-        lots of restaurants, and popular neighborhoods. Expect city traffic and
-        parking.
+      notes: ''
       templateKey: hotel
-    - address: TBD
+    - address: |-
+        350 N Market St
+        St Paul, MN 55102
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
       name: The Saint Paul Hotel
       notes: >-
-        St. Paul is more laid-back, with a less bustling downtown, plenty of
-        good restaurants, but not the same foodie scene. While both cities have
-        river access, St. Paul has a better view, and the beautiful capitol
-        building.
+        Built in 1910, this historic hotel is widely viewed as "the fancy one"
+        in St. Paul and has a much-lauded restaurant.
+         
+        Rates start at $149.
       templateKey: hotel
 ---
 ![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
