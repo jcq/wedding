@@ -18,8 +18,8 @@ export const RsvpPageTemplate = ({
 
   return (
     <section className="section">
-      <ImageHeader image={featuredImage}>
-        <h1>{title}</h1>
+      <ImageHeader image={featuredImage} alignItems="start">
+        <h1 className="mt-4">{title}</h1>
       </ImageHeader>
 
       <Card>
