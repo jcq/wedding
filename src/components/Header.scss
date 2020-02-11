@@ -18,6 +18,12 @@
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
   }
+
+  @include media-breakpoint-down(sm) {
+    .navbar .navbar-nav {
+      background-color: #FFF;
+    }
+  }
 }
 
 .navbar-light {

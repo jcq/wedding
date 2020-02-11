@@ -22,7 +22,7 @@ const Header = ({ variant = 'light' }) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto p-2 p-md-0 bg-white">
+          <Nav className="ml-auto p-3 p-md-0">
             <Nav.Link as={Link} to="/about">
               About Us
             </Nav.Link>
