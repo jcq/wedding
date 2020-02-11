@@ -8,7 +8,8 @@ export const ImageHeader = ({
   image,
   children,
   alignItems = 'center',
-  justifyContent = 'start'
+  justifyContent = 'start',
+  className = ''
 }) => {
   const jumbotronStyles = {
     backgroundImage: `url(${
@@ -20,7 +21,7 @@ export const ImageHeader = ({
     <Jumbotron
       fluid
       style={jumbotronStyles}
-      className={`${styles.jumbotron} d-flex align-items-${alignItems} justify-content-${justifyContent}`}
+      className={`${styles.jumbotron} d-flex align-items-${alignItems} justify-content-${justifyContent} ${className}`}
     >
       {children}
     </Jumbotron>
