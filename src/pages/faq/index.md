@@ -2,7 +2,7 @@
 templateKey: faq-page
 title: Frequently Asked Questions
 featuredImage: >-
-  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom/c_scale,w_1200/v1579838540/DSC_0433.NEF_gl1dzx.jpg
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_south_west,h_2221,w_4118/v1581381941/DSC_0055.NEF_cjqmfz.jpg
 ---
 ##### When should I arrive?
 
