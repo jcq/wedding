@@ -2,7 +2,7 @@
 templateKey: get-involved-page
 title: Get Involved
 featuredImage: >-
-  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_faces,h_1200,w_3264/c_scale,w_1000/v1581202921/get_involved/header-getinvolved_db2vkw.jpg
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto,h_886,w_3208/v1581403478/DSC_0167_17043.NEF_tngvwj.jpg
 where_to_stay:
   body: >-
     **Minneapolis** has a more typical big city vibe, with a dense downtown,
