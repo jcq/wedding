@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import { EventItem } from '../components/events/event-item';
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 
 export const EventsPageTemplate = ({
