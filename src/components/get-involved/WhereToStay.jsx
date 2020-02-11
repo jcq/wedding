@@ -54,7 +54,7 @@ export const HotelCard = ({ name, url, address, phone, notes }) => (
           </div>
         )}
       </address>
-      {notes && <div className="notes">{notes}</div>}
+      {notes && <ReactMarkdown source={notes} />}
     </Card.Body>
   </Card>
 );
