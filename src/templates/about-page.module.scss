@@ -2,9 +2,20 @@
 @import 'node_modules/bootstrap/scss/variables';
 @import 'node_modules/bootstrap/scss/mixins/_breakpoints';
 
+@import '../styles/bootstrap';
+
+.title {
+  border-left: none !important;
+  border-right: 0.5rem solid $us-red;
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
 .content {
-  h3 { clear:both; }
-  
+  h3 {
+    clear: both;
+  }
+
   :global {
     @include media-breakpoint-up(md) {
       .gria-image-wrapper:nth-child(even) {

@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About
 featuredImage: >-
-  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_center,h_2800,w_4898/v1581381941/DSC_0032.NEF_qozilk.jpg
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_west,h_1600,w_3200/v1581400505/DSC_0032_mod_rpxaw3.jpg
 ---
 ### Megan
 

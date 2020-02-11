@@ -18,8 +18,8 @@ export const AboutPageTemplate = ({
 
   return (
     <section className="section">
-      <ImageHeader image={featuredImage}>
-        <h1>{title}</h1>
+      <ImageHeader image={featuredImage} justifyContent="end">
+        <h1 className={styles.title}>{title}</h1>
       </ImageHeader>
 
       <Card>
