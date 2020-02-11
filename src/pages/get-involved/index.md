@@ -64,7 +64,7 @@ where_to_stay:
         *24-hour valet parking. They provide complimentary local transportation.*
       templateKey: hotel
 ---
-![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
+![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
 
 **Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** is the airport servicing the Twin Cities.
 

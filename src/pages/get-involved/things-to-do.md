@@ -10,7 +10,7 @@ Here are some other things you might enjoy:
 
 ##### Minneapolis:
 
-![JC, Megan, Cherry & Spoon](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1400/v1581202921/get_involved/IMG_20190905_184311_v06v9u.jpg)
+![JC, Megan, Cherry & Spoon](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3100,w_3024/v1581202921/get_involved/IMG_20190905_184311_v06v9u.jpg)
 
 * **[American Swedish Institute](https://www.asimn.org/)**\
     Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion.
