@@ -44,6 +44,7 @@
     "react-helmet": "^5.2.1",
     "react-hook-form": "^4.9.3",
     "react-markdown": "^4.3.1",
+    "staticrypt": "^1.3.2",
     "uuid": "^3.4.0",
     "yup": "^0.28.1"
   },
@@ -59,9 +60,12 @@
     "develop": "yarn run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "encrypt": "npx staticrypt public/index.html $SITE_PASSWORD -o public/index.html"
+    "encrypt": "staticrypt public/index.html $SITE_PASSWORD -o public/index.html"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
+  },
+  "resolutions": {
+    "crypto-js": "3.1.9-1"
   }
 }
