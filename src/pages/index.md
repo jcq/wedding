@@ -10,9 +10,9 @@ Megan and JC have chosen each other as running mates in the most anticipated cam
 
 As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter this summer in Minnesota.
 
-##### **Saturday, June 20, 2020**\
+##### **Saturday, June 20, 2020**
 **5:30 PM**
 
-##### **Bruentrup Historical Farm**\
+##### **Bruentrup Historical Farm**
 **2170 County Rd D E**\
 **Maplewood, MN 55109**
