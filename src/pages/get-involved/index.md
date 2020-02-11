@@ -19,9 +19,8 @@ where_to_stay:
     ---
 
 
-    We have two hotel room blocks available:\
-
-    one in downtown Minneapolis and one in downtown Saint Paul.
+    We have two hotel room blocks available:  
+      one in downtown Minneapolis and one in downtown Saint Paul.
 
 
     Feel free to stay at either – or neither!
@@ -36,6 +35,8 @@ where_to_stay:
         Minneapolis, MN 55403
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Millennium Hotel
+      url: https://www.millenniumhotels.com/en/minneapolis/millennium-hotel-minneapolis/
+      phone: 612-332-6000
       notes: >-
         A polished business hotel near the convention center with an indoor pool
         and sauna.
@@ -51,6 +52,8 @@ where_to_stay:
         St Paul, MN 55102
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
       name: Saint Paul Hotel
+      url: https://www.saintpaulhotel.com/
+      phone: 800-292-9292
       notes: >-
         Built in 1910, this historic hotel is widely viewed as "the fancy one"
         in St. Paul and has a much-lauded restaurant.

@@ -10,7 +10,7 @@ backend:
 
 publish_mode: editorial_workflow
 site_url: https://MiragliaQuirin2020.com
-logo_url: https://miragliaquirin2020.com/static/logo-21b63aa49fa28e0ad6905a5fe4c21fbf.svg
+logo_url: https://miragliaquirin2020.com/static/logo-ac1b46f7620acd91ef1045817eb73682.svg
 
 # media_folder: static/img
 public_folder: /img
@@ -38,11 +38,11 @@ collections:
   #     - {label: "Body", name: "body", widget: "markdown"}
   #     - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: "events"
-    label: "Events"
-    folder: "src/pages/events"
+  - name: 'events'
+    label: 'Events'
+    folder: 'src/pages/events'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
       - {
           label: 'Template Key',
@@ -59,12 +59,7 @@ collections:
           widget: 'string',
           required: false,
         }
-      - {
-          label: 'Address',
-          name: 'address',
-          widget: 'text',
-          required: false,
-        }
+      - { label: 'Address', name: 'address', widget: 'text', required: false }
       - {
           label: 'Description',
           name: 'description',
@@ -83,13 +78,8 @@ collections:
           widget: image,
           required: false,
         }
-      - {
-          label: 'Body',
-          name: 'body',
-          widget: 'markdown',
-          required: false,
-        }
-  
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+
   - name: 'pages'
     label: 'Pages'
     files:
@@ -269,6 +259,12 @@ collections:
                         },
                         { label: 'Name', name: 'name', widget: 'string' },
                         {
+                          label: 'URL',
+                          name: 'url',
+                          widget: 'string',
+                          required: false,
+                        },
+                        {
                           label: 'Distance',
                           name: 'distance',
                           widget: 'string',
@@ -278,6 +274,12 @@ collections:
                           label: 'Address',
                           name: 'address',
                           widget: 'text',
+                          required: false,
+                        },
+                        {
+                          label: 'Phone',
+                          name: 'phone',
+                          widget: 'string',
                           required: false,
                         },
                         {
@@ -301,18 +303,8 @@ collections:
               widget: 'hidden',
               default: 'things-to-do',
             }
-          - {
-              label: Heading,
-              name: heading,
-              widget: string,
-              required: false,
-            }
-          - {
-              label: 'Body',
-              name: 'body',
-              widget: 'markdown',
-              required: false,
-            }
+          - { label: Heading, name: heading, widget: string, required: false }
+          - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - file: 'src/pages/shop/index.md'
         label: 'Shop'
         name: 'shop'

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown/with-html';
 
 const gMapUrl = ({ location, address }) => {
@@ -11,11 +11,20 @@ const gMapUrl = ({ location, address }) => {
   return gMapUrl;
 };
 
-export const HotelCard = ({ name, address, notes }) => (
+export const HotelCard = ({ name, url, address, phone, notes }) => (
   <Card>
     <Card.Body>
-      <Card.Title>{name}</Card.Title>
+      <Card.Title>
+        {url ? (
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {name}
+          </a>
+        ) : (
+          { name }
+        )}
+      </Card.Title>
       <address className="pt-1">
+        {phone && <div>{phone}</div>}
         {address &&
           address.split('\n').map((item, key) => {
             return (
@@ -58,13 +67,11 @@ export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
         {body && <ReactMarkdown source={body} />}
         {hotels.length && (
           <div className="hotel-list">
-            <Row>
+            <CardDeck>
               {hotels.map((hotel, idx) => (
-                <Col key={idx}>
-                  <HotelCard {...hotel} />
-                </Col>
+                <HotelCard {...hotel} key={idx} />
               ))}
-            </Row>
+            </CardDeck>
           </div>
         )}
       </Card.Body>

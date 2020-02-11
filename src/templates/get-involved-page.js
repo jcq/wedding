@@ -81,14 +81,12 @@ export const getInvolvedPageQuery = graphql`
           body
           hotels {
             name
+            url
+            phone
             distance
             address
             notes
           }
-        }
-        things_to_do {
-          heading
-          body
         }
       }
     }
