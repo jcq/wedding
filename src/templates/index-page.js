@@ -6,6 +6,7 @@ import Content, { HTMLContent } from '../components/Content';
 
 import Layout from '../components/Layout';
 import { Button, Card } from 'react-bootstrap';
+import { Hero } from '../components/Hero';
 
 export const IndexPageTemplate = ({
   title,
@@ -17,7 +18,8 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <Card className="mt-4">
+      <Hero />
+      <Card className="border border-secondary">
         <Card.Body>
           {title && <h1 className="text-center">{title}</h1>}
           {subheading && <h3 className="text-center">{subheading}</h3>}
