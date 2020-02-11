@@ -26,7 +26,7 @@ export const ShopPageTemplate = ({
           }
         ]}
       ></Helmet>
-      <ImageHeader image={featuredImage}>
+      <ImageHeader image={featuredImage} alignItems="end" className="align-items-md-center">
         <h1>{title}</h1>
       </ImageHeader>
 

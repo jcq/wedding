@@ -21,7 +21,7 @@ export const GetInvolvedPageTemplate = ({
 
   return (
     <section className="section">
-      <ImageHeader image={featuredImage} alignItems="end">
+      <ImageHeader image={featuredImage} alignItems="center">
         <h1>{title}</h1>
       </ImageHeader>
 
