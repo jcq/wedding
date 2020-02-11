@@ -4,7 +4,12 @@ import { Jumbotron } from 'react-bootstrap';
 
 import styles from './ImageHeader.scss';
 
-export const ImageHeader = ({ image, children, alignItems = 'center' }) => {
+export const ImageHeader = ({
+  image,
+  children,
+  alignItems = 'center',
+  justifyContent = 'start'
+}) => {
   const jumbotronStyles = {
     backgroundImage: `url(${
       !!image?.childImageSharp ? image?.childImageSharp?.fluid.src : image
@@ -12,7 +17,11 @@ export const ImageHeader = ({ image, children, alignItems = 'center' }) => {
   };
 
   return (
-    <Jumbotron fluid style={jumbotronStyles} className={`${styles.jumbotron} d-flex align-items-${alignItems}`}>
+    <Jumbotron
+      fluid
+      style={jumbotronStyles}
+      className={`${styles.jumbotron} d-flex align-items-${alignItems} justify-content-${justifyContent}`}
+    >
       {children}
     </Jumbotron>
   );
