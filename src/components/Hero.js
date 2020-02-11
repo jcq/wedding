@@ -7,7 +7,7 @@ export const Hero = () => {
     query {
       file(name: { eq: "jc-megan" }) {
         childCloudinaryAsset {
-          fluid {
+          fluid(maxWidth: 2000) {
             aspectRatio
             base64
             sizes
