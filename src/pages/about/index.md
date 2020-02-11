@@ -6,7 +6,7 @@ featuredImage: >-
 ---
 ### Megan
 
-![Young Megan](https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581202773/about/11709959_10206936781725599_3523722717878405974_o_i9zlwj.jpg) Originally from Ohio from a family of public servants, Megan's career has been devoted to fighting for environmental justice, political change, and puppies. With a degree in zoology, Megan is a burgeoning urban farmer, working a 3,500 sq ft plot of vegetables and native flora and caring for two dogs, six chickens, and — quite by accident — one turkey. Megan currently works as a fundraising consultant and chess instructor, a background assured to put voters' hearts at ease.
+![Young Megan](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_custom,h_1300,w_1300/v1581202773/about/11709959_10206936781725599_3523722717878405974_o_i9zlwj.jpg) Originally from Ohio from a family of public servants, Megan's career has been devoted to fighting for environmental justice, political change, and puppies. With a degree in zoology, Megan is a burgeoning urban farmer, working a 3,500 sq ft plot of vegetables and native flora and caring for two dogs, six chickens, and — quite by accident — one turkey. Megan currently works as a fundraising consultant and chess instructor, a background assured to put voters' hearts at ease.
 
 A veteran of political campaigns from California to upstate New York and Washington, D.C., Megan has yet to enjoy the taste of victory, but there's always a first time.
 
