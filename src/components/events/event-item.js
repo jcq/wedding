@@ -8,7 +8,7 @@ import PreviewCompatibleImage from '../PreviewCompatibleImage';
 export const EventItem = ({ event }) => {
   const { title, start, end, location, address, body, featuredImage } = event;
   console.log('eventItem', event);
-  const formattedDate = format(new Date(start), 'MMM dd, yyyy');
+  const formattedDate = format(new Date(start), 'EEEE, MMM dd, yyyy');
   const startTime = format(new Date(start), 'hh:mm aaaa');
   const endTime = format(new Date(end), 'hh:mm aaaa');
 
