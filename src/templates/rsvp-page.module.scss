@@ -1,0 +1,8 @@
+@import '../styles/bootstrap';
+
+.title {
+  border-left: none !important;
+  border-right: 0.5rem solid $us-red;
+  padding-left: 0;
+  padding-right: 1rem;
+}

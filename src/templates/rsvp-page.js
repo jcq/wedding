@@ -8,6 +8,8 @@ import { Card } from 'react-bootstrap';
 import { RsvpContextProvider } from '../components/rsvp/RsvpContext';
 import { ImageHeader } from '../components/ImageHeader';
 
+import styles from './rsvp-page.module.scss';
+
 export const RsvpPageTemplate = ({
   title,
   content,
@@ -18,8 +20,8 @@ export const RsvpPageTemplate = ({
 
   return (
     <section className="section">
-      <ImageHeader image={featuredImage} alignItems="start">
-        <h1 className="mt-4">{title}</h1>
+      <ImageHeader image={featuredImage} alignItems="end" justifyContent="end">
+        <h1 className={`${styles.title} mb-4`}>{title}</h1>
       </ImageHeader>
 
       <Card>
