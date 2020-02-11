@@ -4,19 +4,10 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import { HTMLContent } from '../components/Content';
 import { EventItem } from '../components/events/event-item';
-import { Row, Col } from 'react-bootstrap';
+import { CardDeck } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 
-export const EventsPageTemplate = ({
-  title,
-  heading,
-  content,
-  contentComponent,
-  featuredImage,
-  events
-}) => {
-  // const PageContent = contentComponent || Content;
-
+export const EventsPageTemplate = ({ title, featuredImage, events }) => {
   const featured = events.find(i => i.featuredevent);
   const others = events.filter(i => !i.featuredevent);
 
@@ -26,24 +17,13 @@ export const EventsPageTemplate = ({
         <h1>{title}</h1>
       </ImageHeader>
 
-      {/* {content && (
-        <Card>
-          {heading && <Card.Header as="h3">{heading}</Card.Header>}
-          <Card.Body>
-            <PageContent className="content" content={content} />
-          </Card.Body>
-        </Card>
-      )} */}
-
       <EventItem event={featured} />
 
-      <Row className="justify-content-center">
+      <CardDeck className="mt-3">
         {others.map(event => (
-          <Col key={event.id} className="mt-4">
-            <EventItem event={event} />
-          </Col>
+          <EventItem event={event} key={event.id} />
         ))}
-      </Row>
+      </CardDeck>
     </section>
   );
 };
