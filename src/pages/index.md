@@ -2,7 +2,7 @@
 templateKey: index-page
 title: MEGAN MIRAGLIA & JC QUIRIN
 image: >-
-  https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_1000/v1577644071/IMG_20190530_181445_cydtzr.jpg
+  https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581383420/home/upload-flag_pe5y4g.jpg
 heading: ''
 subheading: STRONGER TOGETHER
 ---
