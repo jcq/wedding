@@ -19,8 +19,8 @@ where_to_stay:
     - - -
 
 
-    We have two hotel room blocks available:\
-      one in downtown Minneapolis and one in downtown Saint Paul.
+    We have two hotel room blocks available: one in downtown Minneapolis and one in downtown Saint Paul.
+
 
     Feel free to stay at either (or neither)!
 
@@ -59,7 +59,7 @@ where_to_stay:
         Rates start at $149.
 
 
-        **Booking Code (Online):** 200620QUIR\
+        **Booking Code (Online):** 200620QUIR  
 
         **Booking Name (Phone):** Miraglia/Quirin Wedding
 
