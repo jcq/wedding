@@ -1,11 +1,15 @@
 @import '../styles/bootstrap';
 
-.main {
-  border: 12px solid $us-blue;
+:global {
+  :local(.main) {
+    &.card {
+      border: 12px solid $us-blue;
+    }
 
-  @include media-breakpoint-down(md) {
-    h1 {
-      font-size: 2.25rem;
+    @include media-breakpoint-down(md) {
+      h1 {
+        font-size: 2.25rem;
+      }
     }
   }
 }
