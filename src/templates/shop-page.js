@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-import { Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 import Helmet from 'react-helmet';
 
@@ -26,7 +26,11 @@ export const ShopPageTemplate = ({
           }
         ]}
       ></Helmet>
-      <ImageHeader image={featuredImage} alignItems="end" className="align-items-md-center">
+      <ImageHeader
+        image={featuredImage}
+        alignItems="end"
+        className="align-items-md-center"
+      >
         <h1>{title}</h1>
       </ImageHeader>
 
@@ -40,7 +44,19 @@ export const ShopPageTemplate = ({
           >
             Our Zola Wedding Registry
           </a> */}
-          <iframe title="Zola Registry" id="zola-registry-iframe-6580837651844" src="https://widget.zola.com/v1/widget/registry/megan-jc/html?" className="zola-registry-iframe" data-registry-key="megan-jc" width="100%" frameborder="0" scrolling="no"></iframe>
+          {/* <iframe title="Zola Registry" id="zola-registry-iframe-6580837651844" src="https://widget.zola.com/v1/widget/registry/megan-jc/html?" className="zola-registry-iframe" data-registry-key="megan-jc" width="100%" frameBorder="0" scrolling="no"></iframe> */}
+          <div className="text-center">
+            <Button
+              variant="secondary"
+              size="lg"
+              as="a"
+              href="https://www.zola.com/registry/miraglia-quirin-2020"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Go to Registry
+            </Button>
+          </div>
         </Card.Body>
       </Card>
     </section>
