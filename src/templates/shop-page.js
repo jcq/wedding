@@ -6,6 +6,7 @@ import Content, { HTMLContent } from '../components/Content';
 import { Card, Button } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 import Helmet from 'react-helmet';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 export const ShopPageTemplate = ({
   title,
@@ -49,7 +50,7 @@ export const ShopPageTemplate = ({
             <Button
               variant="secondary"
               size="lg"
-              as="a"
+              as={OutboundLink}
               href="https://www.zola.com/registry/miraglia-quirin-2020"
               target="_blank"
               rel="noopener noreferrer"
