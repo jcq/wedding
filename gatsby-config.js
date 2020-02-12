@@ -91,12 +91,20 @@ module.exports = {
             }
           },
           {
-            resolve: 'gatsby-remark-external-links',
+            resolve: 'gatsby-remark-google-analytics-track-links',
             options: {
-              target: '_blank',
-              rel: 'nofollow'
+              // target: "someValue",
+              // rel: "noopener noreferrer",
+              // className: "theClassIdLikeInstead"
             }
-          }
+          },
+          // {
+          //   resolve: 'gatsby-remark-external-links',
+          //   options: {
+          //     target: '_blank',
+          //     rel: 'nofollow'
+          //   }
+          // }
         ]
       }
     },
@@ -110,14 +118,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-158282710-1'
-      }
-    },
-    {
-      resolve: 'gatsby-remark-google-analytics-track-links',
-      options: {
-        // target: "someValue",
-        // rel: "noopener noreferrer",
-        // className: "theClassIdLikeInstead"
       }
     },
     // {
