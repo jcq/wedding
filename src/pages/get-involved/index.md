@@ -35,8 +35,6 @@ where_to_stay:
         Minneapolis, MN 55403
       distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Millennium Hotel
-      url: https://www.millenniumhotels.com/en/minneapolis/millennium-hotel-minneapolis/
-      phone: 612-332-6000
       notes: >-
         A polished business hotel near the convention center with an indoor pool
         and sauna.
@@ -46,23 +44,33 @@ where_to_stay:
 
 
         *Self-parking is $21/night.*
+      phone: 612-332-6000
       templateKey: hotel
+      url: >-
+        https://www.millenniumhotels.com/en/minneapolis/millennium-hotel-minneapolis/
     - address: |-
         350 N Market St
         St Paul, MN 55102
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
       name: Saint Paul Hotel
-      url: https://www.saintpaulhotel.com/
-      phone: 800-292-9292
       notes: >-
         Built in 1910, this historic hotel is widely viewed as "the fancy one"
         in St. Paul and has a much-lauded restaurant.
-         
+
+
         Rates start at $149.
 
 
-        *24-hour valet parking. They provide complimentary local transportation.*
+        **Booking Code (Online):** 200620QUIR\
+
+        **Booking Name (Phone):** Miraglia/Quirin Wedding
+
+
+        *24-hour valet parking. Hotel provides complimentary local
+        transportation.*
+      phone: (800) 292-9292
       templateKey: hotel
+      url: 'https://www.saintpaulhotel.com/'
 ---
 ![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
 
