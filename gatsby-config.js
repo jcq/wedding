@@ -112,6 +112,14 @@ module.exports = {
         trackingId: 'UA-158282710-1'
       }
     },
+    {
+      resolve: 'gatsby-remark-google-analytics-track-links',
+      options: {
+        // target: "someValue",
+        // rel: "noopener noreferrer",
+        // className: "theClassIdLikeInstead"
+      }
+    },
     // {
     //   resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
     //   options: {
