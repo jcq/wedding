@@ -6,6 +6,8 @@ import Content, { HTMLContent } from '../components/Content';
 import { Card } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 
+import styles from './faq-page.module.scss';
+
 export const FaqPageTemplate = ({
   title,
   content,
@@ -19,10 +21,10 @@ export const FaqPageTemplate = ({
       <ImageHeader image={featuredImage} alignItems="end">
         <h1>{title}</h1>
       </ImageHeader>
-      {/* <h2 className="title text-primary">{title}</h2> */}
+
       <Card>
         <Card.Body>
-          <PageContent className="content" content={content} />
+          <PageContent className={styles.content} content={content} />
         </Card.Body>
       </Card>
     </section>
