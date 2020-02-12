@@ -30,10 +30,11 @@ const TemplateWrapper = ({ children, theme = 'interior', bgImage }) => {
   return (
     <div {...wrapperProps(theme, bgImage)}>
       <SiteHelmet />
+      {theme === 'index' && <div className="bg" style={{ backgroundImage: bgImage ? `url(${bgImage})` : '' }} />}
       <Container
         fluid={true}
         className={containerClasses(theme)}
-        style={{ backgroundImage: bgImage ? `url(${bgImage})` : '' }}
+        // style={{ backgroundImage: bgImage ? `url(${bgImage})` : '' }}
       >
         <Row>
           <Col className="p-0">
