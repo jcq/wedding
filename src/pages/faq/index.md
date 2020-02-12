@@ -37,11 +37,11 @@ The reception will take place in an historic barn without sophisticated climate 
 
 We are trying to be inclusive, but please let us know your needs so we can make sure you are safe and sated!
 
+![Megan with Voters](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto:faces,h_3265,w_3462/v1581399865/DSC_0041.NEF_1_s9beo8.jpg)
 ##### How do I get to Minnesota? Is it the same as Wisconsin? Where should I stay?
 
 Minnesota is technically a different state than Wisconsin, but just barely. Please find this information (and more!) [here](https://miragliaquirin2020.com/get-involved).
 
-![Megan with Voters](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_2000/v1581399865/DSC_0041.NEF_1_s9beo8.jpg)
 ##### Do I need to RSVP?
 
 That would be nice. Please [RSVP by April 27](https://miragliaquirin2020.com/rsvp).
