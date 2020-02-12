@@ -1,5 +1,11 @@
 @import '../styles/bootstrap';
 
 .main {
-  border: 8px solid $us-blue;
+  border: 12px solid $us-blue;
+
+  @include media-breakpoint-down(md) {
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
 }

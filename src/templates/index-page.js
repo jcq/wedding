@@ -23,8 +23,8 @@ export const IndexPageTemplate = ({
       <Hero />
       <Card className={styles.main}>
         <Card.Body>
-          {title && <h1 className="text-center">{title}</h1>}
-          {subheading && <h3 className="text-center">{subheading}</h3>}
+          {title && <h1 className="text-center text-primary">{title}</h1>}
+          {subheading && <h3 className="text-center text-secondary">{subheading}</h3>}
           {content && (
             <PageContent
               className="content text-center mt-3"
