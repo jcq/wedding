@@ -59,9 +59,9 @@ where_to_stay:
         Rates start at $149.
 
 
-        **Booking Code (Online):** 200620QUIR  
+        **Booking Code ([online](https://www.saintpaulhotel.com/)):** 200620QUIR  
 
-        **Booking Name (Phone):** Miraglia/Quirin Wedding
+        **Booking Name (phone):** Miraglia/Quirin
 
 
         *24-hour valet parking. Hotel provides complimentary local
@@ -70,11 +70,10 @@ where_to_stay:
       templateKey: hotel
       url: 'https://www.saintpaulhotel.com/'
 ---
-![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
+We can't wait for you to join us!
+![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg)
 
 **Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** services the Twin Cities.
-
-##### How to Get Around
 
 You can take the [light rail](https://www.metrotransit.org/metro) Blue Line from the airport to Downtown Minneapolis, or transfer to the Green Line to the historic Union Deport to Lowertown Saint Paul.
 

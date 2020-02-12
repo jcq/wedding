@@ -26,6 +26,7 @@ export const GetInvolvedPageTemplate = ({
       </ImageHeader>
 
       <Card>
+        <Card.Header as="h4">How to Get Around</Card.Header>
         <Card.Body>
           <PageContent className={styles.content} content={content} />
         </Card.Body>
