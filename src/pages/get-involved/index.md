@@ -5,29 +5,27 @@ featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto,h_886,w_3208/v1581403478/DSC_0167_17043.NEF_tngvwj.jpg
 where_to_stay:
   body: >-
-    **Minneapolis** has a more typical big city vibe, with a dense downtown,
-    lots of restaurants, and popular neighborhoods. Expect city traffic and
-    parking.
+    **Minneapolis** has an expected city vibe, with a dense downtown, lots of
+    restaurant options, attractions, and popular neighborhoods. Expect city
+    traffic and parking.
 
 
-    **St. Paul** is more laid-back, with a less bustling downtown, plenty of
-    good restaurants, but not the same foodie scene. While both cities have
-    river access, St. Paul has a better view, and the beautiful capitol
+    **St. Paul** is more laid-back, with a less bustling downtown, but plenty of
+    good restaurants, but not the same scene. While both cities have river
+    access, those in St. Paul tout its better view and the beautiful capitol
     building.
 
 
-    ---
+    - - -
 
 
-    We have two hotel room blocks available:  
+    We have two hotel room blocks available:\
       one in downtown Minneapolis and one in downtown Saint Paul.
 
+    Feel free to stay at either (or neither)!
 
-    Feel free to stay at either – or neither!
 
-
-    *We only have a limited number of rooms reserved at rate, so please book
-    early.*
+    *Only a limited number of rooms are reserved at rate, so please book early.*
   heading: Where to Stay
   hotels:
     - address: |-
@@ -44,7 +42,7 @@ where_to_stay:
 
 
         *Self-parking is $21/night.*
-      phone: 612-332-6000
+      phone: (612) 332-6000
       templateKey: hotel
       url: >-
         https://www.millenniumhotels.com/en/minneapolis/millennium-hotel-minneapolis/
@@ -74,7 +72,7 @@ where_to_stay:
 ---
 ![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg) We can't wait for you to join us!
 
-**Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** is the airport servicing the Twin Cities.
+**Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** services the Twin Cities.
 
 ##### How to Get Around
 
