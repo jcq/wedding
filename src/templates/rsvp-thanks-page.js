@@ -6,6 +6,8 @@ import Content, { HTMLContent } from '../components/Content';
 import { Card } from 'react-bootstrap';
 import { ImageHeader } from '../components/ImageHeader';
 
+import styles from './ty-page.module.scss';
+
 export const RsvpThanksPageTemplate = ({
   title,
   content,
@@ -22,7 +24,7 @@ export const RsvpThanksPageTemplate = ({
 
       <Card>
         <Card.Body>
-          <PageContent className="content" content={content} />
+          <PageContent className={styles.content} content={content} />
         </Card.Body>
       </Card>
     </section>
