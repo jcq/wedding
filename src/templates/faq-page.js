@@ -16,7 +16,7 @@ export const FaqPageTemplate = ({
 
   return (
     <section className="section">
-      <ImageHeader image={featuredImage}>
+      <ImageHeader image={featuredImage} alignItems="end">
         <h1>{title}</h1>
       </ImageHeader>
       {/* <h2 className="title text-primary">{title}</h2> */}
