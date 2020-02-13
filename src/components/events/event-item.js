@@ -18,7 +18,7 @@ export const EventItem = ({ event }) => {
     featuredImage
   } = event;
   const tz = 'America/Chicago';
-  const formattedDate = format(utcToZonedTime(new Date(start), tz), 'EEEE, MMM dd, yyyy');
+  const formattedDate = format(utcToZonedTime(new Date(start), tz), 'EEEE, MMMM dd, yyyy');
   const startTime = format(utcToZonedTime(new Date(start), tz), 'hh:mm aaaa');
   const endTime = format(utcToZonedTime(new Date(end), tz), 'hh:mm aaaa');
 
