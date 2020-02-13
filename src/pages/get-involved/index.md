@@ -19,7 +19,8 @@ where_to_stay:
     - - -
 
 
-    We have two hotel room blocks available: one in downtown Minneapolis and one in downtown Saint Paul.
+    We have two hotel room blocks available: one in downtown Minneapolis and one
+    in downtown Saint Paul.
 
 
     Feel free to stay at either (or neither)!
@@ -42,6 +43,9 @@ where_to_stay:
 
 
         *Self-parking is $21/night.*
+
+
+        **Booking Name (888-763-3909):** Miraglia/Quirin
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
@@ -59,13 +63,14 @@ where_to_stay:
         Rates start at $149.
 
 
-        **Booking Code ([online](https://www.saintpaulhotel.com/)):** 200620QUIR  
-
-        **Booking Name (phone):** Miraglia/Quirin
-
-
         *24-hour valet parking. Hotel provides complimentary local
         transportation.*
+
+
+        **Booking Code ([online](https://www.saintpaulhotel.com/)):**
+        200620QUIR\
+
+        **Booking Name (800-292-9292):** Miraglia/Quirin
       phone: (800) 292-9292
       templateKey: hotel
       url: 'https://www.saintpaulhotel.com/'
