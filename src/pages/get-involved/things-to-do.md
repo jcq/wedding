@@ -15,7 +15,7 @@ Here are some other things you might enjoy *(distance from that city's hotel)*:
 * **[Chain of Lakes](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minneapolis_chain_of_lakes_regional_park/)** *(3 mi)*\
     Do you like bodies of water but have a tough time choosing just one? Want to know why they were called the Minneapolis Lakers before moving to LA? Minneapolis is called the City of Lakes for reason!
 * **[Mill City Museum](https://www.mnhs.org/millcity)** *(1.5 mi)*\
-    Who knew a museum on the history of flour and milling could be this stunning? Located next to the historic [Stone Arch Bridge](https://www.minneapolisparks.org/parks__destinations/historical_sites/stone_arch_bridge/), these provide the quintessential view of the Minneapolis riverfront.
+    Who knew a museum on the history of flour and milling could be this stunning? Located next to the historic [Stone Arch Bridge](https://www.minneapolisparks.org/parks__destinations/historical_sites/stone_arch_bridge/); this is perhaps the quintessential view of the Minneapolis riverfront.
 * **[Minneapolis Institute of Art](https://new.artsmia.org/)** *(1.1 mi)*\
     Eclectic fine arts museum: all free!
 * **[Minneapolis Sculpture Garden](https://walkerart.org/visit/garden)** *(0.9 mi)* \
@@ -30,9 +30,9 @@ Here are some other things you might enjoy *(distance from that city's hotel)*:
 * **[Harriet Island Regional Park](https://www.stpaul.gov/departments/parks-recreation/harriet-island-regional-park)** *(1 mi)*\
     Popular park and community space with paddle boats along the Mississippi River
 * **[James J. Hill House](https://www.mnhs.org/hillhouse)** *(1.1 mi)*\
-    Historic home completed in 1891 by railroad magnate and noted rich person James J. Hill offering daily tours
+    Historic home completed in 1891 by railroad magnate and noted rich person James J. Hill; offering daily tours
 * **[Minnesota History Center](https://www.mnhs.org/historycenter)** *(0.9 mi)*\
-    Museum all about Minnesota, including a special exhibit on women around the passage of the 19th Amendment
+    Museum all about Minnesota, including a special exhibit on women and the struggle to the pass the 19th Amendment
 * **[Minnesota State Capitol](https://www.mnhs.org/capitol/activities)** *(1.0 mi)*\
     Designed by Cass Gilbert (who designed the U.S. Supreme Court building), the Minnesota Capitol is definitively — in JC's wholly unbiased opinion — in the top tier of capitol buildings in the country.
 * **[Mississippi Riverwalk and Park](https://goo.gl/maps/ckZnNieWH3JLY4gg9)** *(0.3 mi)*\
@@ -43,7 +43,7 @@ Here are some other things you might enjoy *(distance from that city's hotel)*:
 ##### Surrounding Area:
 
 * **[Mall of America](https://www.mallofamerica.com/)** *(0.5 mi from MSP Airport)*\
-    You want over 96 acres of mall? We got it. Fun fact: it was a filming location for both *D2: The Mighty Ducks* and Schwarzenegger holiday classic, *Jingle All the Way*.
+    You want over 96 acres of mall? We got it. Fun fact: it was a filming location for both *D2: The Mighty Ducks* and the Schwarzenegger holiday classic, *Jingle All the Way*.
 * **[Stillwater](https://www.discoverstillwater.com/)** *(20.8 mi from St Paul)*\
     30 minutes from Minneapolis and just 15 minutes from our venue, this charming tourist town sits on the bank of the St. Croix River with walking paths, sightseeing tours, antique stores, and boating. The setting for *Grumpy Old Men* and *Beautiful Girls*, Stillwater is also known for its lift bridge and the enormous scoops of ice cream at [Nelson's](https://www.nelsonsicecream.biz/).
 * **[Fort Snelling](http://www.mnhs.org/fortsnelling)** *(7.3 mi from St Paul)*\
