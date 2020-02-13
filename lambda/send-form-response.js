@@ -29,8 +29,8 @@ For any questions, please contact info@MiragliaQuirin2020.com
 `;
 
 const yesHtml = `
-<h3>Thank you for responding!</h3>
-<h5>Event Details</h5>
+<h2>Thank you for responding!</h2>
+<h4>Event Details</h4>
 <div>
   <strong>Saturday, June 20, 2020</strong><br />
   5:30pm – 11pm
