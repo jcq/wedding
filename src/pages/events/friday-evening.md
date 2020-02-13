@@ -3,7 +3,7 @@ templateKey: events
 title: Social
 start: 2020-06-20T00:30:00.000Z
 end: 2020-06-20T02:30:00.000Z
-location: Black Hart of Saint Paul
+location: The Black Hart of Saint Paul
 url: https://www.blackhartstp.com/
 address: |-
   1415 University Ave W
