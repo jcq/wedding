@@ -22,7 +22,7 @@ const Header = ({ variant = 'light' }) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto p-3 p-md-0">
+          <Nav className="ml-auto p-3 p-lg-0">
             <Nav.Link as={Link} to="/about">
               About Us
             </Nav.Link>
@@ -38,7 +38,7 @@ const Header = ({ variant = 'light' }) => {
             <Nav.Link as={Link} to="/shop">
               Shop
             </Nav.Link>
-            <NavButton to="/rsvp" variant="danger" className="ml-md-2">
+            <NavButton to="/rsvp" variant="danger" className="ml-lg-2">
               RSVP
             </NavButton>
           </Nav>

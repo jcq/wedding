@@ -23,7 +23,7 @@
     font-family: 'Roboto Condensed', sans-serif;
   }
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     .navbar .navbar-nav {
       background-color: #FFF;
     }
