@@ -50,7 +50,7 @@ where_to_stay:
         350 N Market St
         St Paul, MN 55102
       distance: St. Paul is 10 mi (around 10 minutes sans traffic) from our venue.
-      name: Saint Paul Hotel
+      name: The Saint Paul Hotel
       notes: >-
         Built in 1910, this historic hotel is widely viewed as "the fancy one"
         in St. Paul and has a much-lauded restaurant.
