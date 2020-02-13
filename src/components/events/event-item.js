@@ -4,9 +4,19 @@ import { format } from 'date-fns';
 import { Card, Row, Col } from 'react-bootstrap';
 import { HTMLContent } from '../Content';
 import PreviewCompatibleImage from '../PreviewCompatibleImage';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 export const EventItem = ({ event }) => {
-  const { title, start, end, location, address, body, featuredImage } = event;
+  const {
+    title,
+    start,
+    end,
+    location,
+    url,
+    address,
+    body,
+    featuredImage
+  } = event;
   console.log('eventItem', event);
   const formattedDate = format(new Date(start), 'EEEE, MMM dd, yyyy');
   const startTime = format(new Date(start), 'hh:mm aaaa');
@@ -42,7 +52,19 @@ export const EventItem = ({ event }) => {
               </small>
             </Card.Title>
             <address className="pt-1">
-              {location && <div>{location}</div>}
+              {location && url ? (
+                <div>
+                  <OutboundLink
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {location}
+                  </OutboundLink>
+                </div>
+              ) : (
+                <div>{location}</div>
+              )}
               {address &&
                 address.split('\n').map((item, key) => {
                   return (
@@ -57,9 +79,9 @@ export const EventItem = ({ event }) => {
                 <div>
                   <small>
                     [
-                    <a href={encUrl} target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href={encUrl} target="_blank" rel="noopener noreferrer">
                       Map
-                    </a>
+                    </OutboundLink>
                     ]
                   </small>
                 </div>
@@ -78,6 +100,7 @@ EventItem.propTypes = {
     title: PropTypes.string,
     date: PropTypes.string,
     location: PropTypes.string,
+    url: PropTypes.string,
     address: PropTypes.string,
     description: PropTypes.string,
     featuredevent: PropTypes.bool,

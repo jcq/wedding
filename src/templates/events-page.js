@@ -115,6 +115,7 @@ export const eventsPageQuery = graphql`
             start
             end
             location
+            url
             address
             description
             featuredevent

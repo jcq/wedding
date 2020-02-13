@@ -4,6 +4,7 @@ title: Ceremony & Celebration
 start: 2020-06-21T00:30:00.000Z
 end: 2020-06-21T06:00:00.000Z
 location: Bruentrup Heritage Farm
+url: http://maplewoodhistoricalsociety.org/
 address: |-
   2170 County Rd D E
   Maplewood, MN 55109
