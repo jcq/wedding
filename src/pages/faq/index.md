@@ -4,13 +4,13 @@ title: FAQ
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_south_west,h_2221,w_4118/v1581381941/DSC_0055.NEF_cjqmfz.jpg
 ---
-##### When should I arrive?
+##### When should I arrive on Saturday?
 
 Things officially kick off at 5:30pm. Feel free to come by starting around 5pm, explore the farm, and say hello!
 
 ##### But why are you getting married on a farm? Are there going to be animals?
 
-Because we love farms! Sadly (or fortunately?), there are no animals out of respect to guests with allergies or who don't want to smell pigs while they eat. Yes, that was Megan's preferred venue.
+Because we love farms! Sadly (or fortunately?), there are no animals out of respect to guests with allergies or who don't want to smell pigs while they eat. Yes, that was a feature of Megan's preferred venue.
 
 ##### What else is happening this weekend?
 
@@ -22,7 +22,7 @@ Yes! Preferably yours.
 
 ##### What should I wear?
 
-Please dress however are most comfortable! “Casual Dress Code”, if you need something official. We will be on and off grass, so consider this when making shoe decisions.
+Please dress however you are most comfortable! “Casual Dress Code”, if you need something official. We will be on and off grass, so consider this when making shoe decisions.
 
 ##### What will the weather be like?
 
@@ -33,7 +33,7 @@ After extensive research into local meteorological data, we can report the follo
 
 The reception will take place in an historic barn without sophisticated climate control, so please plan accordingly.
 
-##### I’m worried about my food allergy or dietary restrictions!
+##### What if I’m worried about my food allergy or dietary restrictions?
 
 We are trying to be inclusive, but please let us know your needs so we can make sure you are safe and sated!
 
