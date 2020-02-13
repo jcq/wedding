@@ -58,6 +58,12 @@ export const ShopPageTemplate = ({
               Go to Registry
             </Button>
           </div>
+          <p className="mt-3 text-center">
+            <em>
+              As a grassroots-driven campaign, we are not accepting
+              contributions from corporations or billionaires.
+            </em>
+          </p>
         </Card.Body>
       </Card>
     </section>
