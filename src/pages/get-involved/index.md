@@ -45,7 +45,7 @@ where_to_stay:
         *Self-parking is $21/night.*
 
 
-        **Booking Name (888-763-3909):** Miraglia/Quirin
+        **Book (888-763-3909):** Miraglia/Quirin
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
@@ -67,10 +67,8 @@ where_to_stay:
         transportation.*
 
 
-        **Booking Code ([online](https://www.saintpaulhotel.com/)):**
-        200620QUIR\
-
-        **Booking Name (800-292-9292):** Miraglia/Quirin
+        **Book ([online](https://www.saintpaulhotel.com/)):** 200620QUIR  
+          **Book (800-292-9292):** Miraglia/Quirin
       phone: (800) 292-9292
       templateKey: hotel
       url: 'https://www.saintpaulhotel.com/'
