@@ -84,6 +84,7 @@ export const RsvpForm = () => {
           ref={register}
           type="text"
           name="bot-field"
+          value=""
           style={{ display: 'none' }}
         />
         <Form.Control ref={register} type="hidden" name="guests" value="[]" />
