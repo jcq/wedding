@@ -1,8 +1,8 @@
 ---
 templateKey: events
 title: Social
-start: 2020-06-20T00:30:00.000Z
-end: 2020-06-20T02:30:00.000Z
+start: 2020-06-19T22:30:00.000Z
+end: 2020-06-20T00:30:00.000Z
 location: The Black Hart of Saint Paul
 url: https://www.blackhartstp.com/
 address: |-

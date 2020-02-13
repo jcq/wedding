@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { format } from 'date-fns';
+import { format, utcToZonedTime } from 'date-fns-tz';
 import { Card, Row, Col } from 'react-bootstrap';
 import { HTMLContent } from '../Content';
 import PreviewCompatibleImage from '../PreviewCompatibleImage';
@@ -17,10 +17,10 @@ export const EventItem = ({ event }) => {
     body,
     featuredImage
   } = event;
-  console.log('eventItem', event);
-  const formattedDate = format(new Date(start), 'EEEE, MMM dd, yyyy');
-  const startTime = format(new Date(start), 'hh:mm aaaa');
-  const endTime = format(new Date(end), 'hh:mm aaaa');
+  const tz = 'America/Chicago';
+  const formattedDate = format(utcToZonedTime(new Date(start), tz), 'EEEE, MMM dd, yyyy');
+  const startTime = format(utcToZonedTime(new Date(start), tz), 'hh:mm aaaa');
+  const endTime = format(utcToZonedTime(new Date(end), tz), 'hh:mm aaaa');
 
   const gMapUrl = `https://www.google.com/maps/search/?api=1&query=${location},${address}`;
   const encUrl = encodeURI(gMapUrl);
