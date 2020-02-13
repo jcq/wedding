@@ -15,12 +15,40 @@ const fromAddr =
   process.env['EMAIL_AUTO_FROM'] ||
   'Miraglia / Quirin 2020 <info@miragliaquirin2020.com>';
 
+const yesText = `
+Thank you for responding!
+
+Event Details:
+Saturday, June 20, 2020
+5:30pm – 11pm
+Bruentrup Heritage Farm
+2170 County Rd D E
+Maplewood, MN 55109
+
+For any questions, please contact info@MiragliaQuirin2020.com
+`;
+
+const yesHtml = `
+<h3>Thank you for responding!</h3>
+<h5>Event Details</h5>
+<div>
+  <strong>Saturday, June 20, 2020</strong><br />
+  5:30pm – 11pm
+<address>
+  Bruentrup Heritage Farm<br />
+  2170 County Rd D E<br />
+  Maplewood, MN 55109<br />
+</address>
+</div>
+<p>For any questions, please contact <a href="mailto:info@MiragliaQuirin2020.com">info@MiragliaQuirin2020.com</a></p>
+`;
+
 const notAttendingBody = params => {
   const { email, primaryName, attending, guests, notes } = params;
 
   return {
-    Text: `Thank you for responding! We'll miss you!`,
-    Html: `<h3>Thank you for responding!</h3><p>We'll miss you!</p>`
+    Text: `Thank you for responding! We're sorry you can't join us, but we're so grateful to have you in our lives!`,
+    Html: `<h3>Thank you for responding!</h3><p>We're sorry you can't join us, but we're so grateful to have you in our lives!</p>`
   };
 };
 
@@ -28,8 +56,8 @@ const attendingBody = params => {
   const { email, primaryName, attending, guests, notes } = params;
 
   return {
-    Text: `Thank you for responding! We're excited to see you in June!`,
-    Html: `<h3>Thank you for responding!</h3><p>See you in June!</p>`
+    Text: yesText,
+    Html: yesHtml
   };
 };
 
