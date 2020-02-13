@@ -15,21 +15,47 @@ const fromAddr =
   process.env['EMAIL_AUTO_FROM'] ||
   'Miraglia / Quirin 2020 <info@miragliaquirin2020.com>';
 
+const noText = `
+Thank you for responding!
+\n\n
+We're sorry you can't join us, but we're grateful to have you in our lives. \n
+If anything changes, you can RSVP again at https://www.MiragliaQuirin2020.com/rsvp by April 27th. 
+\n\n
+Hope to see you soon elsewhere!
+\n\n
+-JC & Megan
+`;
+
+const noHtml = `
+  <h2>Thank you for responding!</h2>
+  <p>We're sorry you can't join us, but we're grateful to have you in our lives. 
+  If anything changes, you can RSVP again at 
+  <a href="https://MiragliaQuirin2020.com/rsvp">MiragliaQuirin2020.com/rsvp</a> by April 27th. 
+  Hope to see you soon elsewhere!
+  </p>
+  <p></p>
+  <p>— JC & Megan</p>
+`;
+
 const yesText = `
 Thank you for responding!
-
-Event Details:
-Saturday, June 20, 2020
-5:30pm – 11pm
-Bruentrup Heritage Farm
-2170 County Rd D E
-Maplewood, MN 55109
-
+\n\n
+Event Details:\n
+Saturday, June 20, 2020\n
+5:30pm – 11pm\n
+Bruentrup Heritage Farm\n
+2170 County Rd D E\n
+Maplewood, MN 55109\n
+\n\n
 For any questions, please contact info@MiragliaQuirin2020.com
+\n\n
+Best,
+\n\n
+-Megan & JC
 `;
 
 const yesHtml = `
-<h2>Thank you for responding!</h2>
+<h2>Thank you for responding — we'll see you in June!</h2>
 <h4>Event Details</h4>
 <div>
   <strong>Saturday, June 20, 2020</strong><br />
@@ -41,6 +67,9 @@ const yesHtml = `
 </address>
 </div>
 <p>For any questions, please contact <a href="mailto:info@MiragliaQuirin2020.com">info@MiragliaQuirin2020.com</a></p>
+
+<p></p>
+<p>— Megan & JC</p>
 `;
 
 const notAttendingBody = params => {
@@ -48,7 +77,7 @@ const notAttendingBody = params => {
 
   return {
     Text: `Thank you for responding! We're sorry you can't join us, but we're so grateful to have you in our lives!`,
-    Html: `<h3>Thank you for responding!</h3><p>We're sorry you can't join us, but we're so grateful to have you in our lives!</p>`
+    Html: noHtml
   };
 };
 
@@ -71,6 +100,8 @@ const generateEmailBody = params => {
 };
 
 const sendEmail = params => {
+  const { attending } = params;
+
   return ses
     .sendEmail({
       Source: fromAddr,
@@ -80,7 +111,9 @@ const sendEmail = params => {
       Message: {
         Subject: {
           Charset: 'UTF-8',
-          Data: 'Thank you for responding!'
+          Data: attending
+            ? "We can't wait to see you in June!"
+            : 'Thank you for responding!'
         },
         Body: {
           Text: {
