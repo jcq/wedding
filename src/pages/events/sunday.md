@@ -1,8 +1,11 @@
 ---
 templateKey: events
-title: Sunday Gathering
-start: 2021-08-15T16:00:00.000Z
-end: 2021-08-15T18:30:00.000Z
+title: Brunch
+start: 2020-06-21T16:00:00.000Z
+end: 2020-06-21T18:30:00.000Z
 location: TBD
+url: ''
+address: ''
+description: x
 ---
-If you're still in town, take in a lazy Minnesota Sunday with us! Details TBD.
+If you're still in town, join us for brunch! Details TBD.
