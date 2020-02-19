@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Miraglia / Quirin 2020',
     description:
-      'This repo contains the wedding website of JC & Megan, running Gatsby backed by Netlify CMS'
+      'Megan Miraglia & JC Quirin: Stronger Together'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
