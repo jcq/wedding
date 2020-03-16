@@ -9,6 +9,7 @@ import GetInvolvedPagePreview from './preview-templates/GetInvolvedPagePreview';
 import RsvpPagePreview from './preview-templates/RsvpPagePreview';
 import ShopPagePreview from './preview-templates/ShopPagePreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
+import CovidPagePreview from './preview-templates/CovidPagePreview';
 
 import styles from '!css-loader!sass-loader!../components/all.scss';
 import ThankYouPagePreview from './preview-templates/ThankYouPagePreview';
@@ -26,3 +27,4 @@ CMS.registerPreviewTemplate('get-involved', GetInvolvedPagePreview);
 CMS.registerPreviewTemplate('rsvp', RsvpPagePreview);
 CMS.registerPreviewTemplate('thanks', ThankYouPagePreview);
 CMS.registerPreviewTemplate('shop', ShopPagePreview);
+CMS.registerPreviewTemplate('coronavirus', CovidPagePreview);
