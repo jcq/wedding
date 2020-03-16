@@ -44,12 +44,7 @@ collections:
           widget: 'string',
           required: false,
         }
-      - {
-          label: 'URL',
-          name: 'url',
-          widget: 'string',
-          required: false,
-        }
+      - { label: 'URL', name: 'url', widget: 'string', required: false }
       - { label: 'Address', name: 'address', widget: 'text', required: false }
       - {
           label: 'Description',
@@ -92,6 +87,35 @@ collections:
               name: subheading,
               widget: string,
               required: false,
+            }
+          - {
+              label: 'Alert',
+              name: alert,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Heading,
+                    name: heading,
+                    widget: string,
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Details',
+                    name: 'details',
+                    widget: 'string',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Link',
+                    name: 'link',
+                    widget: 'string',
+                    required: false,
+                    default: '',
+                  },
+                ],
             }
           - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - file: 'src/pages/about/index.md'
