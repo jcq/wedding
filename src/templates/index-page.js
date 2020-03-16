@@ -26,6 +26,7 @@ export const IndexPageTemplate = ({
         <Card.Body>
           {alert && (
             <Alert variant="warning">
+              {alert.heading && <Alert.Heading>{alert.heading}</Alert.Heading>}
               {alert.details && <span>{alert.details}</span>}{' '}
               {alert.link && (
                 <Alert.Link as={Link} to={alert.link}>
