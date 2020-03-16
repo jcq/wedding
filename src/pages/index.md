@@ -5,6 +5,10 @@ image: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581383420/home/upload-flag_pe5y4g.jpg
 heading: ''
 subheading: STRONGER TOGETHER
+alert:
+  heading: ''
+  details: 'Coronavirus Update'
+  link: '/coronavirus'
 ---
 Megan and JC have chosen each other as running mates in the most anticipated campaign of 2020.
 

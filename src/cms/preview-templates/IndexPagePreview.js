@@ -13,7 +13,8 @@ const IndexPagePreview = ({ entry, widgetFor }) => {
           image={data.image}
           title={data.title}
           heading={data.heading}
-          subheading={data.subheading}         
+          subheading={data.subheading}
+          alert={data.alert}
           content={widgetFor('body')}
         />
       </CmsLayout>

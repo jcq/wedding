@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content';
 
 import Layout from '../components/Layout';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Alert } from 'react-bootstrap';
 import { Hero } from '../components/Hero';
 
 import styles from './index-page.module.scss';
@@ -14,7 +14,8 @@ export const IndexPageTemplate = ({
   title,
   subheading,
   contentComponent,
-  content
+  content,
+  alert
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -23,8 +24,21 @@ export const IndexPageTemplate = ({
       <Hero />
       <Card className={styles.main}>
         <Card.Body>
+          {alert && (
+            <Alert variant="warning">
+              {alert.details && <span>{alert.details}</span>}{' '}
+              {alert.link && (
+                <Alert.Link as={Link} to={alert.link}>
+                  Read more...
+                </Alert.Link>
+              )}
+            </Alert>
+          )}
+
           {title && <h1 className="text-center text-primary">{title}</h1>}
-          {subheading && <h3 className="text-center text-secondary">{subheading}</h3>}
+          {subheading && (
+            <h3 className="text-center text-secondary">{subheading}</h3>
+          )}
           {content && (
             <PageContent
               className="content text-center mt-3"
@@ -62,6 +76,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         contentComponent={HTMLContent}
         content={html}
+        alert={frontmatter.alert}
       />
     </Layout>
   );
@@ -86,6 +101,11 @@ export const pageQuery = graphql`
         image
         heading
         subheading
+        alert {
+          heading
+          details
+          link
+        }
       }
     }
   }
