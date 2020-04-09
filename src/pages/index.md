@@ -6,17 +6,15 @@ image: >-
 heading: ''
 subheading: STRONGER TOGETHER
 alert:
-  details: ''
-  heading: Coronavirus Update
-  link: /coronavirus
+  details: >-
+    We are in the midst of a scary and unpredictable time as we face the spread
+    of the coronavirus and evolving mitigation efforts across the world.  Our
+    top priority is protecting the health of our family, friends, vendors, and
+    anyone else we might directly or indirectly come in contact with. We are
+    postponing our nuptials until 2021. More information to come.
+  heading: COVID-19 Update
+  link: ''
 ---
-Megan and JC have chosen each other as running mates in the most anticipated campaign of 2020.
+Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike> 2021.
 
-As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter this summer in Minnesota.
-
-##### **Saturday, June 20, 2020**
-**5:30 PM**
-
-##### **Bruentrup Historical Farm**
-**2170 County Rd D E**\
-**Maplewood, MN 55109**
+As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter next summer in Minnesota.
