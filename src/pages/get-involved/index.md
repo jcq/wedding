@@ -19,14 +19,12 @@ where_to_stay:
     - - -
 
 
-    We have two hotel room blocks available: one in downtown Minneapolis and one
+    We will have two hotel room blocks available: one in downtown Minneapolis and one
     in downtown Saint Paul.
 
 
     Feel free to stay at either (or neither)!
 
-
-    *Only a limited number of rooms are reserved at rate, so please book early.*
   heading: Where to Stay
   hotels:
     - address: |-

@@ -29,7 +29,7 @@ export const RsvpPageTemplate = ({
           <Card.Title>
             <PageContent className="content" content={content} />
           </Card.Title>
-          <RsvpForm onSubmit={() => navigate('/rsvp/thanks')} />
+          {/* <RsvpForm onSubmit={() => navigate('/rsvp/thanks')} /> */}
         </Card.Body>
       </Card>
     </section>

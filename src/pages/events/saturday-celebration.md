@@ -1,8 +1,8 @@
 ---
 templateKey: events
 title: Ceremony & Celebration
-start: 2020-06-20T22:00:00.000Z
-end: 2020-06-20T04:00:00.000Z
+start: 2021-06-12T22:00:00.000Z
+end: 2021-06-12T04:00:00.000Z
 location: Bruentrup Heritage Farm
 url: http://maplewoodhistoricalsociety.org/
 address: |-
@@ -12,8 +12,4 @@ featuredevent: true
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581202887/events/IMG_20190906_094722_zr8l7s.jpg
 ---
-* 5:00 pm: Welcome!
-* 5:30 pm: Ceremony
-* 5:45 pm: Socializing
-* 7:00 pm: Dinner
-* 8:00 pm: Dancing, Merriment, Etc.
+

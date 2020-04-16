@@ -6,6 +6,7 @@ import Content, { HTMLContent } from '../components/Content';
 
 import Layout from '../components/Layout';
 import { Button, Card, Alert } from 'react-bootstrap';
+import ReactMarkdown from 'react-markdown/with-html';
 import { Hero } from '../components/Hero';
 
 import styles from './index-page.module.scss';
@@ -24,18 +25,6 @@ export const IndexPageTemplate = ({
       <Hero />
       <Card className={styles.main}>
         <Card.Body>
-          {alert && (
-            <Alert variant="warning">
-              {alert.heading && <Alert.Heading>{alert.heading}</Alert.Heading>}
-              {alert.details && <span>{alert.details}</span>}{' '}
-              {alert.link && (
-                <Alert.Link as={Link} to={alert.link}>
-                  Read more...
-                </Alert.Link>
-              )}
-            </Alert>
-          )}
-
           {title && <h1 className="text-center text-primary">{title}</h1>}
           {subheading && (
             <h3 className="text-center text-secondary">{subheading}</h3>
@@ -46,11 +35,23 @@ export const IndexPageTemplate = ({
               content={content}
             />
           )}
-          <p className="text-center">
+          {/* <p className="text-center">
             <Button as={Link} to="/rsvp" variant="danger">
               RSVP by April 27, 2020
             </Button>
-          </p>
+          </p> */}
+
+          {alert && (
+            <Alert variant="warning">
+              {alert.heading && <Alert.Heading>{alert.heading}</Alert.Heading>}
+              {alert.details && <span><ReactMarkdown source={alert.details} /></span>}{' '}
+              {alert.link && (
+                <Alert.Link as={Link} to={alert.link}>
+                  Read more...
+                </Alert.Link>
+              )}
+            </Alert>
+          )}
         </Card.Body>
       </Card>
     </div>

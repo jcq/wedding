@@ -19,11 +19,11 @@ export const EventsPageTemplate = ({ title, featuredImage, events }) => {
 
       <EventItem event={featured} />
 
-      <CardDeck className="mt-3">
+      {/* <CardDeck className="mt-3">
         {others.map(event => (
           <EventItem event={event} key={event.id} />
         ))}
-      </CardDeck>
+      </CardDeck> */}
     </section>
   );
 };

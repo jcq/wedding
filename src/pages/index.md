@@ -7,11 +7,11 @@ heading: ''
 subheading: STRONGER TOGETHER
 alert:
   details: >-
-    We are in the midst of a scary and unpredictable time as we face the spread
-    of the coronavirus and evolving mitigation efforts across the world.  Our
-    top priority is protecting the health of our family, friends, vendors, and
-    anyone else we might directly or indirectly come in contact with. We are
-    postponing our nuptials until 2021. More information to come.
+    In the midst of these scary and unpredictable times, the things that are truly important become clear.
+    
+      Though we don’t have the answer to this crisis, we do have a plan to help protect the health of our family, friends, vendors, and anyone else we might directly or indirectly come in contact with.
+    
+      We are postponing our celebration until June 12, 2021 to ensure that, when we see you again, we are all healthy and well. Be safe!
   heading: COVID-19 Update
   link: ''
 ---
