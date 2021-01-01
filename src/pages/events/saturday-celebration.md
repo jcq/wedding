@@ -12,9 +12,4 @@ featuredevent: true
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/v1581202887/events/IMG_20190906_094722_zr8l7s.jpg
 ---
-*Feel free to arrive starting at 5:00 pm!*
 
-* 5:30 pm: Ceremony
-* 5:45 pm: Social Hour
-* 7:00 pm: Dinner
-* 8:00 pm: Dancing, Merriment, Etc.
