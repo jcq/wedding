@@ -16,6 +16,6 @@ alert:
   heading: COVID-19 Update
   link: ''
 ---
-Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike> 2021?
+Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike>?
 
-As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter next summer in Minnesota.
+As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter.
