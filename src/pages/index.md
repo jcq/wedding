@@ -7,14 +7,15 @@ heading: ''
 subheading: STRONGER TOGETHER
 alert:
   details: >-
-    In the midst of these scary and unpredictable times, the things that are truly important become clear.
-    
-      Though we don’t have the answer to this crisis, we do have a plan to help protect the health of our family, friends, vendors, and anyone else we might directly or indirectly come in contact with.
-    
-      We are postponing our celebration until June 12, 2021 to ensure that, when we see you again, we are all healthy and well. Be safe!
+    In the midst of these scary and unpredictable times, the things that are
+    truly important become clear.  Though we don’t have the answer to this
+    crisis, we do have a plan to help protect the health of our family, friends,
+    vendors, and anyone else we might directly or indirectly come in contact
+    with.  We are postponing our celebration indefinitely to ensure that, when
+    we see you again, we are all healthy and well. Be safe!
   heading: COVID-19 Update
   link: ''
 ---
-Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike> 2021.
+Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike>?
 
-As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter next summer in Minnesota.
+As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter.
