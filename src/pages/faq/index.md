@@ -18,7 +18,7 @@ Yes! Preferably yours.
 
 ##### What should I wear?
 
-Please dress however you are most comfortable! “Casual Dress Code”, if you need something official. We will be on and off grass, so consider this when making shoe decisions.
+Please dress however you are most comfortable! “Wedding Casual”, if you need something official. We will be on and off grass, so consider this when making shoe decisions.
 
 ##### What will the weather be like?
 
@@ -34,6 +34,7 @@ The reception will take place in an historic barn without sophisticated climate 
 We are trying to be inclusive, but please let us know your needs so we can make sure you are safe and sated!
 
 ![Megan with Voters](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto:faces,h_3265,w_3462/v1581399865/DSC_0041.NEF_1_s9beo8.jpg)
+
 ##### How do I get to Minnesota? Is it the same as Wisconsin? Where should I stay?
 
 Minnesota is technically a different state than Wisconsin, but just barely. Please find this information (and more!) [here](https://miragliaquirin2020.com/get-involved).
