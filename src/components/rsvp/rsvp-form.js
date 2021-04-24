@@ -30,7 +30,7 @@ const validationSchema = yup.object().shape({
 });
 
 const defaultValues = {
-  'form-name': 'rsvp',
+  'form-name': 'rsvp2',
   guests: [],
   notes: '',
   'bot-field': ''
