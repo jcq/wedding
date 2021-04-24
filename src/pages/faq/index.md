@@ -10,7 +10,7 @@ Because we love farms! Sadly (or fortunately?), there are no animals out of resp
 
 ##### What else is happening this weekend?
 
-You could check out the *Vikings Begin* exhibition at the American Swedish Institute. Or, hang out with us (even more) Friday and/or Sunday! Check out the Events page [here](https://miragliaquirin2020.com/events).
+You could check out the [Irish Fair of Minnesota](https://www.irishfair.com/) — or stick around an extra 12 days and attend the [Minnesota State Fair](https://www.mnstatefair.org/)! Or, hang out with us (even more) Friday and/or Sunday! Check out the Events page [here](https://miragliaquirin2020.com/events).
 
 ##### Can I bring kids?
 
@@ -41,7 +41,7 @@ Minnesota is technically a different state than Wisconsin, but just barely. Plea
 
 ##### Do I need to RSVP?
 
-Yes, please! [RSVP by July 15 here.](https://miragliaquirin2020.com/rsvp/)
+Yes, please! [RSVP by July 1 here.](https://miragliaquirin2020.com/rsvp/)
 
 ##### Where can I play pickleball?
 

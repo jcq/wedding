@@ -30,7 +30,7 @@ const validationSchema = yup.object().shape({
 });
 
 const defaultValues = {
-  'form-name': 'rsvp',
+  'form-name': 'rsvp2',
   guests: [],
   notes: '',
   'bot-field': ''
@@ -64,7 +64,7 @@ export const RsvpForm = () => {
     };
 
     setLoading(true);
-    await saveToNetlify({ payload, formName: 'rsvp' });
+    await saveToNetlify({ payload, formName: 'rsvp2' });
     setLoading(false);
 
     navigate('/rsvp/thanks');
@@ -74,7 +74,7 @@ export const RsvpForm = () => {
     <FormContext {...formMethods}>
       <Form
         noValidate
-        name="rsvp"
+        name="rsvp2"
         onSubmit={handleSubmit(onSubmit)}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
