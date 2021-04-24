@@ -7,19 +7,15 @@ heading: ''
 subheading: STRONGER TOGETHER
 alert:
   details: >-
-    In the midst of these unpredictable times, what is truly important become
-    clear.  Though we don’t have the answer to this crisis, we do have a plan to
-    help protect the health of our family, friends, vendors, and anyone else we
-    might directly or indirectly come in contact with.  We are postponing our
-    celebration indefinitely to ensure that, when we see you again, we are all
-    healthy and well. Be safe!
-  heading: COVID-19 Update
+    In order to ensure everyone is able to safely attend, we have rescheduled
+    for Saturday, August 14, 2021.
+  heading: 'Update:'
   link: ''
   disabled: false
 ---
 Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike> 2021.
 
-As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter.
+As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us this summer in celebration, love, and laughter.
 
 ##### **Saturday, August 14, 2021**
 **5:30 PM**
