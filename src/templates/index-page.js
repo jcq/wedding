@@ -35,13 +35,13 @@ export const IndexPageTemplate = ({
               content={content}
             />
           )}
-          {/* <p className="text-center">
+          <p className="text-center">
             <Button as={Link} to="/rsvp" variant="danger">
-              RSVP by April 27, 2020
+              RSVP by June 1, 2021
             </Button>
-          </p> */}
+          </p>
 
-          {alert && (
+          {alert && !alert.disabled (
             <Alert variant="warning">
               {alert.heading && <Alert.Heading>{alert.heading}</Alert.Heading>}
               {alert.details && <span><ReactMarkdown source={alert.details} /></span>}{' '}
@@ -107,6 +107,7 @@ export const pageQuery = graphql`
           heading
           details
           link
+          disabled
         }
       }
     }

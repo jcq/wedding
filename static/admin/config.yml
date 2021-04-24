@@ -115,6 +115,12 @@ collections:
                     required: false,
                     default: '',
                   },
+                  {
+                    label: 'Disabled',
+                    name: 'disabled',
+                    widget: 'boolean',
+                    default: false
+                  }
                 ],
             }
           - { label: 'Body', name: 'body', widget: 'markdown', required: false }

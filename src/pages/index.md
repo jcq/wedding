@@ -15,7 +15,15 @@ alert:
     healthy and well. Be safe!
   heading: COVID-19 Update
   link: ''
+  disabled: false
 ---
-Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike>.
+Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike> 2021.
 
 As our dearest family, friends, supporters, and those that tolerate our goofy jokes, we hope you will join us in celebration, love, and laughter.
+
+##### **Saturday, August 14, 2021**
+**5:30 PM**
+
+##### **Bruentrup Historical Farm**
+**2170 County Rd D E**\
+**Maplewood, MN 55109**
