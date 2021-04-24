@@ -41,7 +41,7 @@ Minnesota is technically a different state than Wisconsin, but just barely. Plea
 
 ##### Do I need to RSVP?
 
-Yes, please! [RSVP by July 15 here.](https://miragliaquirin2020.com/rsvp/)
+Yes, please! [RSVP by July 1 here.](https://miragliaquirin2020.com/rsvp/)
 
 ##### Where can I play pickleball?
 

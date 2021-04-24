@@ -37,7 +37,7 @@ export const IndexPageTemplate = ({
           )}
           <p className="text-center">
             <Button as={Link} to="/rsvp" variant="danger">
-              RSVP by June 1, 2021
+              RSVP by July 1, 2021
             </Button>
           </p>
 
