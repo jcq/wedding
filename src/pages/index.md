@@ -11,7 +11,7 @@ alert:
     for Saturday, August 14, 2021.
   heading: 'Update:'
   link: ''
-  disabled: false
+  disabled: true
 ---
 Megan and JC have chosen each other as running mates in the most anticipated campaign of <strike>2020</strike> 2021.
 

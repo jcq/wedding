@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
             </Button>
           </p>
 
-          {alert && !alert.disabled (
+          {alert && !alert.disabled && (
             <Alert variant="warning">
               {alert.heading && <Alert.Heading>{alert.heading}</Alert.Heading>}
               {alert.details && <span><ReactMarkdown source={alert.details} /></span>}{' '}
