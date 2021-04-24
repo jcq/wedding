@@ -64,7 +64,7 @@ export const RsvpForm = () => {
     };
 
     setLoading(true);
-    await saveToNetlify({ payload, formName: 'rsvp' });
+    await saveToNetlify({ payload, formName: 'rsvp2' });
     setLoading(false);
 
     navigate('/rsvp/thanks');
@@ -74,7 +74,7 @@ export const RsvpForm = () => {
     <FormContext {...formMethods}>
       <Form
         noValidate
-        name="rsvp"
+        name="rsvp2"
         onSubmit={handleSubmit(onSubmit)}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
