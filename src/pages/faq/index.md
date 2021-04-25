@@ -27,7 +27,7 @@ After extensive research into local meteorological data, we can report the follo
 * August in St. Paul typically sees temperatures ranging from 61º F to 79º F. It does get a bit *moist*, with 74% average humidity.
 * Volgograd, Russia (5,485 mi away) and Benxi, China (6,058 mi away) are the farthest locations with temperatures most similar to the Twin Cities.
 
-The reception will take place in an historic barn without sophisticated climate control, so it may be hot/humid during the day and chilly at night.
+The venue is an historic barn without sophisticated climate control, so it may be hot/humid during the day and chilly at night.
 
 ##### What if I’m worried about my food allergy or dietary restrictions?
 
@@ -43,8 +43,12 @@ Minnesota is technically a different state than Wisconsin, but just barely. Plea
 
 Yes, please! [RSVP by July 1 here.](https://miragliaquirin2020.com/rsvp/)
 
+##### But why are you getting married on a farm? Are there going to be animals?
+
+Because we love farms! Sadly (or fortunately?), there are no animals out of respect to guests with allergies or who don't want to smell pigs while they eat. Yes, that was a feature of Megan's preferred venue.
+
 ##### Where can I play pickleball?
 
-If Kathleen tricks you into leaving the celebration for a pickleball match, it is a trap. However, there are nice courts at Tanners Lake Park in Oakdale, a mere 16 minutes away!
+If Kathleen tricks you into leaving the celebration for any reason, it is a pickleball trap. That being said, there are nice courts at Tanners Lake Park in Oakdale, a mere 16 minutes away!
 
 *If you have any other questions, please reach out to either JC or Megan, or email [MiragliaQuirin2020@gmail.com](mailto:MiragliaQuirin2020@gmail.com)*
