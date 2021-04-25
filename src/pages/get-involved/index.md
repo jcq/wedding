@@ -19,8 +19,8 @@ where_to_stay:
     - - -
 
 
-    We will have two hotel room blocks available: one in downtown Minneapolis and one
-    in downtown Saint Paul.
+    We are working to have two hotel room blocks available: one in downtown Minneapolis (at the Millennium Hotel) and one
+    in downtown Saint Paul (at The Saint Paul Hotel). More details (including block codes) will be posted shortly.
 
 
     Feel free to stay at either (or neither)!
@@ -30,7 +30,7 @@ where_to_stay:
     - address: |-
         1313 Nicollet Mall
         Minneapolis, MN 55403
-      distance: Minnesota is 16 mi (around 20 minutes sans traffic) from our venue.
+      distance: Minneapolis is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Millennium Hotel
       notes: >-
         A polished business hotel near the convention center with an indoor pool
@@ -85,7 +85,7 @@ You can take the [light rail](https://www.metrotransit.org/metro) Blue Line from
 
 There is also extensive bus service around the metro area if you are looking to avoid cars. Check out the [Metro Transit](https://www.metrotransit.org/trip-planner) website for more info.
 
-The [venue](https://www.google.com/maps/place/Bruentrup+Heritage+Farm+and+the+Maplewood+Historical+Society/@45.035173,-93.0090352,15z/data=!4m5!3m4!1s0x0:0xf2366bbf258a29da!8m2!3d45.035173!4d-93.0090352) is around 20 minutes (sans traffic) from Minneapolis and 10 minutes Saint Paul by car.
+The [venue](https://www.google.com/maps/place/Bruentrup+Heritage+Farm+and+the+Maplewood+Historical+Society/@45.035173,-93.0090352,15z/data=!4m5!3m4!1s0x0:0xf2366bbf258a29da!8m2!3d45.035173!4d-93.0090352) is around 20 minutes (sans traffic) from Minneapolis and 10 minutes from Saint Paul by car.
 
 We strongly recommend taking a car to the venue. You can carpool, take a Lyft, and JC is learning that taxis are still a thing.
 
