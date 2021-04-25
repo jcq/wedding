@@ -14,6 +14,8 @@ Here are some other things you might enjoy *(with distance from that city's hote
   Turns out Sweden is more than IKEA. Check out the history museum, culture center, and mansion
 * **[Chain of Lakes](https://www.minneapolisparks.org/parks__destinations/parks__lakes/minneapolis_chain_of_lakes_regional_park/)** *(3 mi)*\
   Do you like bodies of water but have a tough time choosing just one? Want to know why they were called the 'Minneapolis Lakers' before moving to LA? Minneapolis is called the City of Lakes for reason!
+* **George Floyd Square & "Say Their Names" Cemetery** *(2.5 mi)*\
+  Visitors are encouraged, but should treat this site as they would any other memorial: with respect and solemnity while understanding this is still an active part of a community. [This blog was helpful for our visit.](https://placesjournal.org/article/george-floyd-and-a-community/?cn-reloaded=1) It is recommended not to visit at night.
 * **[Mill City Museum](https://www.mnhs.org/millcity)** *(1.5 mi)*\
   The mills ruins are stunning enough for a visit on their own. Located next to the historic [Stone Arch Bridge](https://www.minneapolisparks.org/parks__destinations/historical_sites/stone_arch_bridge/); this is perhaps the quintessential view of the Minneapolis riverfront. And if you don't know what 'swarf' is, you might actually need to go inside
 * **[Minneapolis Institute of Art](https://new.artsmia.org/)** *(1.1 mi)*\
