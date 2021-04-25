@@ -8,7 +8,7 @@ const Footer = class extends React.Component {
         <Row className="justify-content-center">
           <Col className="text-center">
             <div className="disclaimer d-inline-block border p-2 text-center text-uppercase">
-              Paid for by Miraglia / Quirin 2020
+              Paid for by Miraglia / Quirin 2021
             </div>
           </Col>
         </Row>
