@@ -5,26 +5,30 @@ featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto,h_886,w_3208/v1581403478/DSC_0167_17043.NEF_tngvwj.jpg
 where_to_stay:
   body: >-
-    **Minneapolis** has an expected city vibe, with a dense downtown, lots of
-    restaurant options, attractions, and popular neighborhoods. Expect city
-    traffic and parking.
+    You make recognize **Minneapolis** from the news, but it's not on fire as
+    much as they might have you believe. It's a vibrant and fun city, with a
+    dense downtown, lots of great restaurant options, attractions, and popular
+    neighborhoods. Expect city traffic and parking.
 
 
-    **St. Paul** is more laid-back, with a less bustling downtown, but plenty of
-    good restaurants, but not the same scene. While both cities have river
+    **St. Paul** is quieter and less bustling,, with plenty of great
+    restaurants, but not the same city scene. While both cities have river
     access, those in St. Paul tout its better view and the beautiful capitol
-    building.
+    building. (And you can guess where loyalty lies here.)
 
 
     - - -
 
 
-    We are working to have two hotel room blocks available: one in downtown Minneapolis (at the Millennium Hotel) and one
-    in downtown Saint Paul (at The Saint Paul Hotel). More details (including block codes) will be posted shortly.
+    We will have two hotel room blocks available: one in downtown Minneapolis
+    (at the [Millennium
+    Hotel](https://www.millenniumhotels.com/en/minneapolis/millennium-hotel-minneapolis/))
+    and one in downtown Saint Paul (at [The Saint Paul
+    Hotel](https://www.saintpaulhotel.com/)).
 
 
-    Feel free to stay at either (or neither)!
-
+    More details (including block codes) will be posted shortly. Feel free to
+    stay at either - or neither!
   heading: Where to Stay
   hotels:
     - address: |-
@@ -76,17 +80,14 @@ where_to_stay:
       templateKey: hotel
       url: 'https://www.saintpaulhotel.com/'
 ---
-We can't wait for you to join us!
-![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg)
+We can't wait for you to join us! ![Love Sculpture](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3450,w_3024/v1581202922/get_involved/IMG_2250_kwlped.jpg)
 
 **Minneapolis−Saint Paul International Airport ([MSP](https://www.mspairport.com/))** services the Twin Cities.
 
-You can take the [light rail](https://www.metrotransit.org/metro) Blue Line from the airport to Downtown Minneapolis, or transfer to the Green Line to the historic Union Deport to Lowertown Saint Paul.
+Try the [light rail](https://www.metrotransit.org/metro): take the Blue Line from the airport straight to Downtown Minneapolis, or transfer to the Green Line at historic Union Depot to Lowertown Saint Paul.
 
-There is also extensive bus service around the metro area if you are looking to avoid cars. Check out the [Metro Transit](https://www.metrotransit.org/trip-planner) website for more info.
+If you are looking to avoid cars, there is extensive bus service around the metro area. Check out the [Metro Transit](https://www.metrotransit.org/trip-planner) website for more info.
 
-The [venue](https://www.google.com/maps/place/Bruentrup+Heritage+Farm+and+the+Maplewood+Historical+Society/@45.035173,-93.0090352,15z/data=!4m5!3m4!1s0x0:0xf2366bbf258a29da!8m2!3d45.035173!4d-93.0090352) is around 20 minutes (sans traffic) from Minneapolis and 10 minutes from Saint Paul by car.
-
-We strongly recommend taking a car to the venue. You can carpool, take a Lyft, and JC is learning that taxis are still a thing.
+The [venue](https://www.google.com/maps/place/Bruentrup+Heritage+Farm+and+the+Maplewood+Historical+Society/@45.035173,-93.0090352,15z/data=!4m5!3m4!1s0x0:0xf2366bbf258a29da!8m2!3d45.035173!4d-93.0090352) is around 20 minutes (sans traffic) from Minneapolis and 10 minutes from Saint Paul by car, which is probably the best way to reach it. You can carpool, take a Lyft, or a taxi (which, yes, still exist!).
 
 If you would like to rent a car, they can be [rented at the airport](https://www.mspairport.com/directions/ground-transportation/car-rentals).
