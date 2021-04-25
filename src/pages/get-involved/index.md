@@ -5,13 +5,10 @@ featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto,h_886,w_3208/v1581403478/DSC_0167_17043.NEF_tngvwj.jpg
 where_to_stay:
   body: >-
-    You make recognize **Minneapolis** from the news, but it's not on fire as
-    much as they might have you believe. It's a vibrant and fun city, with a
-    dense downtown, lots of great restaurant options, attractions, and popular
-    neighborhoods. Expect city traffic and parking.
+    You may recognize **Minneapolis** from the news, but unlike what you might have seen there, it's actually the City of Lakes, not fire. It's a vibrant and fun city, with a dense downtown, lots of great restaurant options, attractions, and popular neighborhoods. Expect city traffic and parking.
 
 
-    **St. Paul** is quieter and less bustling,, with plenty of great
+    **St. Paul** is quieter and less bustling, with plenty of great
     restaurants, but not the same city scene. While both cities have river
     access, those in St. Paul tout its better view and the beautiful capitol
     building. (And you can guess where loyalty lies here.)

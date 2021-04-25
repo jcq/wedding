@@ -4,7 +4,7 @@ heading: Things to Do
 ---
 ![JC, Megan, Cherry & Spoon](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_north,h_3100,w_3024/v1581202921/get_involved/IMG_20190905_184311_v06v9u.jpg) Welcome to Minnesota!
 
-Unfortunately, you won't be here for the State Fair and probably won't have time for a canoe trip on the Boundary Waters, but we hope you'll come back.
+Unfortunately, you won't be here for the [State Fair](https://www.mnstatefair.org/) and probably won't have time for a canoe trip on the Boundary Waters, but we hope you'll come back.
 
 Here are some other things you might enjoy *(with distance from that city's hotel block in parentheses)*:
 
