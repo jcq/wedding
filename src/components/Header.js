@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import logo from '../img/logo.svg';
+import logo from '../img/logo-2021.svg';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
 import styles from './Header.scss';
