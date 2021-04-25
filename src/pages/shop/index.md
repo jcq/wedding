@@ -6,4 +6,4 @@ featuredImage: >-
 ---
 The greatest gift is to be able to spend this day alongside our friends and family. Please know that we are beyond thankful for the effort you'll be making to join us in Minnesota.
 
-That said, if you really would like to help us celebrate with a gift, we have created a registry for your convenience.
+If you would like to help us celebrate with a gift, we have created a registry for your convenience.
