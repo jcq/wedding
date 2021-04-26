@@ -20,12 +20,14 @@ const validationSchema = yup.object().shape({
     .string()
     .matches(/^yes$|^no$/, 'Must be either "Yes" or "No"')
     .required(),
-  guests: yup.array(
-    yup
-      .object()
-      .shape({ name: yup.string().required() })
-      .required()
-  ),
+  guests: yup
+    .array(
+      yup
+        .object()
+        .shape({ name: yup.string().required() })
+        .required()
+    )
+    .nullable(),
   notes: yup.string()
 });
 
@@ -60,7 +62,7 @@ export const RsvpForm = () => {
   const onSubmit = async data => {
     const payload = {
       ...data,
-      guests: data.guests.map(g => g.name)
+      guests: Array.isArray(data.guests) ? data.guests.map(g => g.name) : ''
     };
 
     setLoading(true);
@@ -87,7 +89,7 @@ export const RsvpForm = () => {
           value=""
           style={{ display: 'none' }}
         />
-        <Form.Control ref={register} type="hidden" name="guests" value="[]" />
+        <Form.Control ref={register} type="hidden" name="guests" />
         <Form.Control type="hidden" name="notes" />
 
         <Form.Group>
