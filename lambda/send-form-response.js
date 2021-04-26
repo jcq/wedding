@@ -41,8 +41,8 @@ const yesText = `
 Thank you for responding!
 \n\n
 Event Details:\n
-Saturday, June 20, 2020\n
-5:30pm – 11pm\n
+Saturday, August 14, 2021\n
+4:30pm – 11pm\n
 Bruentrup Heritage Farm\n
 2170 County Rd D E\n
 Maplewood, MN 55109\n
@@ -55,11 +55,11 @@ Best,
 `;
 
 const yesHtml = `
-<h2>Thank you for responding — we'll see you in June!</h2>
+<h2>Thank you for responding — we'll see you in August!</h2>
 <h4>Event Details</h4>
 <div>
-  <strong>Saturday, June 20, 2020</strong><br />
-  5:30pm – 11pm
+  <strong>Saturday, August 14, 2021</strong><br />
+  4:30pm – 11pm
 <address>
   Bruentrup Heritage Farm<br />
   2170 County Rd D E<br />
@@ -112,7 +112,7 @@ const sendEmail = params => {
         Subject: {
           Charset: 'UTF-8',
           Data: attending
-            ? "We can't wait to see you in June!"
+            ? "We can't wait to see you in August!"
             : 'Thank you for responding!'
         },
         Body: {
