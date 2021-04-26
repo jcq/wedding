@@ -29,6 +29,10 @@ The venue is an historic barn without sophisticated climate control, so it may b
 
 Please let us know your needs so we can make sure you are both safe and sated!
 
+##### Will there be COVID-19 safety measures in place?
+
+Short answer: yes. We hope everyone that is able will be vaccinated by late summer, but we will be looking to the CDC and other science-based recommendations for guidance as to how to take additional precautions at every opportunity. Please let us know if you have specific concerns or questions.
+
 ![Megan with Voters](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto:faces,h_3265,w_3462/v1581399865/DSC_0041.NEF_1_s9beo8.jpg)
 
 ##### How do I get to Minnesota? Is it the same as Wisconsin? Where should I stay?
