@@ -4,10 +4,6 @@ title: FAQ
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_south_west,h_2221,w_4118/v1581381941/DSC_0055.NEF_cjqmfz.jpg
 ---
-##### But why are you getting married on a farm? Are there going to be animals?
-
-Because we love farms! Sadly (or fortunately?), there are no animals out of respect to guests with allergies or who don't want to smell pigs while they eat. Yes, that was a feature of Megan's preferred venue.
-
 ##### What else is happening this weekend?
 
 You could check out the [Irish Fair of Minnesota](https://www.irishfair.com/) — or stick around an extra 12 days and attend the [Minnesota State Fair](https://www.mnstatefair.org/)! Or, hang out with us (even more) Friday and/or Sunday! Check out the Events page [here](https://miragliaquirin2020.com/events).
