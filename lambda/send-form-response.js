@@ -111,7 +111,7 @@ const sendEmail = params => {
       Message: {
         Subject: {
           Charset: 'UTF-8',
-          Data: attending
+          Data: (attending && attending == 'yes')
             ? "We can't wait to see you in August!"
             : 'Thank you for responding!'
         },
