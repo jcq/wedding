@@ -30,7 +30,7 @@ To date, JC's only successful campaign involved an eight-month recount.
 
 Megan and JC have been on the campaign trail together for over eight years, traversing the country from the swamps of Washington, D.C. to "The Bubble" of Berkeley, CA and now to New York's beautiful capital region.
 
-They have assembled a great team along the way including Annie - a newcomer, but with the requisite hunger), Radar - a fiercely loyal and experienced politico, and Jeff "The Ragin' Metatharian".
+They have assembled a great team along the way including Annie - a newcomer, but with the requisite hunger), Radar - a fiercely loyal and experienced politico, and Jeff "The Ragin' Metatherian".
 
 ![Megan & JC in DC](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_scale,w_2000/v1581490422/about/IMG_20140605_232212_wpw9h4.jpg) Megan's favorite thing about JC is his dedication to cleaning up corruption (usually vacuuming); JC's favorite thing about Megan is Megan's willingness to do what it takes to make the world a better place, even if it means getting their hands dirty (often "what it takes" involves cleaning chicken coops).
 
