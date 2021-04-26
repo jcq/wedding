@@ -111,6 +111,7 @@ module.exports.handler = async function(event, context) {
 //   }
 
   try {
+    console.log('relay-form begin', data);
     const res = await sendEmail(data);
     console.log('relay-form success', res);
     return {
