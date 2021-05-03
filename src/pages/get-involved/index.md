@@ -5,13 +5,16 @@ featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto,h_886,w_3208/v1581403478/DSC_0167_17043.NEF_tngvwj.jpg
 where_to_stay:
   body: >-
-    You may recognize **Minneapolis** from the news, but unlike what you might have seen there, it's actually the City of Lakes, not fire. It's a vibrant and fun city, with a dense downtown, lots of great restaurant options, attractions, and popular neighborhoods. Expect city traffic and parking.
+    You may recognize **Minneapolis** from the news, but unlike what you might
+    have seen there, it's actually the City of Lakes, not fire. It's a vibrant
+    and fun city, with a dense downtown, lots of great restaurant options,
+    attractions, and popular neighborhoods. Expect city traffic and parking.
 
 
-    **St. Paul** is quieter and less bustling, with plenty of great
-    restaurants, but not the same city scene. While both cities have river
-    access, those in St. Paul tout its better view and the beautiful capitol
-    building. (And you can guess where loyalty lies here.)
+    **St. Paul** is quieter and less bustling, with plenty of great restaurants,
+    but not the same city scene. While both cities have river access, those in
+    St. Paul tout its better view and the beautiful capitol building. (And you
+    can guess where loyalty lies here.)
 
 
     - - -
@@ -34,22 +37,24 @@ where_to_stay:
       distance: Minneapolis is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Millennium Hotel
       notes: >-
-        A polished business hotel near the convention center with an indoor pool
-        and sauna.
+        A polished business hotel with an indoor pool and sauna. Currently
+        providing lodging for unhoused people during the pandemic, which is
+        groovy, and has significantly discounted their prices. If you have
+        questions about it, give them a call. 
 
 
-        Rates start at $109.
+        Rates start at $79.
 
 
         *Self-parking is $21/night.*
 
 
-        **Book
-        ([online](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=06/19/2020&group=2006MIRWED/))**   
-          **Book (888-763-3909):** Miraglia/Quirin
+        [**Book online using this
+        link**](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**Book
+        (888-763-3909):** Miraglia/Quirin Wedding Block
 
-        *For more options or to extend your stay beyond Fri/Sat, call Paul at
-        (612) 359-2206.*
+
+        *If you have questions please call the hotel locally at (612) 332-6000.*
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
@@ -71,8 +76,10 @@ where_to_stay:
         transportation.*
 
 
-        **Book ([online](https://www.saintpaulhotel.com/)):** 200620QUIR  
-          **Book (800-292-9292):** Miraglia/Quirin
+        **[Book online](www.saintpaulhotel.com):** use Group/Block code
+        81421MIQU\
+
+        or **Call (800) 292-9292:** ask for the Miraglia/Quirin Wedding Rate
       phone: (800) 292-9292
       templateKey: hotel
       url: 'https://www.saintpaulhotel.com/'
