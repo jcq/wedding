@@ -49,12 +49,12 @@ where_to_stay:
         *Self-parking is $21/night.*
 
 
-        **Book
-        ([online](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=06/19/2020&group=2006MIRWED/))**\
-          **Book (888-763-3909):** Miraglia/Quirin
+        [**Book online using this
+        link**](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**Book
+        (888-763-3909):** Miraglia/Quirin Wedding Block
 
-        *For more options or to extend your stay beyond Fri/Sat, call Paul at
-        (612) 359-2206.*
+
+        *If you have questions please call the hotel locally at (612) 332-6000.*
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
