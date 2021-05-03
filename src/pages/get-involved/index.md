@@ -39,8 +39,9 @@ where_to_stay:
       notes: >-
         A polished business hotel with an indoor pool and sauna. Currently
         providing lodging for unhoused people during the pandemic, which is
-        groovy, and has significantly discounted their prices. If you have
-        questions about it, give them a call. 
+        groovy, and has significantly discounted their prices. These guests are
+        on separate floors, but if you have questions or concerns, give them a
+        call.
 
 
         Rates start at $79.
@@ -49,12 +50,10 @@ where_to_stay:
         *Self-parking is $21/night.*
 
 
-        [**Book online using this
-        link**](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**Book
-        (888-763-3909):** Miraglia/Quirin Wedding Block
+        **[Book online using this
+        link](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**\
 
-
-        *If you have questions please call the hotel locally at (612) 332-6000.*
+        **Book (888-763-3909):** Miraglia/Quirin Wedding Block
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
