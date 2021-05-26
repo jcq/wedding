@@ -27,8 +27,7 @@ where_to_stay:
     Hotel](https://www.saintpaulhotel.com/)).
 
 
-    More details (including block codes) will be posted shortly. Feel free to
-    stay at either - or neither!
+    Feel free to stay at either - or neither!
   heading: Where to Stay
   hotels:
     - address: |-
@@ -51,7 +50,7 @@ where_to_stay:
 
 
         **[Book online using this
-        link](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**\
+        link](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**  
 
         **Book (888-763-3909):** Miraglia/Quirin Wedding Block
       phone: (612) 332-6000
@@ -75,8 +74,8 @@ where_to_stay:
         transportation.*
 
 
-        **[Book online](www.saintpaulhotel.com):** use Group/Block code
-        81421MIQU\
+        **[Book online](https://www.saintpaulhotel.com):** use Group/Block code
+        81421MIQU  
 
         or **Call (800) 292-9292:** ask for the Miraglia/Quirin Wedding Rate
       phone: (800) 292-9292
