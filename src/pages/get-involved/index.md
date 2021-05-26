@@ -36,11 +36,7 @@ where_to_stay:
       distance: Minneapolis is 16 mi (around 20 minutes sans traffic) from our venue.
       name: Millennium Hotel
       notes: >-
-        A polished business hotel with an indoor pool and sauna. Currently
-        providing lodging for unhoused people during the pandemic, which is
-        groovy, and has significantly discounted their prices. These guests are
-        on separate floors, but if you have questions or concerns, give them a
-        call.
+        A polished business hotel with an indoor pool and sauna.
 
 
         Rates start at $79.
@@ -50,9 +46,10 @@ where_to_stay:
 
 
         **[Book online using this
-        link](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**  
+        link](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**
+        or\
 
-        **Book (888-763-3909):** Miraglia/Quirin Wedding Block
+        **Call (888) 763-3909:** ask for Miraglia/Quirin Wedding Block
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
@@ -75,9 +72,9 @@ where_to_stay:
 
 
         **[Book online](https://www.saintpaulhotel.com):** use Group/Block code
-        81421MIQU  
+        81421MIQU\
 
-        or **Call (800) 292-9292:** ask for the Miraglia/Quirin Wedding Rate
+        **Call (800) 292-9292:** ask for Miraglia/Quirin Wedding Rate
       phone: (800) 292-9292
       templateKey: hotel
       url: 'https://www.saintpaulhotel.com/'
