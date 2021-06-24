@@ -4,9 +4,9 @@ title: FAQ
 featuredImage: >-
   https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_south_west,h_2221,w_4118/v1581381941/DSC_0055.NEF_cjqmfz.jpg
 ---
-##### What else is happening this weekend?
+##### Will there be COVID-19 safety measures in place?
 
-You could check out the [Irish Fair of Minnesota](https://www.irishfair.com/) — or stick around an extra 12 days and attend the [Minnesota State Fair](https://www.mnstatefair.org/)! Or, hang out with us (even more) Friday and/or Sunday! Check out the Events page [here](https://miragliaquirin2020.com/events).
+We hope everyone that is able will be vaccinated by August, but we will be following CDC and other science-based recommendations for guidance as to how to take additional precautions as needed depending on changing circumstances. Please let us know if you have specific concerns or questions.
 
 ##### Can I bring kids?
 
@@ -15,6 +15,10 @@ Yes! Preferably yours.
 ##### What should I wear?
 
 Please dress how you feel most comfortable. “Wedding Casual” is appropriate if you like a dress code. We will be on and off grass, so keep this in mind for shoes.
+
+##### What else is happening this weekend?
+
+You could check out the [Irish Fair of Minnesota](https://www.irishfair.com/) — or stick around an extra 12 days and attend the [Minnesota State Fair](https://www.mnstatefair.org/)! Or, hang out with us (even more) Friday and/or Sunday! Check out the Events page [here](https://miragliaquirin2020.com/events).
 
 ##### What will the weather be like?
 
@@ -28,10 +32,6 @@ The venue is an historic barn without sophisticated climate control, so it may b
 ##### What if I’m worried about my food allergy or dietary restrictions?
 
 Please let us know your needs so we can make sure you are both safe and sated!
-
-##### Will there be COVID-19 safety measures in place?
-
-Short answer: yes. We hope everyone that is able will be vaccinated by late summer, but we will be looking to the CDC and other science-based recommendations for guidance as to how to take additional precautions at every opportunity. Please let us know if you have specific concerns or questions.
 
 ![Megan with Voters](https://res.cloudinary.com/dvjbm5qlr/image/upload/c_crop,g_auto:faces,h_3265,w_3462/v1581399865/DSC_0041.NEF_1_s9beo8.jpg)
 
