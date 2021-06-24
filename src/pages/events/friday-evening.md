@@ -9,4 +9,4 @@ description: x
 ---
 If you're around Friday evening, drop by for a laidback cookout and hang.
 
-Venue is a residential rental. Free street parking; one block from Midtown/Lake Street Station (Blue Line).
+Location is a residential rental. Free street parking; one block from Midtown/Lake Street Station (Blue Line).
