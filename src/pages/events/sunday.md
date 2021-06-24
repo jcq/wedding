@@ -1,8 +1,8 @@
 ---
 templateKey: events
-title: Brunch
-start: 2020-06-21T16:00:00.000Z
-end: 2020-06-21T18:30:00.000Z
+title: Sunday Brunch
+start: 2020-06-21T15:00:00.000Z
+end: 2020-06-21T17:00:00.000Z
 location: TBD
 url: ''
 address: ''
