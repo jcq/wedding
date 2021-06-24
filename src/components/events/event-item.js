@@ -46,10 +46,10 @@ export const EventItem = ({ event }) => {
           <Col md={{ span: 6, order: 1 }} lg={8}>
             <Card.Title>
               {formattedDate}
-              {/* <br />
+              <br />
               <small>
                 {startTime} – {endTime}
-              </small> */}
+              </small>
             </Card.Title>
             <address className="pt-1">
               {location && url ? (
