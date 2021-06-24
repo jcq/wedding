@@ -1,8 +1,13 @@
 ---
 templateKey: events
-title: Sunday Gathering
-start: 2021-08-15T16:00:00.000Z
-end: 2021-08-15T18:30:00.000Z
-location: TBD
+title: Sunday Brunch
+start: 2020-06-21T15:00:00.000Z
+end: 2020-06-21T17:00:00.000Z
+location: ''
+url: ''
+address: '3215 23rd Ave South Minneapolis, MN 55407'
+description: x
 ---
-If you're still in town, take in a lazy Minnesota Sunday with us! Details TBD.
+Swing by Sunday morning to see us off and eat some pancakes.
+
+Location is a residential rental. Free street parking; one block from Midtown/Lake Street Station (Blue Line).
