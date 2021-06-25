@@ -1,8 +1,8 @@
 ---
 templateKey: events
 title: Sunday Brunch
-start: 2021-06-21T15:00:00.000Z
-end: 2021-06-21T17:00:00.000Z
+start: 2021-08-15T15:00:00.000Z
+end: 2021-08-15T17:00:00.000Z
 location: ''
 url: ''
 address: '3215 23rd Ave South Minneapolis, MN 55407'
