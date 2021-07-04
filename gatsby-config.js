@@ -98,6 +98,10 @@ module.exports = {
               // className: "theClassIdLikeInstead"
             }
           },
+          {
+            resolve: 'gatsby-plugin-anchor-links',
+            options: {}
+          }
           // {
           //   resolve: 'gatsby-remark-external-links',
           //   options: {

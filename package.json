@@ -14,6 +14,7 @@
     "date-fns-tz": "^1.0.10",
     "gatsby": "^2.19.16",
     "gatsby-image": "^2.2.40",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-netlify": "^2.1.32",
     "gatsby-plugin-netlify-cms": "^4.1.39",
