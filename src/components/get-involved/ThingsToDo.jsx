@@ -8,7 +8,7 @@ import styles from './ThingsToDo.module.scss';
 export const ThingsToDo = ({ heading, body, className = '' }) => {
   return (
     <Card className={className}>
-      {heading && <Card.Header as="h4">{heading}</Card.Header>}
+      {heading && <Card.Header as="h4" id="things-to-do">{heading}</Card.Header>}
       <Card.Body>
         {body && <HTMLContent content={body} className={styles.content} />}
       </Card.Body>

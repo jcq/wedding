@@ -62,7 +62,7 @@ export const HotelCard = ({ name, url, address, phone, notes }) => (
 export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
   return (
     <Card className={className}>
-      {heading && <Card.Header as="h4">{heading}</Card.Header>}
+      {heading && <Card.Header as="h4" id="where-to-stay">{heading}</Card.Header>}
       <Card.Body>
         {body && <ReactMarkdown source={body} />}
         {hotels.length && (
