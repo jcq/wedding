@@ -1,7 +1,7 @@
 ---
 templateKey: events
 title: Ceremony & Celebration
-start: 2021-08-14T22:30:00.000Z
+start: 2021-08-14T21:30:00.000Z
 end: 2021-08-14T04:00:00.000Z
 location: Bruentrup Heritage Farm
 url: 'http://maplewoodhistoricalsociety.org/'
