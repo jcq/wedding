@@ -6,7 +6,7 @@ featuredImage: >-
 ---
 ##### Will there be COVID-19 safety measures in place?
 
-We hope everyone that is able will be vaccinated by August, but we will be following CDC and other science-based recommendations for guidance as to how to take additional precautions as needed depending on changing circumstances. Please let us know if you have specific concerns or questions.
+We hope everyone able will be vaccinated by August! We will be following CDC and other science-based recommendations for guidance for additional precautions depending on changing circumstances. Please let us know if you have specific concerns or questions.
 
 ##### Can I bring kids?
 
@@ -14,7 +14,7 @@ Yes! Preferably yours.
 
 ##### What should I wear?
 
-Please dress how you feel most comfortable. “Wedding Casual” is appropriate if you like a dress code. We will be on and off grass, so keep this in mind for shoes.
+Please dress how you feel most comfortable. “Wedding Casual” is appropriate if you like a dress code. We will be on and off grass, so keep this in mind for shoe choice!
 
 ##### What else is happening this weekend?
 
@@ -41,7 +41,7 @@ Minnesota is technically a different state than Wisconsin, but just barely. Plea
 
 ##### Do I need to RSVP?
 
-Yes, please! [RSVP by July 1 here.](https://miragliaquirin2020.com/rsvp/)
+Yes, please! It's getting late, so [RSVP ASAP.](https://miragliaquirin2020.com/rsvp/)
 
 ##### But why are you getting married on a farm? Are there going to be animals?
 
