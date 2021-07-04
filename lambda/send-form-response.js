@@ -47,6 +47,8 @@ Bruentrup Heritage Farm\n
 2170 County Rd D E\n
 Maplewood, MN 55109\n
 \n\n
+Up-to-date info can always be found on https://MiragliaQuirin2020.com
+\n\n
 For any questions, please contact info@MiragliaQuirin2020.com
 \n\n
 Best,
@@ -66,6 +68,18 @@ const yesHtml = `
   Maplewood, MN 55109<br />
 </address>
 </div>
+<div style="margin:1em 0">
+<p>You can find all the up-to-date details about the event on our website: <a href="https://miragliaquirin2020.com/">https://miragliaquirin2020.com/</a></p>
+
+<p>This includes:</p>
+<ul>
+<li><a href="https://miragliaquirin2020.com/events">Event Details (including additional weekend events!)</a></li>
+<li><a href="https://miragliaquirin2020.com/get-involved/#where-to-stay">Where to Stay</a></li>
+<li><a href="https://miragliaquirin2020.com/get-involved/#how-to-get-around">How to Get Around</a></li>
+<li><a href="https://miragliaquirin2020.com/get-involved/#things-to-do">Things to Do</a></li>
+<p>You can also find other info — such as what to wear — on our <a href="https://miragliaquirin2020.com/faq/">Frequently Asked Questions</a> page.</p>
+</div>
+
 <p>For any questions, please contact <a href="mailto:info@MiragliaQuirin2020.com">info@MiragliaQuirin2020.com</a></p>
 
 <p></p>
