@@ -47,9 +47,9 @@ where_to_stay:
 
         **[Book online using this
         link](https://res.windsurfercrs.com/ibe/details.aspx?propertyid=13527&nights=1&checkin=08/13/2021&group=2108MIRQUI)**
-        or\
-
-        **Call (888) 763-3909:** ask for Miraglia/Quirin Wedding Block
+        or
+           
+          **Call (888) 763-3909:** ask for Miraglia/Quirin Wedding Block
       phone: (612) 332-6000
       templateKey: hotel
       url: >-
@@ -72,8 +72,8 @@ where_to_stay:
 
 
         **[Book online](https://www.saintpaulhotel.com):** use Group/Block code
-        81421MIQU\
-
+        81421MIQU
+          
         **Call (800) 292-9292:** ask for Miraglia/Quirin Wedding Rate
       phone: (800) 292-9292
       templateKey: hotel
