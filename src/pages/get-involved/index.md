@@ -20,14 +20,7 @@ where_to_stay:
     - - -
 
 
-    We will have two hotel room blocks available: one in downtown Minneapolis
-    (at the [Millennium
-    Hotel](https://www.millenniumhotels.com/en/minneapolis/millennium-hotel-minneapolis/))
-    and one in downtown Saint Paul (at [The Saint Paul
-    Hotel](https://www.saintpaulhotel.com/)).
-
-
-    Feel free to stay at either - or neither!
+    Hotel blocks are now closed. If you need any tips, please reach out to us. The venue is a 15 min drive northeast of Downtown Saint Paul, but is accessible via multiple highways from either city and is only a 20 min drive from Downtown Minneapolis. 
   heading: Where to Stay
   hotels:
     - address: |-

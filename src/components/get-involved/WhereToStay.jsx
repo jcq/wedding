@@ -65,7 +65,7 @@ export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
       {heading && <Card.Header as="h4" id="where-to-stay">{heading}</Card.Header>}
       <Card.Body>
         {body && <ReactMarkdown source={body} />}
-        {hotels.length && (
+        {/* {hotels.length && (
           <div className="hotel-list">
             <CardDeck>
               {hotels.map((hotel, idx) => (
@@ -73,7 +73,7 @@ export const WhereToStay = ({ heading, body, hotels, className = '' }) => {
               ))}
             </CardDeck>
           </div>
-        )}
+        )} */}
       </Card.Body>
     </Card>
   );
