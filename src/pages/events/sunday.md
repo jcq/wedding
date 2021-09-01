@@ -5,7 +5,7 @@ start: 2021-08-15T15:00:00.000Z
 end: 2021-08-15T17:00:00.000Z
 location: ''
 url: ''
-address: '3215 23rd Ave South Minneapolis, MN 55407'
+address: ''
 description: x
 ---
 Swing by Sunday morning to see us off and eat some pancakes.
